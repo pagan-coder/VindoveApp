@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Krajina, voda, lesy, půda</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+
+<p>„Z rozsáhlé srovnávací analýzy i na našich trvalých plochách se zjistilo, že lesní porosty zpomalují následky klimatických změn udržováním specifického mikroklimatu pod korunami stromů (De Frenne a kol. 2013).“ – <em>Význam dlouhodobého sledování ekosystému v mezinárodní síti LTER, Jaroslav Vrba, Jakub Hruška, Petr Petřík; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Přitom je ale důležité vědět, že všechno v Přírodě má svou příčinu. Musíme se pokusit porozumět přírodním procesům a ovlivnit je v náš prospěch. Jen potlačovat symptomy problémů je špatnou cestou – také proto, že většinu problémů si děláme sami. Ne Příroda nebo ‚její katastrofy‘ jsou vinny, když se při bouřce náhle vyvrátí obrovské plochy lesa, ale hospodáři se svými nestabilními monokulturami. Také invaze kůrovce jsou důsledkem tohoto Přírodě nepřátelského způsobu hospodaření. Takové problémy vyvolává krátkozraké myšlení. Tyto chyby si musíme přiznat. Kdo se pokouší zažít Přírodu s otevřenýma očima, velice brzy pozná, že všechno má svou příčinu a pro každý problém existuje řešení. V malém měřítku je řízení a regulace ještě vskutku jednoduchá. Ruční prací se dá docílit brzy téměř každého efektu, který chceme, což mnoho lidí podněcuje k tomu, aby přeháněli svou vidinu pořádku. Často v té souvislosti zapomínají na účinky svého jednání. Tyto účinky chci na tomto místě ještě jednou objasnit na příkladu: Mám k dispozici malou zahrádku a chci ji udržovat čistou a v pořádku. Z toho důvodu odstraním všechen vytrhaný plevel ze zeleninových záhonků. Udržuji trávník nakrátko a kruhy pod ovocnými stromy ‚čisté‘. Čeho tím asi dosáhnu? Odpověď: čistou, rozuměj: ‚umělou‘ zahrádku. Zeleninové záhony a ovocné stromy jsou díky nedostatečnému pokryvu půdy bezmocně vystaveny vysychání, musím tedy více zalévat. V holé půdě je mnohem obtížnější vytváření humusu, kromě toho se při častém zalévání vyplavují živiny, proto musím dříve nebo později začít přihnojovat. Umělá hnojiva narušují půdní život, méně půdních organismů podmiňuje horší úpravu humusu, ďábelský kruh se roztáčí. Užiteční živočichové v ‚čisté‘ zahradě sotva najdou útočiště a životní prostor, proto při výskytu škůdců nemohu počítat s přirozenými pomocníky. Tento výčet by mohl pokračovat. Má však zde jen zdůraznit vzájemné působení akce a reakce v Přírodě. Pokud obhospodařuji svůj pozemek s porozuměním přírodním procesům, mohu mít s mnohem menší námahou větší úspěch. Na zemědělských plochách tomu není jinak, jen s tím rozdílem, že kvůli větším plochám musí být náplň práce ještě lépe promyšlená. V zásadě však platí, že to, co je správné v malém měřítku, najde použití i ve velkém. Jednostranným a špatným hospodařením se v zemědělství často stává, že jednotlivé rostlinné druhy se vzmáhají a nabydou převahy a zatlačí tak kulturní rostliny, které jsme si přáli pěstovat. Problémy s bujícími divokými rostlinami se často vyskytují na pozemcích, ležících ladem, nebo na plochách, které přecházejí z konvenčního na biologický způsob hospodaření. Předtím často intenzivně hnojené plochy jsou pro tyto rostliny ideálním stanovištěm a náhlé zřeknutí se postřiků jim umožňuje znovu se objevit. Mnozí zemědělci pak začínají pochybovat a zapomínají přitom, že se svou změnou orientace jsou na té absolutně nejsprávnější cestě. Chyby, které se napáchaly za léta či desetiletí, se nedají najednou zvrátit během krátké doby. Příroda se musí pomalu zotavit.“ – <em>Sepp Holzer, z knihy Zahrada k nakousnutí: Permakultura podle Seppa Holzera, přeložila Kali Švecová</em></p>
+<h2>Půda</h2>
+<p>„Intenzívní kultivace půdy přináší některé ekologické problémy – přerušení detritového potravního řetězce, vyčerpání organické hmoty z půdy, vyčerpání přirozené zásoby živin, přeexponování půdního povrchu vůči Slunci a srážkám vede k silné deteriorizaci půdní struktury a úživnosti. Dodávání velkých kvant vysoce rozpustných hnojiv spojené s lokální meliorací (zavodňovací kanály nebo naopak drenáže) zvyšuje odtok živin s vodou a eutrofizaci přilehlých vod. Synchronní kultivace geneticky homogenních odrůd plodin na velkých plochách působí pokles odolnosti vůči hmyzu a nemocem, což vede k zvýšenému užívání biocidů a intoxikaci sousedních ekosystémů. Celkově vzrůstá nestabilita zemědělské krajiny, kde nemohou plně fungovat přírodní regulační mechanismy.“ – <em>Ekosystémová a krajinná ekologie, Pavel Kovář</em></p>
+<p>„V České republice se zemědělsky hospodaří na více než polovině území (54 % celkové rozlohy). Od padesátých let minulého století vznikaly kolektivizací a intenzifikací zemědělské výroby obrovské půdní bloky, často s jedinou plodinou. Půda začala postupně degradovat. Velké půdní bloky jsou náchylné k vodní a větrné erozi, těžká technika půdu utužuje. Hojným využíváním minerálních hnojiv dochází k rychlému rozkladu akumulované organické hmoty a půda ztrácí svoji strukturu a schopnost zadržovat vodu. To vše se odráží i na ztrátě pestrosti a celkovém úbytku půdních organismů. Z našich polí již prakticky vymizeli zástupci Žížal, Chvostoskoků či Pancířníků (Rusek 200, Šantrůčková a kol. 2015), a tak nedochází k obnovování přirozených chodbiček půdních obyvatel, chybí produkce jejich exkrementů a transport látek do hlubších vrstev. Zdravá a funkční půda obsahuje kolem 50 % hmotnosti pórů vyplněných vzduchem či vodou. Pokud půda o tuto složku přijde, klesá její schopnost zadržovat vodu a zároveň řada rozkladných procesů probíhá bez přístupu kyslíku za vzniku metanu (CH<sub>4</sub>), oxidu dusného (N<sub>2</sub>O), což jsou vysoce účinné skleníkové plyny. Bohužel ani v současné době v ČR neexistuje monitoring technologie obdělávání půd (ÚZEI 2014).“ – <em>Vliv zemědělského hospodaření na obsah organické hmoty v půdě a půdní biotu, Jana Macková, Dana Elhottová; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Intenzifikace neminula ani luční hospodaření. Původně druhově bohaté květnaté louky byly postupně změněny na druhově ochuzené travní porosty s vysokým výnosem. To se také odrazilo na složení půdní bioty: snížily se počty druhů a také podíl funkčních skupin, čímž se pozměnil i cyklus uhlíku a dusíku v půdě (Rousek 2000). Podobná situace nastává u intenzivně využívaných pastvin a zimovišť, kde vysoký přísun živin a narušení rostlinného pokryvu vede k úbytku drobných půdních živočichů, mykorhizních hub a dalších složek edafonu typických pro prostředí limitované živinami a místa, kde se dlouhodobě ukládá půdní organický uhlík. S vysokým přísunem živin z exkrementů hospodářských zvířat i samotným přísunem fekálních mikroorganismů se mění druhové i funkční složení mikrobiálního společenstva, mění se také půdní organická hmota a často dochází ke zvýšeným ztrátám uhlíku a dusíku z těchto půd projevujících se zvýšenou produkcí skleníkových plynů (oxidu uhličitého [CO<sub>2</sub>], CH<sub>4</sub>, N<sub>2</sub>O) a únikem živin do povrchových i podzemních vod (přehled viz Šimek a Macková 2015, Šimek a kol. 2015). Další závažnou a celkem opomíjenou skutečností je negativní vliv antiparazitních léčiv podávaných paseným zvířatům, často z preventivních důvodů, na koprofágní (živící se výkaly) a půdní bezobratlé živočichy s negativním dosahem na celou půdní biocenózu a její funkce.“ – <em>Vliv zemědělského hospodaření na obsah organické hmoty v půdě a půdní biotu, Jana Macková, Dana Elhottová; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Česká zemědělská krajina se za posledních 60 let významně změnila. Půdní celky se zvětšily více než desetinásobně; stávající průměrná velikost půdního bloku dosahuje až 14 ha (Zámečník 2013). Zhruba čtvrtina zemědělského půdního fondu byla odvodněna, rozoralo se až 800 000 km mezí, 120 000 km polních cest, 30 000 km liniové zeleně a 35 000 ha remízků (Franková a Klápště 2015).“ – <em>Pokles biodiverzity v zemědělské krajině na příkladu běžných ptačích druhů, Václav Zámečník; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„V roce 2014 probíhal srovnávací výzkum zemědělské krajiny na Znojemsku a v sousedícím Rakousku. Zatímco výchozí podmínky (nadmořská výška, morfologie terénu nebo počasí) byly pro sledovaná území prakticky totožné, historický vývoj se lišil. V Rakousku se zachovala původní mozaika políček s množstvím krajinných prvků, na Znojemsku docházelo postupně ke scelování pozemků a současná výměra zdejších polí je jedna z největších u nás. Výsledky srovnávacího výzkumu z roku 2014 dokládají, že heterogenita krajiny má přímou vazbu i na druhovou pestrost a početnost ptáků i motýlů. Druhová diverzita ptáků v Rakousku byla o třetinu vyšší a celková početnost více než dvojnásobná. Současně bylo v Rakousku zjištěno třikrát více druhů motýlů a jejich celková početnost byla přibližně o třetinu vyšší (M. Šálek in prep.). Závěr je zřejmý – pokud chceme podpořit biodiverzitu zemědělské krajiny, musíme nejprve zvýšit její heterogenitu (Zámečník 2013).“ – <em>Pokles biodiverzity v zemědělské krajině na příkladu běžných ptačích druhů, Václav Zámečník; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Co se děje v místech, po nichž chodí dobytek, jezdí koňské a kravské potahy, nebo dokonce traktory? Zemina se svými křehkými póry je stlačená jako houba, pak se ale už znovu ‚nenadechne‘. Už nikdy víc. Umíte si představit, jaké škody způsobují moderní lesní stroje, vážící víc než 50 tun? U této techniky se k její tíze přidávají ještě i záchvěvy jako u vibračního válce, které pak způsobují další sedání půdy až do dvou metrů hloubky. Ať jsou kola jakkoli široká a stopa sebenenápadnější, podloží se nevyhnutelně ničí. A to má následky. Ze všeho nejdřív se zbortí kanálky a půdní živočichové se rázem udusí, asi tak jako potápěč, kterému ucpali hadici přivádějící vzduch. Čilý podzemní ruch, typický pro prales, ustane, důležitá část recyklačního procesu už nefunguje. Kyselý plášť následně podpoří vývoj jiných bakterií, které mohou pracovat anaerobně. Jsou mnohem pomalejší než jejich kolegyně milující vzduch a při zpracovávání humusu uvolňují místo oxidu uhličitého metan – plyn, který je pro kořeny jedovatý a navíc 30x více škodí klimatu. I schopnost zeminy zadržovat vodu se snižuje až o 95 procent. Srážky proudí po povrchu do nejbližších potoků, a jsou tím pádem pro stromy ztracené. Suchá léta mají na les při tak zničených půdách obzvlášť katastrofální dopad, protože vláha posledního deště vystačí maximálně na dva týdny. Pak přichází žízeň.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Dlouholeté boje probíhající na italské půdě vedly k úpadku zemědělství, jenž dolehl nejtíže zejména na drobná a střední hospodářství. Římští vojáci rekrutovaní z valné části právě z řad italských rolníků se proto po vítězství nad Hannibalem většinou jen neochotně vraceli na své usedlosti a raději postupovali svou půdu za levný peníz velkostatkářům a odcházeli do Říma. Tak se urychloval proces koncentrace půdy v rukou nobility a jezdců a současně byla práce svobodných výrobců nahrazována stále větší měrou prací otroků. Počet obyvatelstva města Říma rychle rostl a jeho značnou část tvořili nemajetní občané, tzv. římský proletariát, živící se příležitostnou prací a čekající na podporu ze státních prostředků i na štědrou dlaň ctižádostivého boháče, snažícího se získat přízeň lidu a usnadnit si tak cestu za politickou kariérou.“ – <em>Sallustiovo dílo a pozadí jeho vzniku, Pavel Oliva</em></p>
+<h2>Lesy</h2>
+<p>„Lesy zaujímají zhruba jednu třetinu rozlohy České republiky. Ačkoliv většinu našeho území by měl přirozeně pokrývat opadavý listnatý les, v současné době více než 50 % lesních porostů tvoří jehličnaté monokultury, zejména nepůvodní smrčiny, a to i v nížinných oblastech. Změna druhového složení a způsobu hospodaření znatelně ovlivnila i kvalitu půdy a její biotickou složku. V listnatém nebo smíšeném lese nalezneme mikrostanoviště s různou půdní reakcí (od kyselých půd, přes neutrální až po zásadité), která umožňují přežívání široké škále půdních organismů. Opad v listnatém a smíšeném lese nabízí půdním organismům velmi komplexní prostředí jak z hlediska prostorového, tak z hlediska fyzikálně chemických podmínek a potravních zdrojů. Přirozené procesy vrací do půdy řadu živin, včetně dusíku a bazických iontů, a umožňují vznik organického horizontu v závislosti na klimatických a živinových podmínkách. Opad se rozkládá za součinnosti mnoha organismů a umožňuje rychlý koloběh látek. Vyšší množství organické hmoty v půdě napomáhá i lepšímu zadržování vody a dlouhodobému uchování organického uhlíku v krajině. Naopak v jehličnatých lesích dochází převážně k hromadění kyselého a špatně rozložitelného opadu. Svrchní organický horizont je chudý na živiny, s převahou fenolických látek. Okyselením půd se více vyplavují bazické ionty, zpomalují se mikrobiální procesy a celkově se mění půdní společenstva.“ – <em>Vliv lesního hospodaření na půdní organismy, Jana Macková, Veronika Jílková; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Snad ve všech smrčinách lze meliorační a zpevňující dřeviny skupinovitě zmlazovat s předstihem, především Jedli s Bukem, neboť mezi oběma dřevinami existují úzká, životně důležitá spojení. Z nich je nejpozoruhodnější podpora Jedle v zásobování vodou v důsledku nižší intercepce Buku a jeho hladší kůry, po níž stékající vodou je Jedle přímo zalévána. Lze předpokládat, že mezi nimi existují ještě další, alelopaticky významné vztahy, dosud nepoznané. Je rovněž žádoucí přimísit porostům v přestavbě Dub, nejlépe skupinovitě, neboť např. Jedle se ráda zmlazuje právě pod Dubem. Dub lze rovněž velmi doporučit k zakládání porostních okrajů. Zvláštní užitek také poskytují tzv. pomocné dřeviny, Vrba, Osika, Bříza, Ptáčnice aj. Tito pionýři se jednak často vyskytují při přirozené obnově hlavních dřevin, jednak přednostně okupují holá místa v sekundární sukcesi. Pomáhají vytvářet požadovanou druhovou pestrost, podporují prokořeňování půdy a opadem listů i svou biologickou aktivitou s melioračním účinkem půdu obohacují, přejímají ochrannou funkci pro klimaxové dřeviny, doplňují stupňovitý zápoj a podílejí se i na vytváření klidu porostního ovzduší. To vše bez nákladů, a navíc přispívají k vyšší resilienci porostů.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Dalším obrovským hybatelem složení půdní bioty je pasečné hospodaření. Nárazovou velkoplošnou těžbou současně s odstraněním dřevní hmoty dochází k zásadní změně mikroklimatu (změna světelného, teplotního i vlhkostního režimu) a potravní nabídky. Nastává rychlý rozklad, tedy mineralizace humusu a opadu s následným odnosem živin a rozkladem části organicko-minerálních komplexů půdy. Na holosečích klesá podíl mikro- a mezofauny, naopak krátkodobě roste podíl mikroorganismů s převahou bakterií a aktinomycet. Začnou převládat pasekové druhy nad stinnými, vlhkomilnými lesními druhy a dříve dobře strukturovaná, funkční lesní půda se více homogenizuje a ubývá zastoupení makroagregátů a makropórů (Tuf a kol. 2003, Baláž a kol. 2008). Paseky snadno osidlují rumištní druhy, dochází ke snížení druhové rozmanitosti a k posunu druhového složení společenstev od specializovaných forem k druhům s širokými nároky na prostředí. K tomu přispívá i pojezd těžké techniky při vlastní těžbě, přibližování dřeva nebo úpravě před osázením. Stlačování půdy vede nejen k nižšímu počtu epigeických druhů (organismy žijící na povrchu půdy, v opadance), ale zároveň snižuje vsakovací a zadržovací schopnost půdy, a paseky i přístupové cesty jsou často náchylné k vodní erozi a odtoku živin.“ – <em>Vliv lesního hospodaření na půdní organismy, Jana Macková, Veronika Jílková; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Lužní lesy jsou v nepříznivém stavu, jde o jeden z nejohroženějších lesních typů. Kvůli technickým úpravám toků, narušení vodního režimu, eutrofizaci, biologickým invazím a lesnímu hospodaření se mění druhová skladba dřevin včetně zavádění geograficky či stanovištně nepůvodních druhů. Dubohabřiny (v méně příznivém stavu) ohrožuje především eutrofizace (hlavně menší porosty obklopené zemědělskou půdou) a lesní hospodaření (změny druhové skladby dřevin, holosečné těžby). Závažné je také šíření Akátu nebo Netýkavky malokvěté. Zmlazování dřevin často znesnadňuje přemnožená spárkatá zvěř. Suťové lesy jsou v méně příznivém stavu a jsou ohroženy eutrofizací, lesním hospodařením a šířením nepůvodních druhů rostlin včetně Akátu. Bučiny celkově jsou většinou v méně příznivém stavu; až na kyselé bučiny, které jsou již ve stavu nepříznivém. U plošně nejmenších podhorských javorových bučin chybí aktuální data, a jejich stav je tedy neznámý. Bukové lesy ohrožuje především hospodaření s omezeným využitím přirozeného zmlazení Buku a preferencí hospodářsky žádaných dřevin, především Smrku. Přirozenou obnovu Buku navíc často blokuje přemnožená zvěř. Namísto šetrnějších obnovních postupů se uplatňuje holoseč. Holiny pak představují silně stresové prostředí pro většinu lesní bioty a následuje ústup lesních prvků ve prospěch druhů pasekových. Vlivem kyselých spadů probíhá po řadu desetiletí acidifikace půd zejména v horských oblastech provázená celkovým ochuzením druhové skladby. Vlivem dotací dusíku naopak dochází k intenzivnějšímu růstu některých kyselomilných a mnohdy i nepůvodních druhů rostlin.“ – <em>Stav lesních přírodních stanovišť v ČR, Karel Chobot; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Adaptace dřevinné skladby lesa na klimatickou změnu je do značné míry limitována škodami působenými na obnově lesa zvěří. Největší škody působí zvěř na obnově vysoké 0,5-1,3 m, kde je poškozeno 52 % jedinců. Raná stadia obnovy (nižší než 0,5 m) jsou poškozena z 38 %. Nejzávažnějším poškozením je okus vrcholového prýtu. Obnova Smrku je zvěří poškozována podstatně méně než u listnáčů. Např. ve výškové kategorii 0,5-1,3 m je zvěří poškozeno kolem 80 % ostatních krátkověkých i dlouhověkých listnáčů, 74 % Dubů, 41 % Buků, ale pouze 21 % Smrků. Odrostlá obnova vyšší než 1,3 m je zvěří poškozována méně (asi 20 %). Uvedené výsledky nezahrnují obnovu, která v důsledku škod působených zvěří zanikla.“ – <em>Druhová dřevinná skladba a zásoba mrtvého dřeva na úrovni ČR, Emil Cienciala, Vladimír Zatloukal, Radek Russ, Jana Beranová, Martin Černý; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Rozvoj západního modu civilizace v posledních 500 letech a mohutný rozvoj mezinárodního obchodu ve 20. století vedly k zavlékání tisíců druhů organismů do nových území. Jednou z velmi důležitých, u nás však dosud opomíjených skupin invazních organismů, jsou patogeny lesních dřevin. Tyto organismy způsobují tzv. EIDs (<em>emerging infectious diseases</em>). V důsledku jejich rozvoje může dojít nejen k podstatné redukci početnosti populace hostitelů s následným rizikem eroze genofondu, nebo dokonce kolapsu zbytkové populace (grafióza Jilmů způsobila pokles početnosti hostitelských Jilmů na 5-10 % původního stavu), ale i k poškození společenstva závislých druhů a celého ekosystému. V České republice bylo dosud identifikováno na 90 invazních patogenů lesních dřevin, přičemž většina z nich může být zavlečena jako nechtěná kontaminace rostlinného materiálu; nejčastěji přímo živých rostlin (typicky <em>Phytophthora</em> spp. u Olší), méně často dřevní hmoty (např. <em>Ophiostoma novo-ulmi</em> u Jilmů), nebo semen (<em>Sphaeropsis sapinea</em> u Borovic).“ – <em>Dlouhodobý dopad invazních patogenů dřevin v lesním hospodářství, Karel Černý; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Dalšími faktory, které se podepisují na stavu lesa, jsou klimatické změny – delší sucha, růst průměrné teploty působí jako stresory a zvlášť náchylné jsou nepůvodní druhy a druhy, které jsou u nás sice původní, ale vysázené v nevhodném prostředí, což platí zejména pro Smrk. Již nyní je velká část těžby dřeva nahodilá (viz příspěvek M. Košuliče), tvořená kůrovcovým dřívím, kterým je právě často zasažen Smrk vysázený na nepůvodních stanovištích. S předpokládaným postupem klimatické změny bude zejména na Smrk, který potřebuje dostatečný úhrn srážek a spíše nižší teploty, vyvíjen stále větší tlak a většina míst, kde nyní roste, pro něj nebude okolo poloviny tohoto století vhodná. Řešením není výsadba nepůvodního druhu – jako třeba Smrku pichlavého z velehorského prostředí Severní Ameriky. Naopak vhodnou cestou je podpora původních dřevin, kupř. Buku lesního, který prospívá dobře. Proto je lepší do ekosystému lesa příliš nezasahovat, jinak bychom mohli způsobit další nestabilitu. Například výsadba může vyústit v další okyselování půd z důvodu vázání kyselé depozice nebo krátkozraké vápnění, při kterém vzroste najednou pH, ale jen ve svrchní vrstvě půdy, a to uvolní množství dusíku, který je však vyplaven dále z ekosystému.“ – <em>Kalamity jako výslednice klimatické změny a nevhodného managementu, Jakub Hruška; z publikace Akademie věd České republiky s názvem „Jak se do lesa volá…“, Petr Petřík, Josef Fanta, Tomáš Janík, Jan Stachura (eds.)</em></p>
+<p>„Trend, podněcovaný laciným dřevem, se nicméně mezitím obrátil. V dobách odstavených jaderných elektráren a narůstající výroby bioenergie, i díky novým metodám, jež dávají ze dřeva vzniknout těm nejúžasnějším umělým hmotám, poptávka po tomto přírodním produktu zase ožívá. Všem vlastníkům lesa se ulevilo a teď by vlastně bylo na čase začít se zase trochu víc starat. Kdo hodně vydělává, může si koneckonců nějaký ten ohled na Přírodu dovolit. Setkáváme se ale spíše se zcela opačnou tendencí. Jako by aktéři současného dění neměli dost a chtěli co možná nejrychleji vyrovnat ztráty minulých desetiletí – les se tak doslova ždímá. Brutální, avšak levné metody kácení, bezohledné vykořisťování většiny biomasy, práce s chemií a jedy, množící se holoseče. Je to politováníhodné, ale pro les směřuje cesta, co se důsledků týče, zpátky do minulosti. I když si v blízkosti měst občas rádi hrajeme na ‚svět, který je ještě v pořádku‘, aby se občané necítili úplně ošizeni, dál od center se jde na věc o to tvrději. Jen v barevných prospektech lesních správ se vždycky všechno ubírá směrem k ekologickému lesnímu hospodářství – to ale skutečně jenom na papíře.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Bukové dřevo je těžší než Smrk, to znamená, že jeho buňky obsahují méně vzduchu, z čehož vyplývá, že i množství je poněkud menší. K tuně Buku se dostaneme zhruba se dvěma krychlovými metry, na tunu Smrku už potřebujeme tři. Důvod, proč to tak důrazně připomínám, je, že chci zbavit kouzla jeden mýtus, a to mýtus o rychle rostoucích jehličnanech. Ty prý jsou schopny předhonit listnáče o celé délky, a proto mnozí lesníci nepřestávají tyto ‚chlebovníky‘ doporučovat. Co se objemu týče, mají pravdu: Zatímco průměrný smrkový les vyprodukuje dle údajů inventury příslušných spolkových úřadů 16,5 metrů krychlových dřeva za rok a na hektar, je to u průměrné bučiny pouze kolem 12 krychlových metrů. Odhlédneme-li od toho, že Smrky povětšině rostou na lepších (kdysi zemědělských) půdách, a soutěž tak pro Buky nutně musí dopadnout nepříznivě, vypadá výsledek úplně jinak, porovnáme-li vyprodukovanou váhu (a tím energetickou hodnotu) dřeva. Oněch zmíněných 16,5 metrů krychlových Smrku odpovídá asi 6,2 tun dřeva, 12 metrů krychlových Buku oproti tomu váží zhruba 6,7 tuny. Buďme velkorysí a vyjděme z předpokladu, že oba konkurenti vyprodukují tutéž váhu na rok a hektar. Kde jsou pak, prosím pěkně, nějaké přednosti Smrku? A když navíc ještě uvážíme, že se 50 procent smrkových porostů poškozených vichřicí či kůrovcem musí vytěžit předčasně (a žel s příliš tenkými kmeny), pak už není pochyb, kam tahle cesta směřuje. Dokud se ovšem trvá na předpotopním měření přírůstu v metrech krychlových, pak se Buky a ostatní listnaté dřeviny ztrácejí v mlze nepřesných odborných výrazů. A protože se v odborném světě i nadále všude a pořád hovoří o metrech krychlových, činím tak i v této knize, protože jinak byste měli ve všech těch číslech zmatek a nevěděli, co si počít. Někdy se zkrátka musí s Vlky výti.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<h2>Koloběh vody</h2>
+<p>„Na převážné většině toků jsou koryta udržována zahloubená, aby se urychloval odtok vody. K rozlivům do nivy nedochází při jednoletém průtoku, jak by tomu mělo být v přirozeném hydrologickém režimu, ale až při násobně vyšších průtocích, což má za následek erozní nestabilitu koryt toků a produkci plavenin, urychlení odtoku, snížení retenční kapacity říčního systému a zvyšování povodňových vln v dolních částech povodí. Degradace pramenných úseků toků a mokřadů v odvodněné zemědělské půdě má samozřejmě dopady na vodní režim krajiny. Podobně jako u rozšiřování nepropustných ploch dochází k přerušení malého vodního cyklu, které se projevuje vysokou lokální zranitelností při výskytu sucha … Rovněž není uspokojivě řešeno v současnosti velmi aktuální znečišťování toků organickými polutanty, jako jsou pesticidy a farmaka.“ – <em>Popis současného stavu ochrany povrchových vod, Josef Hejzlar; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Strategickým cílem a prioritou ochrany vod by se měla stát především revitalizace říční sítě a údolních niv doprovázená změnou přístupu k managementu říční sítě. V co největší části povodí by měla být obnovena hydrografická síť s její přirozenou hydromorfologií, včetně pramenných částí toků a mokřadů. Využití záplavových oblastí údolních niv by mělo být podřízeno přirozenému odtokovému režimu a urbanizace ani zemědělské využití by neměly omezovat přirozený rozsah rozlivu vody do nivy. Důraz by měl být kladen na 1) kvalitu vody, 2) ekologický stav říční sítě a 3) účinné řešení znečištění živinami z malých komunálních zdrojů. Také je třeba podpořit vsakování srážek a opětovné využití srážkové vody odtékající ze zpevněných ploch v urbanizovaných územích. Dále je třeba legalizovat a maximálně rozšiřovat použití alternativních sanitačních postupů bez napojení na vodní cyklus, zejména kompostovací záchody, které lze používat s výhodou v zástavbě rodinných domů a v malých sídlech.“ – <em>Popis současného stavu ochrany povrchových vod, Josef Hejzlar; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Jazyk, s jakým se pouštělo lidstvo do boje s Přírodou koncem 18. a v 19. století, byl převážně jazykem války a boje. Mluvilo se o podmaňování území, o boji s barbarskou Přírodou, o právu a povinnosti lidstva napravovat ‚nedostatky Přírody‘. Odvodnění oderských močálů, ‚z nichž lidé nic nemají‘, se dělo za asistence vojska (místní obyvatelé se proti takto razantním zásahům do svého života bouřili). Pozdější budování přehrad ‚spoutávalo toky‘ a stavba přehrad se stala ‚bojištěm, zvoleným tak, aby člověk vyšel ze střetnutí jako vítěz‘ (Blackbourn 2006).“ – <em>Proměny hospodaření v říčních nivách, David Pithart; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Celková délka vodních toků se ve střední Evropě zkrátila o třetinu. V zemědělské krajině zmizela prameniště a tisíce kilometrů vlásečnic dnes leží v melioračním potrubí pod lány orné půdy. Tekoucí voda se stala vzácným úkazem. Řeka je spoutána jezy neprostupnými pro ryby a uvězněna ve zpevněných korytech, písečné nánosy (jesepy) v zákrutech řek prakticky zmizely. Řeky se přestaly rozlévat, zmizela povodňová paměť, niva a řeka přestaly být propojeným vzájemně interagujícím (eko)systémem. S rodícím se environmentálním hnutím v šedesátých letech minulého století se mění i pohled na Přírodu. Ve víru environmentálních kampaní se rodí ekologie, vědecká disciplína, jež po několika desetiletích nabídne hlubší chápání procesů, které se v řece a její nivě odehrávají; a to včetně mechanismů jejich narušení. Koncem 20. století jsme svědky změny klimatu se svými hydrologickými extrémy, jejichž následky potřebujeme účinně tlumit. Člověk s překvapením sleduje, jak mnohé úpravy říční krajiny pracují proti jeho současným zájmům. Řeky a nivy ztratily z velké části svou retenční kapacitu. Tam, kde by se voda mohla rozlít a zpomalit svůj postup k městům, postupuje příliš rychle (Habersack a kol. 2016). K tomu přispívá i ztráta drsnosti povrchu niv, který zajišťovala vegetace lužních lesů. V době sucha pak nemá niva schopnost dosycovat vodní tok ze svých zvodnělých sedimentů a ramen mimo hlavní tok. Dlouhodobě klesá i hladina zvodní v pánvích velkých řek, odkud čerpáme pitnou vodu. Příčinou jsou i zahlubující se koryta řek v důsledku napřimování a zkracování trasy a stavby přehrad zadržujících plaveniny (Sáva a Dráva viz Brkić a kol. 2010).“ – <em>Proměny hospodaření v říčních nivách, David Pithart; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Dobu od velké povodně 1890 zhruba do roku 1990 můžeme u nás označovat za století intenzivních technických úprav vodních toků. Úpravy v zemědělské krajině geometrizovaly, zahlubovaly a celkově zvětšovaly koryta potoků a řek. Cílem bylo získat zemědělskou půdu na úkor vodních toků, zmenšit četnost jejího zaplavování menšími povodněmi a umožnit funkci odvodňovacích zařízení a soustav. Vodní toky byly také upravovány a přehrazovány jezy pro potřeby energetiky, plavby nebo lokální protipovodňové ochrany. Rozsah všech možných provedených úprav zřetelně překročil meze jak hospodářské efektivnosti, tak vodohospodářské a ekologické únosnosti. Úpravy toků podporují odvodňování krajiny, které je nepříznivé za sucha, a zrychlují a koncentrují povodňové odtoky. Z ekologického hlediska přinesly úpravy toků masivní devastaci ekosystémů vodních toků, potočních a říčních pásů a niv. Dnešní doba dospěla k potřebě částečného obnovení přírodního stavu a funkcí vodních toků, připravovaná opatření různého charakteru a intenzity jdou tedy tímto směrem. Razantní přestavba upraveného koryta na Přírodě blízký vodní tok se označuje jako vodohospodářská revitalizace.“ – <em>Revitalizace vodních toků, Tomáš Just; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<h2>Obnova přirozené krajiny</h2>
+<p>„Hodí se připomenout, že i České republiky se týká doporučení ve Strategii Evropské komise obnovit do roku 2020 minimálně 15 % narušených ekosystémů. Vzhledem k tomu, že do větší či menší míry jsou narušeny skoro všechny ekosystémy na našem území, bylo by jistě co obnovovat. Stát se však staví k výše zmíněnému doporučení více než laxně. Přitom by mělo jít o skutečně ekologicky podloženou obnovu vycházející z vědeckých poznatků ekologie jako vědy, a nikoliv o různé výsadby monokultur, vysévání čí vysazování nepůvodních druhů a genotypů a různé, jen technicky motivované, rekultivace a revitalizace.“ – <em>Ekologická obnova v krajinném měřítku, Karel Prach; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Zhruba desetina našeho území byla v minulosti odvodněna, toky byly napřímeny a razantně zregulovány. To je dnes hlavní příčinou povodní a na druhé straně také příčinou nedostatku vody v krajině v době sucha. V devadesátých letech probíhaly různé projekty v rámci programu ‚Revitalizace říčních systémů‘. Většinou se ale jednalo o technická, ekologicky málo podložená, nebo zcela nepodložená řešení. Už i u nás ale máme několik příkladných projektů ekologické obnovy menších toků (Borová, nedávno Stropnice, některé menší toky v národním parku Šumava). Přitom by mělo jít o obnovu celé říční nivy včetně přirozených rozlivů ve volné krajině, protože přirozená říční niva je nejlepší ochranou proti povodním níže po toku. Leckde se dobře daří obnovovat narušená rašeliniště. Místy kolabující meliorační systémy vedou k lokální obnově malých mokřadů na zemědělské půdě, což lze z krajinného a ekologického hlediska považovat za pozitivní jev. Ekologická obnova mokřadů, toků a jejich niv by měla být do budoucna jednou z priorit.“ – <em>Ekologická obnova v krajinném měřítku, Karel Prach; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Obnova přirozenější skladby lesů: Ta je blokována především vysokými stavy zvěře (až desetinásobnými oproti normovaným stavům) spolehlivě redukujícími samovolné zmlazení listnáčů a Jedle, a nevhodným lesnickým hospodařením. Dvě stě let jednostranné orientace lesnictví na smrkové a borové monokultury a produkci dřeva se jen pomalu a obtížně posunuje směrem k ekologičtějšímu přístupu, o ekologické obnově ani nemluvě. Vždyť i v prvních zónách národního parku Šumava někteří lesníci chtěli (a chtějí pořád) nesmyslně zasahovat proti Lýkožroutu smrkovému. Rozmanitá vědecká data ukazují, že přirozený les si s disturbancemi, jako jsou vítr, oheň a Lýkožrout, nejlépe poradí sám. I vysázeným monokulturám (‚polím na dřevo‘) by většinou prospěla přeměna na druhově pestřejší les s účastí listnáčů a Jedle.“ – <em>Ekologická obnova v krajinném měřítku, Karel Prach; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Pro život v Přírodě jsou důležité soustavné proměny v prostoru i čase. Starý strom dožije, spadne a vytvoří v pralese světlinku. Na zemi pak leží tlející kmen, který se rok po roku rozkládá. Proudící řeka strhává břehy nebo založí štěrkový nános, jenž za čas odnese opět o kousek dál. Po povodni zůstanou v nivě tůně. Půda se sesouvá a vichřice nebo lavina poláme stromy. V horském lese jednou za čas některé Smrky uschnou kvůli kůrovci. Vědci těmto proměnám říkají disturbance. Přírodní krajinu vlastně tvoří koberec s pestrým vzorkem tisíců větších nebo menších plošek v různých fázích vzniku či zániku. A postupně poznáváme, že velká část hmyzu, ptáků nebo rostlin se usadila právě v těchto prolukách – disturbovaných místech. Asi 3000 českých druhů hmyzu žije v tlejícím dřevu (Krása 2014). Řada z nich se přitom specializuje na osluněné kmeny ve světlinkách. Někteří ptáci hnízdí pouze v prastarých stromech, ve stržených březích nebo na říčních náplavech. Mnohé Včely, Kutilky, Sarančata a další skupiny hmyzu obývají písčité duny nebo štěrkové lavice. Ryby s oblibou používají úkryty mezi kmeny a větvemi, jež spadly do vody. Nemalá část naší fauny a flóry vymírá právě proto, že intenzivní hospodaření a regulace potlačují tuto spontánní dynamiku. Pestrá mozaika se mění v monotónní krajinu.“ – <em>Ostrovy divočiny v krajině, Vojtěch Kotecký, Eliška Vozníková; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Současná ochrana Přírody je však víceméně ochrannou památek. Chráněná území ponejvíce vznikají tam, kde něco zbylo, a proto bývají poměrně malá. V minulých desetiletích jsme postupně objevili, že přinejmenším v některých typech biotopů je Příroda schopna obnovy. Může to trvat nějaký čas, ale přirozená dynamika disturbancí se postupně vrátí. Strom po stromu se v lese opět začnou objevovat světliny a padlé kmeny. Řeka zbavená regulace začne utvářet přírodní koryto s náplavy, tůněmi a strženými břehy. Postupně se obnoví mozaika mikrobiotopů – takže se do nich může vracet původní fauna a flóra, popřípadě jí pomůžeme repatriací (vrácením druhu na původní místo). Motor biodiverzity tak můžeme opět nastartovat například v místech, kde se uchovaly větší plochy lesů s víceméně přirozenou druhovou skladbou. Dobrým příkladem jsou horské bučiny.“ – <em>Ostrovy divočiny v krajině, Vojtěch Kotecký, Eliška Vozníková; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Změna klimatu není pouhé módní heslo, ale závažný fakt, na který je třeba aktivně reagovat. Není to ostatně poprvé v historické době, kdy si naše země podobnými změnami klimatu prošly. První polovina středověku (9. až 13. století) byla teplá s podobným klimatem, jaké známe dnes. Tehdejší teplé klima vytvořilo příznivé podmínky pro rozsáhlou kolonizaci našich pahorkatin a podhůří, do té doby neobydlených a jen málo využívaných. Toto období položilo základy prosperity našich zemí. Následující staletí naopak klimatologové označují za Malou dobu ledovou. Ta měla opět významný vliv na vývoj celé střední Evropy. Některá podhorská osídlená území člověk opustil a ta znovu zarostla lesem. S výjimkou několika lokalit v Čechách skončilo pěstování vína. Ve válečných konfliktech se bojovalo o území a o zdroje. V průběhu 19. a 20. století se člověk při využívání krajiny soustředil především na metody a způsoby, které mu umožňovaly dosáhnout co nejvyššího hospodářského zisku. Novými technologiemi, mechanizací a chemizací zavedl velkoplošné způsoby hospodaření bez ohledu na různorodost krajiny. Takové jednostranné způsoby hospodaření nejsou ovšem většinou vhodné, protože často vedou k degradaci lesů a zemědělských půd a ke ztrátě schopnosti poskytovat společnosti trvale potřebné služby a užitek. Od padesátých let minulého století se naše krajina stala navíc obětí nezodpovědných politických a ekonomických machinací. Proto dnes máme v Evropě nejvyšší stupeň ohrožení zemědělských půd erozí s nízkým obsahem organické hmoty a nízkou schopností zadržovat vláhu. Více než polovinu lesů tvoří nepřirozené smrkové monokultury vysázené na místě původních listnatých lesů. Nadměrný výskyt kůrovce znemožňuje v některých regionech řádné obhospodařování a ochranu lesů. Máme eutrofizované rybníky zanesené chemicky znečištěnými sedimenty. Voda v přehnojených rybnících je navíc zdraví nebezpečná. Regulované a napřímené toky nejsou schopny zmírňovat povodňové vlny. Krajinou se mnohde šíří cizí invazní druhy rostlin. A zemědělské sucho je dnes hrozbou, která se dotýká samé podstaty zemědělské potravinářské produkce.“ – <em>„Hospodaření v krajině a klima. Je čas na změnu!“, Josef Fanta, Petr Petřík, Jana Macková; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<p>„Zemědělství je sektor, který se promítá do všech environmentálních problémů: Jsou to opravdu živočišné produkty, které jsou zodpovědné za mnoho z nich. Vyhýbání se konzumaci živočišných produktů vede k mnohem lepším environmentálním benefitům než snaha využívat ‚udržitelnou‘ produkci masa a mléčných výrobků … Proměna trav v [maso] je podobná změně uhlí v energii: Je doprovázena značnými náklady v emisích [a množství] … Strava založená na rostlinách je pravděpodobně tou nejlepší cestou, jak omezit svůj negativní dopad na Zemi, nejen v oblasti skleníkových plynů, ale též globální acidifikace, eutrofizace a využívání vody a země.“ – <em>Joseph Poore; více viz studie Reducing food’s environmental impacts through producers and consumers“, J. Poore, T. Nemecek, dostupná z: http://science.sciencemag.org/content/360/6392/987</em></p>
+<p>„Budoucnost naší krajiny spočívá v udržení její kvality jako veřejného prostoru. Vezměme na vědomí, že krajina není pouhý výrobní prostor, ale kulturní entita. A že způsob nakládání s ní je měřítkem kulturní úrovně celé naší společnosti.“ – <em>„Hospodaření v krajině a klima. Je čas na změnu!“, Josef Fanta, Petr Petřík, Jana Macková; z knihy Krajina a lidé, Petr Petřík, Jana Macková, Josef Fanta (eds.)</em></p>
+<h2>Více o lesích</h2>
+<p>„Nápadně se prolíná úbytek zastoupení Jedle, ale i Buku, se vzestupem loveckého hospodaření a odlovem posledních šelem – poslední zastřelený Medvěd na Šumavě v roce 1856 a tamtéž Vlk roku 1874, 1914 v Beskydech. Lesníci trestají jedli proto, že jí neumí pěstovat. Predátoři dokázali spolu s lovci udržet stavy škodící zvěře před 150 lety na únosném stavu pro les. Vlk a Rys nemůže zachránit české lesy, ale může být nápomocen lovcům ve snížení stavů škodící zvěře, zvláště nepůvodní, jako Muflon a Sika. Přítomnost predátorů zlepší fyzickou kondici a trofeje zvěře. Ministerstvo by mohlo vypsat grant směřující k záchraně Jedle v našich lesích, místo grantů k mysliveckému obhospodařování predátorů s cílem povolit odstřel ministerstvem životního prostředí. Nápad hodný polointeligentů za podpory čelních představitelů myslivecké jednoty, kteří nepravdivě šíří poplašné zprávy o napadání lidí Vlky, což samozřejmě není pravda. Dělají jen ostudu nejenom v ČR ale i za hranicemi. Zapomínají, že Vlk je kriticky ohrožený původní druh a že ČR podepsala a do zákonů zařadila vše, co se kriticky ohrožených velkých šelem týká. České orgány mohou dělat jen to, co jim Evropská komise ve Směrnici o stanovištích, jako všem ostatním zemím Evropy povolila. Těch několik hlupáčků s flintičkami, kteří si říkají zastánci Přírody seskupených okolo několika neználků, nemůže otočit kolo dějin. Jen tak dále budovat další ostudy a blamáže v očích evropské veřejnosti a vystupovat jako barbaři z předminulého století. Že v loňském roce bylo napadeno a zraněno Divočáky přes dvacet občanů v naší vlasti, tak to taktně mlčí. (&#8230;) Fyziologické poruchy růstu Jedle a její chřadnutí je zapříčiněno uplatňováním saské metody zařízením lesů věkových tříd s krátkými obnovními dobami, případně houbovými chorobami, zavlečenou korovnicí a škodami zvěří. Oficiálně je však chřadnutí Jedle zdůvodňováno změnou klimatu. Není to pravda. Minimální potřeba ročních atmosférických srážek pro jedli je 600 mm, které na převážném území ČR jsou. Jedle se přirozeně se vyskytuje na všech souborech lesních typů od W po G a na U s vyloučením LT R a L. Optimum je na LT W, C, X, J, A, F, I až V. Produkční optimum je na LT W, S, B až D a U. Ve výškových řadách s ní můžeme počítat od 2. lvs po 7. lvs s optimem od 3. lvs po 6. lvs (Plíva 2000). Na těchto optimálních stavištích pro existenci Jedle musíme využít všech možností přirozené obnovy a umělé síje a výsadby, všech disponibilních zdrojů semen tak, aby v obovním cíli měla zastoupení minimálně 20 – 35 %. Jedle má daleko širší amplitudu rozšíření jak Smrk a proto je i předurčena k nahrazení Smrku. Alochtonní Smrk zaujímá produkční optimum od 4. do 6. lvs s tím, že je zde nejzranitelnější v samotné existenci. (&#8230;)   Generel II. z 12. 2. 2019 vydaný Ministerstvem zemědělství, navrhuje zalesnit přibližně na ploše 1000 ha Jedlí + 300 ha JDO a 400 ha DG, ale i 900 ha Bukem. Problém je v tom, že k zalesnění 1000 ha holin Jedlí, při doporučené velikosti Jedlových skupin 0,35 ha u LČR, která bude atakována zvěří, je potřeba 3000 oplocenek s obvodem 700 km. Při zásadě 3&#215;20 pro přimíšené dřeviny jako doprovodné pro cílovou Jedli, tzn. BK, JV, BO, DB, MD, BR, OS, JR atd. se zvýší potřeba oplocení o 1000 oplocenek a obvod min. o 300 km. Tyto oplocenky se musí postavit, kontrolovat, opravovat, aby byly funkční po dobu minimálně 30–50 roků. Čtenář, nechť si sám vynásobí náklady, které jdou do stomilionových položek, aby si uvědomil absurdní fantasmagorii s jediným cílem: aby na sv. Václava myslivcům troubili Jeleni. To chceme dopadnout jako lesy v Krušných horách, kde, kromě v oplocení neroste nic jiného než Smrk. A to ještě odbor myslivosti MZe navrhuje zřídit v KH jelení oblast s cílem chovu. Ti hoši určitě studovali na myslivecké fakultě a na lesnickou nechodili. Dopadneme tak, jako jejich chov černé a vyhodíme 5,5 miliard v budoucím období, uvolněné vládou. Situace se nezmění, když do funkcí ředitelů a výrobních náměstků jsou jmenováni odborní diletanti a zastánci socialistické myslivosti. Pronajímají honitby, což povede k prodlužování agonie lesa. Je nepochopitelné, že výkon práva myslivosti nebyl svěřen do rukou zodpovědných lesních hospodářů. Samostatnou kapitolou je nápad řešení škod zvěří zakládáním zvěřních políček, okusových a pastevních ploch, používáním selektivních herbicidů, zvýšit minimální počty sazenic při zalesňování, kterých bude samozřejmě nedostatek, budováním přezimovacích obůrek. V těchto navržených opatřeních je zjevně vidět zbytkové, neodborné názory přežívající socialistické myslivosti. Tato všechna opatření považuji za vrchol hlouposti.” – <em>Proč mizí královna dřevin z našich lesů?,</em> <em>lesník Jan Metzl</em></p>
+<p>„Lesní hospodářství vzdálené Přírodě se tedy trestá smrtí, přinejmenším co se stromů týče. A ten, kdo chce přesto pracovat s druhy, které v našich oblastech nejsou domovem, bude mít vždycky problémy. Čeká ho spousta práce při odstraňování líhní brouků, a navíc za své dřevo dostane méně peněz. Proč tedy hned nepřesedlat na výběrný les s dominancí listnatých dřevin?“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Myslím, že politika Z-stromů [tj. C-stromů] se podobá velkochovu zvířat: dětství a dospívání bez rodičů, rychlý růst, porážka v mladém věku, průmyslové metody zpracování. S lesní romantikou to nemá nic společného, a navíc utrpí i kvalita.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Pokud se rozhodnete, že se svých Smrků zbavíte, pak budete potřebovat především jedno: trpělivost. Spěch nesnášejí stromy ani půda. V národních parcích v Harzu či pohoří Eifel můžeme pozorovat, co taková netrpělivost dokáže napáchat. V obou případech se mají navrátit Buky a vystřídat smrkové porosty. Za tím účelem se zkrátka nejprve kácejí velké plochy, čímž je problém jehličnanů vyřešen. Pak se narychlo vysadí Buk a aktéři si mohou hrdě klepat na rameno. Oficiálně se jehličnatý les změnil v listnatý a to je, alespoň statisticky, pokrok. Ve skutečnosti ovšem mladé stromky trpí, na žhavém Slunci mýtin jim zežloutnou listy, takže v prvních letech bídně živoří. Když se pak konečně uchytí, vyrazí do výše a rostou jako o závod. Normální to není, pomalý růst pralesní omladiny má totiž svůj smysl. Pod mateřskými stromy to jde vzhůru jen výrazně zpomaleně, což je zárukou extrémně odolného dřeva. Stromy vysazené na mýtině mohou už krátce po dosažení 100 let začít marodit, poněvadž nezdravě rychlý růst vyčerpá jejich síly. Odchovanci pralesa jsou naproti tomu skuteční maratonci, o jejichž možných věkových rekordech za hranicí 400 let toho pořád moc nevíme. Je tedy třeba, abychom svou netrpělivost krotili a přeměnu nachystali tak, aby vycházela vysazovaným malým Boučkům vstříc. Prvním a nejdůležitějším krokem je zabránit holoseči. Tak lze jehličnany obsadit do role pěstounů listnatého dorostu. Navíc i na starých Smrcích a Borovicích ještě naroste nějaké to dřevo. Vzpomeňme si: Výběrnou prořezávku lze uskutečnit v každém porostu, avšak výběrný les z toho vznikne až po mnoha desetiletích.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Několik let po orkánu Lothar (ten k nám zavítal na Vánoce roku 1999) jsem navštívil jeden soukromý výběrný les. Zůstal stát uprostřed obrovských polomů. Vypadalo to, jako kdyby se vichr zastavil na hranicích pozemku. Při bližším pohledu bylo zřejmé, že se i zde několik obřích stromů zřítilo, nicméně celek se zakrátko zotavil a dorůstající mladší exempláře již zaplnily vzniklé mezery. V lese věkových tříd je situace úplně jiná. V něm rostou uniformní stromy jeden vedle druhého, a když mezi nimi vichřice vytvoří průrvu, stromy popadají jako stébla na obilném poli. Pod korunami je půda hnědá, takže po polomech a zpracování dřeva zbude holá plocha. Zda za ni vděčíme orkánu, nebo mýcení, je z ekologického hlediska jedno – důsledky jsou stejné.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Vědecké výzkumy dokazují, že v oblasti stop zanechaných vjezdem strojů klesá přírůst dřeva až o 40 procent – a sice navždy. Proto bych vám radil investovat o pár eur víc a rozhodnout se pro Koně. Tato varianta se už po několika málo letech začne vyplácet, a životní prostředí se tak ochrání před trvalými škodami.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Kyselý déšť způsobuje vyplavování vápna a dalších minerálů do hlubších vrstev půdy. Co se tu nabízí víc než možnost vytáhnout tyto živiny zase nahoru? Nebojte se, rozhodně bych tu neobhajoval těžkou techniku. Známe ale jeden strom, který tenhle malý zázrak dokáže: Jeřáb ptačí. Svými kořeny prostoupí vrstvy, které považujeme za ztracené, a natáhne vápno do svých listů. Následující podzim pak listí padá k Zemi a stává se součástí humusu, jehož pH tak zase stoupne. Ozdravně však působí i jiné druhy listnáčů. Ve výběrném lese udržují věčný koloběh živin a po své smrti se pak coby humus dávají k dispozici příštím generacím.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Proto bych vás rád výslovně povzbudil k tomu, abyste důsledně hospodařili v souladu s Přírodou a při tom tu a tam ponechali nějaký kousek úplně bez zásahů. Dříve či později se to vyplatí a jen tak mimochodem se při obhospodařování lesa jedná i o zodpovědnost vůči budoucím generacím. Trvalá udržitelnost se nevztahuje pouze na množství dřeva, nýbrž i na fungování celého ekosystému a k tomu nezbytně potřebujeme staré, neporušené lesy.“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Obhospodařování není vůbec tak těžké, jak se zpočátku může zdát. Není náhodou, že rodiny sedláků dříve pečovaly i o kus lesa, aniž by byly musely studovat lesnictví. Právě tyto ‚selské‘ lesy jsou nezřídka ve zvlášť přirozeném stavu, a navíc hospodářsky velice úspěšné. Co k tomu především potřebujeme, je zdravý rozum a láska ke stromům. Jakmile vyvinete cit pro to, co těmto zeleným obrům prospívá, tak už vlastně není co zkazit. Jeden známý, ekologicky hospodařící soukromý majitel lesa z Bavorska, dával k lepšímu následující anekdotu: Jeho otec si ho zavolal, aby s ním pohovořil o budoucnosti rodinného lesního podniku. Nejstarší syn měl jednoho dne tyto aktivity převzít, avšak ještě předtím bylo na pořadu dne důrazné varování: ‚Tak poslouchej, hochu,‘ pravil otec s vážnou tváří, ‚jestli budeš studovat lesnictví, tak tě vydědím.‘ To zní jako tvrdá kritika konvenčního lesního hospodářství, které už ani mě ničím nevábí. Velké stroje, plantáže jehličnatých stromů v řadách, jako když střelí, mýcení, zkrátka cosi jako ‚hromadný chov stromů‘, který se velice podobá masovému odchovu zvířat – nic z toho nepřináší klid vám ani Přírodě. Jemné postupy, přizpůsobené pomalému rytmu stromů, se oproti tomu vyplatí hned několikanásobně: Les je zdravější a výkonnější, produkuje více dřeva, které je navíc lepší, nabízí domov nesčetným živočišným i rostlinným druhům, a především: Člověk z toho má mnohem větší radost!“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Lze tedy říci, že již dlouho před tím a nezávisle na stavu vědy byly uplatňovány metody těžby, které předcházely narušování pralesa. Mnoho pralesů tak bylo, bez narušení jejich hodnotných struktur, převedeno ‚výběrem‘ do stadia hospodářského lesa. Jejich vlastníci se výběrem jednotlivých stromů pro momentální potřebu selského hospodářství vyhýbali pasečné těžbě, a tím nevědomky prováděli harmonický přechod k hospodářskému lesu. Vznik ‚výběru‘ a výběrného lesa z původních pralesů tak nebyl jen teorií profesorů pěstění lesa, ale výsledkem účelné, smysluplné práce ‚primitivního‘ sedláka. Pokud nechceme být vzdělanými hlupáky, nezbývá nám nic jiného, než toto selské počínání v lesích pokorně a v úctě k našim lesnickým předkům napodobovat. Tím spíše, když si uvědomíme, že existující různověkost těchto lesů naznačuje, že vznikly bez holé seče. Ale i přesílené dimenze s jejich nadprůměrným věkem dokládají bezprostřední návaznost na někdejší pralesy. Mnoho selských lesů, udržovaných po generace svými vlastníky ve výběrném stavu, je příkladem cesty k ekologickému, vysoce šetřivému obhospodařování lesa a jeho zachování v Přírodě odpovídajícím stavu.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Z vlastní zkušenosti vím, že ‚zástřelné‘ napomohlo naší Lesní správě za přítomnosti 6 revírníků v prvním roce k odlovu 600 ks vysoké zvěře. Vzor k takovémuto obhospodařování musíme hledat za hranicemi, u nás zatím ne. V Německu např. v Griessbachu, v Eibenstocku, v Rakousku ve Schläglu. Tam se řídí heslem: ‚Lov je služba ve prospěch lesa‘. ‚My zde sloužíme proto, abychom pěstovali les, zadržovali vodu a nechovali zvěř‘.“ – <em>Jak budeme obnovovat kalamitní holiny?, Jan Metzl</em></p>
+<p>„V době po ‚Sametové revoluci‘ jsme všichni vzhlíželi k nastupující renesanci. Ta zasáhla i do lesnického stavu. Celá lesnická generace ve věku 45 let a mladší toho z uplatňovaných odborných zájmů neznala. Věděli, jak sledovat mechanizované přibližování, socialistickou soutěž, jak zajistit olej, naftu a rukavice, z pěstování lesa snad to, že Smrk se musí zalesnit ‚tím zeleným nahoru‘. A že ‚po sekyře musí jít motyka a vše je v pořádku‘. Zařizovatelé nám předávali těžební mapy s červenými zákresy, které se nerealizují, jelikož za nás hospodaří nahodilé těžby v rozsahu 70-100 % etátu. Vítr, námraza, sníh a samozřejmě jako důsledek kůrovec. České lesy jsou lesnickým skanzenem, kde se stále věří na všemožný účinek trvalosti hospodaření, zařízením lesa věkových tříd se Smrkem a s Jeleny.“ – <em>Změna v myšlení při zakládání nového lesa, Jan Metzl</em></p>
+	
+    </div>
+  
+		</body>
+</html>

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Doporučené knihy</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p style="text-align: center;">„Před kým, bloude, to prcháš? I bohové bydlili v lesích, dlel tam i trójský Paris – nechť Pallas ve městech bydlí, kterým základy dala – my nade vše milujme lesy!“ – Zpěvy pastýřské, Publius Vergilius Maro</p>
+<hr />
+<h2 style="text-align: left;">O krajině a předcích</h2>
+<p><strong>Bioarcheologie v České republice</strong>, ed. Jaromír Beneš, Petr Pokorný</p>
+<p><em>Bioarcheologie zahrnuje skupinu oborů, které se snaží využít a obohatit myšlenky archeologie i přírodovědného bádání. Díky využívání obou přístupů je možné začít chápat vzájemný vztah mezi krajinou a jejími obyvateli. Tato kniha se zaměřuje na oblast České republiky od nejstarších geologických dob.</em></p>
+<p><strong>Život se stromy</strong>, Marie Hrušková, Václav Větvička a spol.</p>
+<p><em>Zajímavá a poutavá kniha vysvětlující význam stromů pro společnost z hlediska přírodovědného i historického. Popsána je důležitost stromů pro koloběh vody a udržování stálého klimatu, památné stromy spjaté s dávnými událostmi a lidovými zvyky apod.</em></p>
+<p><strong>Velké dějiny zemí Koruny české – Lidová kultura</strong>, ed. Lubomír Tyllner, kolektiv autorů</p>
+<p><em>Kniha nabízí celistvý přehled lidové tradice včetně všech jejích projevů, zvyků v průběhu roku či během mimořádných i každodenních událostí apod. Dále je popsána lidová hudba, tanec a umění, a to vše s ohledem na národopisné oblasti. Zajímavá je skutečnost, jak krajina (přítomnost určitých druhů rostlin, možnost obživy apod.) ovlivňovala nejen zvyky v daných oblastech, ale i celkový životní styl obyvatelstva.</em></p>
+<p><strong>Muž, který sázel stromy</strong>, Jean Giono</p>
+<p><em>Krátký příběh, který pěkně znázorňuje vztah člověka s okolní krajinou. Jeden starý pastýř se rozhodl každý den sázet stromy v krajině, která byla lidskou činností vyschlá, pustá a poslední obyvatelé žili v zášti. Postupem času se díky vzrostlým stromům a lesům začne do krajiny vracet voda, na kdysi vyschlých místech opět tečou potoky a valí se mlha. Muž se mezitím místo pastýře stal včelařem, protože zvířata stromy ohrožovala. Po mnoha letech se díky mužově vytrvalosti začnou do již lesnaté, krásné a živé krajiny vracet lidé, kteří jsou k sobě milí, obnovují sídla a pečují o zahrady – mladí lidé se vrací do znovuzrozené krajiny, deset tisíc z nich našlo štěstí díky deseti tisícům stromů, které starý skromný muž vysázel. Zajímavé jsou i další knihy od stejného autora, například Hlasy země nebo Země zpívá, které všechny ilustrují a barvitě vykreslují silné sepětí mezi lidmi a Přírodou.</em></p>
+<p><strong>Křivoklátsko: Příběh královského hvozdu</strong>, Karel Žák, Martin Majer, Petr Hůla a Václav Cílek</p>
+<p><em>Podrobné pojednání o geologii, biologii a lidském ovlivňování významné lesnaté oblasti středních Čech. Kniha obsahuje spoustu nádherných fotografií, z kterých vyzařuje dnes již bohužel velmi vzácný soulad mezi lidmi a krajinou.</em></p>
+<h2 style="text-align: left;">Předkové</h2>
+<h3>Raný středověk</h3>
+<p><strong>Slované</strong>, Magdalena Beranová</p>
+<p><em>Kompletní pohled na dobu raného středověku včetně popisu prvních slovanských států. Kniha obsahuje zajímavé popisy každodenního života našich předků včetně bydlení, řemesel a stravování.</em></p>
+<p><strong>Neslované o počátcích Slovanů</strong>, ed. Przemysłav Urbańczyk</p>
+<p><em>O počátcích takzvaných „Slovanů“ se ustálilo několik tezí, které se už dlouho nepřehodnocovaly. Tato kniha se snaží nabídnout současné pohledy na počátky záznamů o Slovanech a vznik a zánik národů obecně.</em></p>
+<p><strong>Stopy zapomenutého lidu: Obraz dějin Polabských Slovanů v historiografii</strong>, Libuše Hrabová</p>
+<p><em>Kniha provází čtenáře historií západních Slovanů s hlavním zřetelem na Polabské Slovany, a to od raného středověku až po současnost. Spolu s tím jsou popsány i některé lidové zvyky.</em></p>
+<p><strong>Stěhování národů a východ Evropy</strong>, J. Bednaříková, A. Homola a Z. Měřínský</p>
+<p><em>Detailní pohled na dobu stěhování národů a dostupné záznamy o Slovanech s popisem raně středověkých států a jejich souvislostí v evropském kontextu.</em></p>
+<h3>Lidové zvyky</h3>
+<p><strong>Obyčeje a slavnosti v české lidové kultuře</strong>, Eva Večerková</p>
+<p><em>Kniha nabízí popis a přehled lidových zvyků v průběhu koloběhu roku v rámci jednotlivých regionů.</em></p>
+<p><strong>Narození a smrt v české lidové kultuře</strong>, Alexandra Navrátilová</p>
+<p><em>Představy o narození, smrti a duši prostupovaly lidovou tradicí od samých počátků. Tato kniha nabízí celkový přehled jednotlivých zvyků a slavností vážících se k bájnému přechodu mezi světy v době zrození a skonu.</em></p>
+<p><strong>Namlouvání, láska a svatba v české lidové kultuře</strong>, Alexandra Navrátilová</p>
+<p><em>V průběhu minulosti i v rámci oblastí či vesnic se představy o lásce, milování a svatbě lišily, ale zároveň vycházely ze společných mýtických počátků. Tato kniha nabízí úvod k jednotlivým lidovým zvykům, u kterých ozřejmuje jejich původ a proměny v průběhu věků.</em></p>
+<p><strong>Rekonstrukce roubených staveb</strong>, Jan Pešta</p>
+<p><em>Kniha o roubených stavbách, jejich počátcích (včetně popisu domů z raného středověku), vývoji a jejich využití a opravách v současnosti. Stejně jako památné stromy i lidové budovy ukazují stopy dávných dob.</em></p>
+<h3>Lidové představy a příběhy</h3>
+<p><strong>Slovanské pohanství ve středověkých latinských pramenech</strong>, Jiří Dynda</p>
+<p><em>Tato kniha obsahuje původní znění a překlady středověkých textů vztahujících se k pohanským představám převážně západních Slovanů.</em></p>
+<p><strong>Perun: historie a typologie slovanského hromovládce</strong>, Michal Téra</p>
+<p><em>Zamyšlení nad dostupnými záznamy ohledně slovanského pohanství s popisem možných bohů i jiných bájných bytostí.</em></p>
+<p><strong>Svět slovanských bohů a démonů</strong>, Zdeněk Váňa</p>
+<p><em>Přehled výkladů o funkcích možných božských a dalších bytostí ze slovanského prostředí.</em></p>
+<p><strong>Nejstarší české pohádky</strong>, Karel Dvořák</p>
+<p><em>Kniha se souborem nejstarších českých zaznamenaných pohádek, které se ve středověku šířily v podobě takzvaných exempel. Mnohé z motivů mají domácí původ, zatímco jiné byly inspirovány vzdálenějšími příběhy (Ezopovými bajkami, indickými vyprávěními apod.).</em></p>
+<p><strong>Pohádky a pověsti našeho lidu</strong>, Karel Dvořák</p>
+<p><em>Kniha lidových příběhů sesbíraných v různých českých, moravských a slezských oblastech. Mnohé pohádky a pověsti obsahují prastaré motivy.</em></p>
+<p><strong>Národní pohádky a pověsti</strong>, Karel Jaromír Erben<br />
+<strong>Národní báchorky a pověsti</strong>, Božena Němcová</p>
+<p><em>Sesbírané a poutavě převyprávěné české pohádky.</em></p>
+<p><strong>O zbojníkoch a o pokladoch</strong>, Jan Kobzáň</p>
+<p><em>Valašské pohádky o zbojnících zaujmou poutavými zápletkami a odkazy na dávné pohanské tradice včetně představ o hromu, skřítcích, prokletých duších apod.</em></p>
+<p><strong>Křivoklátské pověsti</strong>, Viktor Palivec</p>
+<p><em>Převyprávěné známé i méně známé křivoklátské pověsti. Nechybí ani popis vesnic a dalších zajímavých míst.</em></p>
+<p><strong>Lidové pohádky Lužických Srbů</strong>, Společnost přátel Lužice<br />
+<strong>Serbske ludowe bajki</strong>, Ludowe nakładnistwo Domowina</p>
+<p><em>Zajímavé lužickosrbské pohádky, které se velmi podobají českým a mnohé z nich mají pohanské kořeny. Byť sesbírané mnohem později, některé z nich se tradovaly už ve středověku v rámci zemí Koruny české v podobě tzv. exempel.</em></p>
+<p><strong>Za lesy a za horami – polské národní pohádky</strong>,<br />
+Janina Porazińska</p>
+<p><em>Sesbírané polské pohádky s mnohými odkazy na lidové představy a zvyky, které mnohdy mají pohanské kořeny.</em></p>
+<p><strong>Slovanské pohádky</strong>, Karel Jaromír Erben</p>
+<p><em>Kniha obsahuje soubor vyprávěných příběhů a pohádek ze slovanských zemí, které ozřejmují mnohé lidové zvyky a představy.</em></p>
+<p><strong>Proměny</strong>, Publius Ovidius Naso</p>
+<p><em>Básnicky zpracované řeckořímské pověsti od bájného počátku věků až do začátku našeho letopočtu. Krásný přednes doplňuje souhrnný význam díla a jeho vliv na pozdější evropské tradice.</em></p>
+<p><strong>O bozích a lidech</strong>, Lúkiános ze Samosaty</p>
+<p><em>Příběhy a zamyšlení, které popisují lidskou mysl a její náchylnost k uváznutí v nepodložených (náboženských) přesvědčeních a planých filozofických hovorech. Lúkiános byl obdivovatelem Epikúra a svým střízlivým úsudkem dokázal překonat nejedno nebezpečí. Jeho tvorbou byli inspirování pozdější autoři, například William Shakespeare (který se mj. inspiroval i Ovidiem).<br />
+</em></p>
+<h3><strong>Příběhy s krajinou a předky spjaté</strong></h3>
+<p><strong>Stromy vypravují: Příběhy o stromech a lidech</strong>, Marie Hrušková a spol.</p>
+<p><em>Sbírka příběhů o nejvýznamnějších českých památných stromech, které odkazují na události v průběhu celé naší historie.</em></p>
+<p><strong>Naše studánky &#8211; Pověsti – legendy – místopis</strong>, Petr Kovařík</p>
+<p><em>Nádherná knížka spojující výklad pověstí s popisem známých českých studánek. Dozvíte se i mnohé o původu našich nejstarších pověstí.<br /></em></p>
+<p><strong>Křivoklátským královským hvozdem</strong>, Otomar Dvořák</p>
+<p><em>Podrobné a čtivé pojednání o Křivoklátsku spolu s uvedením skoro zapomenutých příběhů a pověstí, které se k jednotlivým místům, hradům, skalám a lesům váží.</em></p>
+<p><strong>Babička</strong>, Božena Němcová</p>
+<p><em>Známá povídka ozřejmující některé lidové zvyky v průběhu roku i během přelomových událostí v životě jedince a společnosti.</em></p>
+<div><div>
+<h2 style="text-align: left;">Krajina</h2>
+<h3>Lesy a přirozený ráz krajiny</h3>
+<p><strong>Cesta k přírodě blízkému hospodářskému lesu</strong>, Milan Košulič st.</p>
+<p><em>Kniha poskytuje kompletní odborný úvod do fungování lesa a současných pozorování ohledně přirozeného koloběhu života ve středoevropských pralesích. Čtenářům je nabízen biologický, genetický i hospodářský pohled na les v souvislosti s klimatickými změnami i různými vlivy prostředí. Vysvětlovány jsou poznatky ohledně klimaxových a pionýrských dřevin, sukcese, zmlazování, přirozené obnovy a jejího využití, některých významných druhů stromů, škodlivosti uměle chované zvěře v lesích, evoluce a nevhodného genetického posunu při ovlivňování lesů ze strany lidí apod.</em></p>
+<p><strong>Krajina a lidé</strong>, Petr Petřík, Jana Macková, Josef Fanta (eds.)</p>
+<p><em>Tato kniha nabízí přehled současných vědeckých poznatků o přirozených procesech v krajině, půdě, vodě, lesích apod. Kromě zhodnocení historického vlivu člověka a současného stavu kniha nabízí možná řešení do budoucna, především krajinné plánování, přirozené a Přírodě blízké lesní hospodaření s využitím původních druhů stromů odolných ke klimatickým změnám, navrácení mokřadů a říčních niv schopných zadržovat vodu (v době sucha i při povodních), dále pak omezování stlačování půdy (kterou stlačuje hlavně těžká technika), vodní i větrné eroze, eutrofizace a jedovatých látek atd., aby byla krajina schopná poskytovat cenné ekosystémové služby i našim potomkům.</em></p>
+<p><strong>Starobylé výmladkové lesy</strong>, Antonín Buček, kolektiv autorů, Radomír Řepka, Luboš Úradníček, Tomáš Slach, Petr Maděra</p>
+<p><em>Kniha popisuje přírodní a historické souvislosti výmladkových a středních lesů, které mají veliký biologický i lesnický potenciál a které byly v minulosti na našem území hojně využívány, a to už od pravěku. Kniha také slouží jako úvod do geobiocenologie.</em></p>
+<p><strong>Ekosystémová a krajinná ekologie</strong>, Pavel Kovář</p>
+<p><em>Kniha slouží jako úvod do (krajinné) ekologie. Obsahuje spoustu zajímavých zamyšlení, shrnutí historického vývoje vědy i různých přístupů vztahujících se k biologii, ekologii, krajině a Přírodě obecně.</em></p>
+<p><strong>Tajný život stromů</strong>, <strong>Tajná síť přírody</strong>, <strong>Moudrost lesa</strong> apod., Peter Wohlleben</p>
+<p><em>Čtivě napsané knihy srozumitelně popisující základní přírodní procesy v lesích, které jsou bohužel často ignorovány. Knihy ozřejmují původní podoby převážně listnatých středoevropských pralesů, zástinu při růstu stromů, mykorhizy, škodlivého vlivu uměle přemnožené zvěře a další principy na pomezí ochrany Přírody a šetrného hospodaření s lesem.</em></p>
+<p><strong>Tajný život hub</strong>, Robert Hofrichter</p>
+<p><em>Kniha poskytuje poutavý i odborný úvod do světa hub a jeho neoddělitelné provázanosti se světem rostlin a světem zvířat. Po jejím přečtení je možné alespoň částečně pochopit, jak důležité jsou houby pro jednotlivé ekosystémy i pro náš každodenní život.</em></p>
+<p><strong>Můj první les</strong>, Peter Wohlleben</p>
+<p><em>Kniha se zabývá výběrem, koupí a pěstováním Přírodě blízkého lesa s ohledem na zachování přirozeného prostředí pro naše potomky, zisk (a maximální využívaní přirozených přírodních procesů ve prospěch majitele), odpočinek a citový prožitek. Text doprovází nádherné fotografie.</em></p>
+<h3>Přírodní děje</h3>
+<p><strong>O přírodě</strong>, Titus Lucretius Carus</p>
+<p><em>Prastará báseň s poznatky o Přírodě, které jsme dokázali plně využít až v dnešní době (popis důkazu existence atomů, volný pád, relativita, intuitivní předpoklad nervové soustavy apod.). Kniha slouží rovněž jako úvod do učení Démokrita a Epikúra.</em></p>
+<p><strong>Kompletní návod k vytvoření ekozahrady a rodového statku</strong>, Jaroslav Svoboda</p>
+<p><em>Kniha obsahuje praktické rady k založení samozásobitelské zahrady v souladu s přírodními procesy, které jsou rovněž v knize čtivě rozepsány (např. sukcese, mykorhiza atp.). Samozřejmostí jsou vlastní bohaté zkušenosti autora včetně jeho odvážných názorů a popis některých nejvýznamnějších (i léčivých) rostlin, jejich požadavků na prostředí a spolupráce či nesnášenlivosti s jinými rostlinnými druhy (rostlinná společenstva), stejně tak jako významných živočichů. Kniha zároveň slouží jako úvod do permakultury.</em></p>
+<p>Podrobné doplnění spolu s návodem a obrázky poskytuje kniha <strong>Zelenina z ekozahrady pro radost i soběstačnost</strong>, Jaroslav Svoboda, Lada Svobodová. O permakultuře a trvalé udržitelnosti obecně pak pojednává kniha plná zkušeností s názvem <strong>Zahrada k nakousnutí – Permakultura podle Seppa Holzera</strong>, Sepp Holzer.</p>
+<p><strong>O parazitech a lidech</strong>, Jan Votýpka, Iva Kolářová, Petr Horák a kol.</p>
+<p><em>Velmi čtivá a poučná kniha o vzájemném vlivu mezi parazity a jejich hostiteli, jejíž součástí je i uvedení historických souvislostí. Kniha rovněž obsahuje názorné obrázky a fotografie.</em></p>
+<p><strong>Magie reality</strong>, Richard Dawkins</p>
+<p><em>Kniha čtivě vysvětluje nejnovější vědecké poznatky na pozadí bájných příběhů, které si lidé po celém světě vyprávěli.</em></p>
+<h3>Léčivé rostliny</h3>
+<p><strong>De Materia Medica</strong>, Pedanius Dioscorides</p>
+<p><em>Stará kniha s úžasnými pozorováními a po tisíciletí sbíranými vědomostmi o bylinách.</em></p>
+<p><strong>Nasbíráno mezi Jány aneb o lidovém léčitelství</strong>, Vanda Vrlová<br />
+<strong>Devatero kvítí a</strong> <strong>ještě některé další byliny</strong>, Vanda Vrlová</p>
+<p><em>Roztomilé knížky o lidových zvycích v oblasti bylinného léčitelství spolu s recepty a popisem jednotlivých rostlin.</em></p>
+<p><strong>Léčivé rostliny v současné medicíně</strong>, Luděk Jahodář</p>
+<p><em>Odborně zpracovaná kniha poskytuje úvod do dnešní fytoterapie a využití léčivých rostlin (včetně popisu účinných látek), jejichž řazení je inspirováno Mattioliho herbářem. Velmi poučná je také kniha <strong>Rostliny způsobující otravy</strong> od stejného autora.</em></p>
+<p><strong>Klíč ke květeně České republiky</strong>, ed. Zdeněk Kaplan</p>
+<p><em>Důležitý a podrobný klíč k určování našich rostlin.</em></p>
+<p><strong>Posvátná a léčivá bylinná piva: Tajemství dávných kvašení</strong>, Stephen Harrod Buhner</p>
+<p><em>Kniha popisuje zvyky a praktické zkušenosti s dávným řemeslem výroby nejrůznějších bylinných piv, které naši předkové využívali v lidovém léčitelství či v rámci obřadů.</em></p>
+<p><strong>Zdraví z boží lékárny</strong> a <strong>Moje léčivé rostliny</strong>, Maria Treben</p>
+<p><em>Knihy od Marie Treben slouží jako praktický úvod do lidového bylinného léčitelství spolu s popisem rozsáhlých zkušeností autorky.</em></p>
+<p><strong>Léčivé rostliny prastaré bohyně: Jak se v pohádkách vrátit k pradávným duchovním kořenům</strong>, Wolf-Dieter Storl Ph.D.</p>
+<p><em>Zajímavá zamyšlení ohledně některých pohádkových příběhů a jejich vztahu k původním pohanským bájím, a to včetně popisu rostlin s nimi spjatých.</em></p>
+<p><strong>Čarodějná medicína</strong>, Wolf-Dieter Storl Ph.D., Christian Rätsch, Claudia Müller-Ebeling</p>
+<p><em>Tato kniha uvádí čtenáře do antického i středoevropského „čarodějnictví“, do kterého jsou zahrnuty popisy nejdůležitějších léčivých i halucinogenních rostlin, lidového léčitelství, porodu, babictví apod.</em></p>
+<p><strong>Čarovná moc rostlin</strong> a <strong>Jsem součástí lesa</strong>, Wolf-Dieter Storl Ph.D.</p>
+<p><em>Knihy s odvážnými zamyšleními a zkušenostmi autora, který se zajímá o středoevropské léčivé rostliny a zvyky s pohanskými kořeny.</em></p>
+<p><strong>Tajemné a kouzelné stromy: Pověsti a legendy</strong>, Martina Drijverová</p>
+<p><em>I když je knížka určená především pro děti, obsahuje zajímavé informace o lidových zvycích vázaných k jednotlivým druhům stromů.</em></p>
+</div></div><div class='clear_column'></div>
+<hr />
+<h2>Staré kroniky</h2>
+<p><em>Kroniky jsou zajímavé tím, že se nejen snaží zachytit různé dobové události, ale zároveň jsou plné propagandy daného státu, náboženství či zájmové skupiny.</em></p>
+<h3>Kroniky od nepřejících cizinců – ale alespoň žili vedle Vinidů (věděli, o koho jde) 😛</h3>
+<p><strong>Gótské dějiny / Římské dějiny</strong>, Jordanes</p>
+<p><strong>Knihy o válkách</strong>, Prokopios z Kaisareie</p>
+<p><strong>Historia Francorum</strong> či Fredegarova kronika</p>
+<p><strong>Historia Langobardorum codicis Gothani</strong></p>
+<p><strong>Moissacká kronika</strong></p>
+<p><strong>Dějiny Sasů</strong>, Widukind z Corvey</p>
+<p><strong>Kronika</strong>, Dětmar z Merseburku; <em>trochu vtipné</em></p>
+<p><strong>Činy biskupů hamburského kostela</strong>, Adam Brémský</p>
+<p><strong>Kronika Slovanů</strong>, Helmold z Bosau;<br />
+<em>přijde mi, že se Helmold upřímně snaží Slovany pochopit</em></p>
+<p><b>Knýtlinga sága (Sága Knutových potomků)</b></p>
+<p><strong>Gesta Danorum (Činy Dánů)</strong>, Saxo Grammaticus</p></div>
+<h3>Kroniky od Řeků a Římanů – nevěděli nic 😯</h3>
+<p style="text-align: center;"><em><span style="font-size: 10pt;">„A na této straně Germánie není nikoho, kdo by mohl říci, že se dostal na počátek toho lesa – i když urazil cestu šedesáti dní – nebo kdo by se byl doslechl, na kterém místě začíná.“ – Zápisky o válce galské, Gaius Julius Caesar</span></em></p>
+<p><em>Protože nic nevěděli, seznam jejich kronik tímto končí. Velmi inspirativní však může být kniha <strong>Germania</strong> od Publia Tacita, <strong>Geographica</strong> od Strabóna či <strong>Geographia</strong> od Klaudia Ptolemaia. … Zajímavý souhrn zmínek týkajících se hlavně současného českého území obsahuje kniha <strong>Antické písemné prameny k dějinám střední Evropy</strong> od D. Bartoňkové a I. Radové.</em></p>
+<h3>Kroniky vzniklé na zakázku z Hradu</h3>
+<p><strong>Kosmova kronika česká</strong>, Kosmas</p>
+<p>Zajímavé pověsti poskytují také Gallus Anonymus a mnich Nestor.</p>
+<h3>Hezké básničky</h3>
+<p><strong>Kronika tak řečeného Dalimila</strong> či Kronika boleslavská</p>
+<p style="text-align: center;"><em>Pěkný souhrn z různých pramenů s uvedením původního znění úryvků přestavuje kniha <strong>Slovanské pohanství ve středověkých latinských pramenech</strong> od Jiřího Dyndy. Některé záznamy starých kronikářů jsou vskutku úsměvné.</em></p>
+<hr />
+<h2>Veliká vzácnost</h2>
+<p>Veliká vzácnost je německy psaná kronika z 18. století od jednoho z posledních Drevanů, kmene patřícím k nejzápadnějším Slovanům sídlícím mezi lesy nedaleko Hamburku, s názvem <strong>Die Wendland-Chronik</strong>. Obsahuje osobní názory, pohledy a příběhy autora, popis zvyků (hlavně kult stromu), a dokonce slovníček s konverzacemi (jak si například v drevanštině namluvit děvče) i s jednotlivými frázemi a pokyny (třeba typu „ženo, běž domů“, „tady stojí pivo“, atp.). Autor se jmenuje Johann Parum Schultze. Je to bývalý rychtář jedné drevanské okrouhlice (Süthen).</p>
+<hr />
+<h2>Knihy o podobných národech a dávných dobách 😳</h2>
+<p>Velmi zajímavé a odborné čtení osvětlující pěkné lidové představy poskytuje knížka <strong>Keltské mýty</strong> od Mirandy Green a <strong>Keltové – mýtus a realita</strong> od Stefana Zimmera (editor). Dále doporučuji podrobnou a poučnou publikaci Národního muzea <strong>Keltové: Čechy v 8. až 1. století před Kristem</strong>.</p>
+<p>Zajímavé pohledy a zamyšlení, která boří staré nepravdy (především o přímém přiřazování archeologických „kultur“ etnikům), obsahuje kniha <strong>Germáni (</strong><strong>The Early Germans)</strong> od Malcolma Todda. Kromě Germánů jsou zmíněni právě Slované (a Venedové), Baltové a mnozí další. Doplněním je článek docenta Vladimíra Salače <strong>Podmokelská skupina: Překonaný koncept archeologie 20. století?</strong> který vyšel v rámci Archeologických rozhledů.</p>
+<p><strong>Naturalis Historia</strong>, Plinius Starší<br />
+<span style="font-size: 10pt;"><em>I když byl Plinius Říman jako poleno, jeho stýskání po „starých mravech“, bylinném léčitelství a síle vlastní původní kultury je úžasné. Kritizuje dobovou rozmařilost, ničení Přírody, těžbu, drahé nesmyslné léky, Indii, Arábii, dokonce i Řecko, odkud si Římané a před nimi Etruskové nakopírovali bájesloví, které překrylo jejich původní. Jeho popis různých částí Přírody je velmi podrobný a mnohdy z dnešního pohledu mile úsměvný. Hrdý válečník Plinius zemřel, když vyrazil badatelsky pozorovat výbuch Vesuvu v době, kdy láva pohltila Pompeje. Nechť je mu přičteno ke cti, že se se svými loďmi prý pokoušel některé lidi zachránit. Jeho myšlení a cítění je velice aktuální i dnes. … Zajímavá jsou také díla (dopisy) jeho synovce Plinia Mladšího.</em></span></p>
+<p><strong>Metamorphoses</strong> (Proměny), Ovidius<br />
+<span style="font-size: 10pt;"><em>Další větší „dílko“, tentokrát umělecky a přenádhernou řečí zpracované. Je v něm popsáno vše od počátku světa až po Ovidiovy časy přesně podle toho, jak tehdy Ovidius rozuměl řeckořímskému bájesloví. Jedná se vskutku o velmi podrobné a celistvé shrnutí celé mytologie. Vedle Proměn je zajímavý také Fasti/Kalendář, básnicky popisující náboženské a lidové zvyky.</em></span></p>
+<p><strong>Mabinogi (např. vydání The Mabinogion (Classics))<br />
+</strong><span style="font-size: 10pt;"><em>Velmi barvité staré velšské pověsti ovlivněné bohatými představami, skutečnostmi a tamní Přírodou; jsou mnohokrát ústně předávané, ovlivňované a přepisované. „Mabinogi“ může doslova znamenat „Příběhy o potomcích bohů“.</em></span></p>
+<p style="text-align: left;"><span style="font-size: 12pt;"><strong>Červená kniha z Hergestu (sestavená ve 14. století)</strong></span><em><span style="font-size: 10pt;"><br />
+Klenot z Walesu, obsahuje dávné příběhy, v nichž se odráží lidová tradice, bájesloví a mýtická minulost tamního národa a z nichž mnohé byly zahrnuty do Mabinogi, dále pak různé básně, triády, poučky a velké množství převážně bylinných receptů od mýtického rodu královských léčitelů z vísky Myddfai, jehož základem byl svazek mladého pastýře s moudrou vílou, znalkyní léčivých rostlin. Lepší zevrubné shrnutí lidové moudrosti si lze jen těžko představit.</span></em></p>
+<p><strong>Irské cykly (např. ve vydání Early Irish Myths and Sagas (Classics), Gods and Fighting Men, Cuchulain of Muirthemne), Lebor Gabála Érenn + Bájné plavby do jiných světů (edice Memoria medii aevi)<br />
+</strong><span style="font-size: 10pt;"><em>Čtyři cykly irské mytologie; snad jediné místo, kde se kromě zpráv od antických nadšenců objevují „druidové“ (druí) a „druidky“ (bandruí), kteří zde vystupují jako královští rádci a (často nemilosrdní) čarodějové v jednom. V příbězích se neodmyslitelně pojí skutečnost s představami. Tyto pradávné příběhy jsou nádherné, kouzelné, plné hrdosti, romantické a idealistické. V porovnání s těmito „keltskými“ jsou „antické“ pověsti mnohem více ponuré. Například zatímco v Iliadě je představa smrti neurčitá a spíše záporná („duše zabitého bojovníka sestoupila do hlubin podsvětí, smutná, že opouští mladé tělo“), tak v irských cyklech je krásně líčená: v jiných světech jsou lidé krásní a, cituji, „bílí jako sníh s červenými tvářemi jako Náprstník“. Jiný svět je zkrátka plný mladých lidí, kteří jsou bez nemocí a kteří mají dostatek jídla a pití všeho druhu.<br />
+</em></span></p>
+<p><strong>Odysseia</strong>, Homér<br />
+<span style="font-size: 10pt;"><em>Velmi pěkný příběh o statečnosti. Když se mi na škole tento veršovaný příběh dostal do rukou, nemohl jsem si pomoct a následující dny jsem věnoval pouze důkladnému čtení. V Odyssee jsou zmíněny i některé silně tabuové věci, například z nutnosti vykonaný obřad vyvolávání mrtvých.</em></span></p>
+<p><strong>Ilias</strong>, Homér<br />
+<span style="font-size: 10pt;"><em>Na rozdíl od Odyssey je tady příběh nic moc, avšak ty proslovy a hned na začátku obřad usmiřování Apollóna je bezvadný a jeho popis zhltnete s nadšením najednou. Pěkné je vylíčení potrestání Achillea bohem řeky, dohady mezi božskou rodinkou a konečné hry a soutěže mezi bojovníky, které Achilleus uspořádal o svou kořist.</em></span></p>
+<p><strong>Greek Mythology: Classic Myths of Ancient Greece</strong>, Alexander Kostas<br />
+<span style="font-size: 10pt;"><em>Pěkný, krátký, duchaplný a celistvý souhrn řecké představivosti a bájesloví.</em></span></p>
+<p>Pěkné jsou <strong>Listy hetér </strong>(obsahují odkazy na každodenní antický život) a další knihy z Antické knihovny.</p>
+<p>O irsko-keltském právu pak pojednávají například knížky <strong>The Lost Laws of Ireland</strong> od Catherine Duggan nebo <strong>The Brehon Laws: A Legal Handbook</strong> od Laurence Ginnella.</p>
+<p>O Přírodě, vědě a poznání, které bylo na dlouhou dobu zapomenuto, mluví knížka <strong>O přírodě</strong>, jejímž autorem je Titus Lucretius Carus, který žil v 1. století př. n. l. a který „předpověděl“ mnohé současné poznatky.</p>
+
+  </div>
+  
+		</body>
+</html>

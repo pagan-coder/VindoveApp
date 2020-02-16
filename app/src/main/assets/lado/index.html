@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Ladovid z Hor – úryvky</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p style="text-align: center;"><em>Jednou jsem měl jít do bitvy, ale něco mi neustále říkalo, abych raději zůstal doma a natáhl se. Netrvalo dlouho a samovolně jsem usnul. Vydechl jsem. Můj neviditelný dech se tiše plížil krajinou na křídlech vánku, skrze keře až do hlubokého lesa, kde narazil na statného šedého Vlka. Najednou, jako když hrom uhodí, se Vlk prudce nadechl. Jeho oči byly moje, cítil jsem každý chlup na jeho statném těle. Zavyl jsem a začal jsem utíkat. Běžel jsem skrze rokle, po kopcích a podestýlce z mechu a bukového listí až na místo, kde bojovníci z naší vesnice odráželi přistěhovalce. Všichni stáli jako podivení, když mě spatřili. Na nic jsem nečekal a vrhl se na nepřátele takovou silou, že se všichni rozutekli jako malé děti. Vítr zavál. Rozmazaný pohled byl vystřídán prudkým nádechem. Probudil jsem se. Ležel jsem zpět u sebe doma, celé tělo mě bolelo, jak jsem se svíjel v křečích. V uších mi stále znělo: „Lado, jsi jedním z nás.“</em></p>
+<hr />
+<h2>Lado</h2>
+<p><span style="font-size: 10pt;">Lado (ř.k. 994-1066) pochází z malebné vesničky národa Vindů z Hor. Už odmalička se na svět kolem sebe díval velmi zvídavým a zároveň citlivým pohledem, což nakonec vedlo k tomu, že jeho hlavním snem vždy bylo vést prostý život, v němž by byl obklopen radostmi i starostmi, které přinášel. Miluje kolové tance s ostatními svého věku, pobíhání po lese, hledání léčivých rostlin, skákání přes ohně a koupání se v horském potůčku. Jeho nejoblíbenějším jídlem je smažený Losos, jablka v medu a lipovo-bezový nálev. Svými hlubokými úvahami dokázal všem ostatním ve vesnici zamotat hlavu, kromě snad jeho přátel Stada (ř.k. 994-1056) a Draka (ř.k. 993-1054), kteří jsou mu v mnohých směrech a dokonce názorech podobní. Lado si pomalu vůbec nedovede představit, jak by mohl pokácet strom a neprovést při tom prastarý obřad, pomocí kterého by danému stromu vzdal dík a přinesl obětinu. I když je z tohoto popisu možná zřejmé, že se Lado nehodí k tomu, aby se stal bojovníkem nebo dobrodruhem, opak je pravdou. Již od nejútlejšího věku ho spolu se Stadem v bojovnickém řemesle cvičil velmi zkušený vladyka Jaro (ř.k. 981-1017), a i když se Lado všelijak snaží dobrodružstvím vyhnout a zůstat v lesích kolem své vesnice, aby je mohl v případě potřeby chránit, to, čím je hluboko uvnitř a co pro něj osud přichystal, v žádném případě nemůže potlačit. Jeho duše je z jiného rodu a jiného světa, v žilách mu kolují tři kapky vlčí krve a jeho duch pochází z čistých míst mezi třemi Bílými řekami. Lado nemohl zabránit tomu, aby ho Mocný Vid neučinil křísníkem a nevyslal ho hledat sílu na Červený ostrov. Protože Lado žije v naprosto jiné kultuře, než v jaké vyrůstají lidé ze západní říše, zjišťuje, že skutečnost a představy pro něj dokonale splývají a ovlivňují celý svět kolem. Postupem času mu pak všechno začne dávat smysl, zjistí, kdo je a jaký je jeho úděl, a brány mezi světy se pro něj rozplynou takovým způsobem, že to, co zažívá ve snech a viděních, se promítne do skutečnosti.</span></p>
+<p>„‚Lado,‘ řekl zoufale Dráp, ‚já nechci naléhat, ale koukej něco udělat!‘ V tu chvíli Lado na vzdáleném okraji lesa spatřil zlaté světlo. Nadechl se. Mezi stromovím uviděl Mocného Vida v podobě slunečního Jelena. Jeho zlaté parohy zářily na všechny strany. Lado bojově vykřikl, načež hnán vnuknutím zvedl svůj meč do výšky. Zničehonic zlaté světlo zesílilo a posvítilo přímo na zvednutý meč, který okamžitě začal zlatožlutě zářit. Lado ho pevně sevřel obouruč. S novou dávkou odvahy a odhodlání vyskočil do vzduchu, přistál na Čárovi a vší silou mu zarazil meč do těla. Bylo to snadnější než jehlou propíchnout jeřabinky při tvorbě ochranného náramku. Čár nahlas a v bolestech vykřikl. Vzepjal se. Dráp to už nemohl vydržet a Čára pustil. Lado pohotově uskočil směrem k lesu, kde předtím stál sluneční Jelen. Nevěděl, že celé to představení tajně zpovzdálí sledovali tři bratři, Slunce, Měsíc a Vítr. Díval se teď jenom na Čára, jak v bolestech letí nad vysoký les, kde ho najednou popadl ohromný ohnivý bič, jenž ho posléze strhl zpět do hlubin. Dráp si oddechl.“ – <em>Studánka života, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„Lado se posadil na lavičku a položil si obličej do dlaní. Stýskalo se mu po dívkách z jeho kmene, po jejich květinových věnečcích a jemných bílých šatech. Stýskalo se mu po jejich záludných, ale zároveň upřímných pohledech, po splynutí dvou duší, po Lískách a hvězdném Nebi. Stýskalo se mu po Mladě, po té, která vždy stála po jeho boku, i když sám věděl, že si takovou přízeň nezasloužil. Chtěl pryč z tohoto tmavého místa uprostřed hlavu motajících blat, v nichž panovala podivná oranžová síla. Chtěl za jasného dne vyjít na zalesněný kopec a seběhnout po jeho straně, dopadnout na květinami zářící louku, odkud by skrze prsty na svých dlaních mohl pozorovat sluneční světlo, to pravé zlato, které lze cítit až v nitru duše. Vlčí Mák, Chrpa, Čekanka, Třezalka, Divizna, Pelyněk, Kopřiva, Heřmánek … Jabloně. Duby, Lísky, Buky, Bezy, Břízy, Lípy … místo, kde je světlo a stín v rovnováze, kde čistou silou vládnou pouze Oheň a Voda. Lado a Mlada, krásní, mladí, věční. Leží na louce a drží se za ruce. Pozorují Oblohu a jsou navždy spolu … Lado otevřel oči, pocítil hněv a bál se, že opět dostane záchvat, jako se mu to již několikrát v minulosti stalo.“ – <em>Křesání ohně, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„‚Ctěný božkame,‘ začal udýchaný Lado, ‚moc vás prosím, pomozte mi.‘ Prsty levé ruky na kámen zaklepal. V pravé ruce svíral meč. Čaroděj ho zaměřil, ale Lado stihl včas uskočit a schovat se na druhé straně špičatého kamene. Najednou pocítil, jak se mu u opasku něco třese. Brzy poznal, že je to jeho lískový proutek, který nosil neustále u sebe. Vzal ho tedy do levé ruky a začal ho prozkoumávat. Bylo více než zřejmé, že proutek a božkam spolu nějak promlouvaly, Lado se tedy rozhodl proutek k šedému kameni přiložit. Jaké bylo jeho překvapení, když najednou pocítil prazvláštní sílu, která proutkem začala házet na všechny strany. Když ho čaroděj opět zaměřil, Lado bez rozmýšlení mávl lískovým proutkem, aby se pudově bránil. Vítr silně zahučel, letící ostrý a ohněm napuštěný kamínek zhasl a spadl na Zem. Ladovy oči se rozzářily. Nadechl se, znovu přiložil proutek na božkam a s úspěchem odrazil další kámen. Čaroděj vypadal překvapeně.“ – <em>Ve jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„Když byl s dílem hotov, jen tak se k jezírku posadil a začal vydávat krásný vysoký zvuk, v němž se jako ozvěna vlnil nádech smutku. Ani ho nepřekvapilo, když se mu najednou mírně zamotala hlava a nad hladinou jezera v mlze spatřil tu, která byla ze všech nejkrásnější. Květinová Dívka byla oblečená v čistě bílém jemném šatu a její zlaté vlasy se blyštily na všechny světové strany. Najednou však zaplály ohněm a zrudly. Květinová Dívka pohnula dlaněmi a led v jezírku začal pukat jako čerstvý jarní pupínek. Taková byla její síla. Lado se nadechl. Na jejím čele spatřil malinkou Ranní Hvězdu, která jasně zlato-stříbřitě zářila. Květinová Dívka zvedla hlavu. Nenápadně se podívala na Lada, načež se usmála a roztomile zamávala. Lado učinil totéž. Věděl, že až nastane jaro, bude se Květinová Dívka s Mocným Videm objímat na každém keři. Ona bude zahalená v bílých květech a on v jasné zeleni. Budou se k sobě tisknout a zpívat písně radosti, zatímco je bude zahalovat ta nejčistší síla Přírody. To víte, když Slunce svítí, kraj se zelená.“ – <em>Studánka života, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„‚Rychle za ním,‘ burácely hlasy, ‚musíme ho dostat!‘ Hlasy byly temné, chraplavé, hlasité a dunivé. Vnuknutím hnaný Lado vytáhl zpod opasku svůj lískový proutek. Listí stromů se třáslo pod mohutnými kapkami deště. Proutek se zvedá, míří přímo na přijíždějící jezdce. ‚Ve jménu tří kapek vlčí krve,‘ začal Lado tajemně, ‚která mi v žilách koluje, křešu plamen života.‘ Z konce proutku vyšel ohromný záblesk, který zaplavil celý obzor. Všechno kolem se rozpadlo do snových možností, které se měly zanedlouho opět ustanovit v rovnováze.“ – <em>Ve jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<hr />
+<h2>Johan</h2>
+<p><span style="font-size: 10pt;">Johan (ř.k. 990-1066) se s Ladem seznámil, když jako mladý začínající kněz a badatel, to jest vyznavač kříže a kultu moderní vědy, vycestoval do Ladovy vesnice v horách, aby pozoroval a zapisoval vindské zvyky a tradice, které by církev později mohla přizpůsobit na zvyky křesťanské. Mluví velmi vybranou mluvou a Lado často netuší, o čem to vlastně Johan vypráví, i když dokonale ovládá vindskou řeč. Hlavní roli zde hraje to, že Johan pochází z naprosto jiného světa, jiné kultury, která má za cíl hledat obecnou pravdu v souladu s axiomy svaté knihy, diskutovat a kritizovat, což Ladovi přijde velmi dětinské a zábavné zároveň. Avšak i přesto leží Johanova domovina ve vzdáleném kraji, v horách na ohromném ostrově, jenž leží na severozápadním okraji mapy světa. I když je jeho myšlení jiné, hluboko uvnitř cítí, že ho s pro něj neznabohem a pověrčivým modlářem Ladem něco spojuje, i když zpočátku byl Johanův postoj k barbarskému pohledu na svět rázně odmítavý.</span></p>
+<p>„Lado tvrdí, že na tomto místě poblíž oblasti Lužice žijí už tisíce lét, protože tu prý jejich předkové vylezli z velikého proudu v podobě Labutí. Dejme tomu, že nějaká taková lužická kultura Vindů tu mezi třemi Bílými řekami byla a smíchala se, jak říká Lado, s některými z ‚<em>teutá de bojki</em>‘, někdo pak prý cestoval, jiný se vracel, do toho přišli cizinci a další nesmysly. Opravdu se mezi těmito pověrčivými modláři nedá vést pravé křesťanské vědecké bádání. Vždyť ani neznají náš římský čas a kalendář. Vše je pro ně, jak říkají, koloběh. Jeden tvrdí, že Počátek byl před tisíci a jedna léty, další, že před dvanácti a devíti zimami. Vůbec neuvažují logicky, jejich myšlení odporuje myšlení svaté knihy a církve, jediným faktům, u kterých jsme si jistí, že nejsou klamem ďáblovým<em>.</em>“ – Spisy z divokého Východu, Johan, <em>Ve jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<p><span style="font-size: 10pt;">Stejně odmítavě se stavěli i Johanovi přátelé.</span></p>
+<p>„Dva badatelé jen nevěřícně zakroutili hlavami. ‚To snad není možné,‘ řekl jeden z nich ve svém jazyce, ‚takové pověry. Rád bych mu vysvětlil, že se šeredně mýlí.‘ ‚Správně,‘ odvětil druhý, ‚copak neví, že naše vykopávky ve svaté zemi odhalily kameny, podle nichž je nanejvýš jasné, že všichni lidé skutečně pochází z Adama a zrádné Evy od řek Eufrat a Tigris.‘ ‚Vím,‘ vložil se do toho Johan, ‚že jsou to nezvratitelné důkazy. Avšak slíbili jsme si, že ho s otevřenou myslí vyslechneme.‘ Badatel jen nevěřícně prskl. ‚Je ale naší křesťanskou vědeckou povinností,‘ snažil se Johanovi odporovat, ‚abychom ho vymanili z ďáblova učení a ukázali mu světlo pravé víry, tu jedinou absolutní pravdu, která platí pro všechny bez rozdílu, protože na to máme důkazy a argumenty.‘ Lado si důležitě odkašlal. ‚Co si to tam povídáte?‘ zeptal se, ‚rozuměl jsem jen slova křesťan a ďábel.‘ ‚Řekni mu,‘ nevzdával se rozvášněný badatel, ‚že naše víra je o vědění, poznávání a objevování. Co ve svém životě poznal on? V jakých školách se učil?‘ Johan tato poslední slova Ladovi přeložil, avšak ten jen zkřížil ruce na prsou. ‚Moc dobře znám,‘ odpověděl s přivřenýma očima, ‚to poznávání a objevování cizinců. Ve skutečnosti chcete to, co objevíte, jen rozkrást, zneužít a popřípadě zničit. Chcete si podmanit Přírodu a její síly, avšak vězte, že ta pravá tajemství nikdy neobjevíte.‘“ – <em>Křesání ohně, Ladovid z Hor, Lúán Rélta</em></p>
+<p><span style="font-size: 10pt;">Avšak i přes rozdílný přístup k světu se Johan postaví na Ladovu stranu, když se Johanův dlouholetý přítel Heimirich rozhodne započít ničení Vindů a zradit císaře říše ve prospěch šlechty a vévodů.</span></p>
+<p>„Heimirich spadl z Koně, avšak nakonec se vzpamatoval a pevně obouruč uchopil svůj meč. ‚Proč jdete po mně?‘ vykřikl zoufale, avšak zároveň poněkud škodolibě, ‚stejně je osídlování toho vašeho divokého Východu nevyhnutelné. Ostsiedlung je nevyhnutelný. Ve jménu našeho pána zničíme tyto lesy a zabereme nejen vaši zem, ale obereme i Polany a Našince. Jedině naše svatá říše bude vládnout světu!‘ Stado se zasmál. ‚Nevíš, o čem to mluví?‘ zeptal se velitele, který jen pokrčil rameny. Okolní hluk drásal ušní bubínky.“ – <em>Studánka života, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„Když na ni pohlédl, tvář Smrtky se okamžitě proměnila. Heimirich vykřikl. Před sebou uviděl stát strašlivou plesnivou příšeru s ohnivým zrakem, jejíž bílé zuby byly neskutečně dlouhé a špičaté. Nepřirozeně a děsivě se usmívala. Jakmile zakřičela, všechno kolem se otřáslo. Heimirich zbělel. Ihned se dal na útěk skrze bojiště a zmatek, který všude kolem nastal. Avšak Smrtka přesně věděla, kde se Heimirich nachází, a pomaličku a jistě se za ním vydala. ‚Pomoc!‘ křičel Heimirich, ‚zachraňte mě!‘ Ale nikdo ho neslyšel. Snažil se uniknout pryč, za vojáky, k lesu, k ohromnému černému Bezu, který se zelenal v dálce obtěžkán černými zdravím napuštěnými bezinkami. Barva krve. Heimirich pocítil tah, jako když si vás při skoku do výšky Země opět přitáhne. Lesy zašuměly. Bez Heimiricha přitahoval zemskou silou. ‚Ne,‘ vykřikl Heimirich, ‚co to má být?!‘ Vzpouzel se, ale zbytečně. Bezík si ho přitáhl ke své kůře. Všechno špatné a zlé tahal, aby to skrze kořeny odeslal Matce Zemi k očistě. Heimirich pocítil prudké trhnutí … a nekonečný pád.“ – <em>Studánka života, Ladovid z Hor, Lúán Rélta</em></p>
+<p><span style="font-size: 10pt;">Následující slova pak Johan sdělil arcibiskupovi při návratu do své vlasti:</span></p>
+<p>„Díky dlouhým rozmluvám s Ladovidem, Vindem ze vzdálených krajů, jsem si uvědomil jednu zásadní věc. Každá teorie, ať už vědecká, pavědecká nebo jakákoli jiná, je vždy ovlivněna politickými, náboženskými a popřípadě mystickými představami svého tvůrce. To je navíc doplněno všeobecnými společenskými názory a obavami dané doby a místa … Díky tomu jsem došel k poznání, že obecná pravda, tj. nevyvratitelný fakt, neexistuje nebo nemůže být pozorována, jak by si přála skupinka jedněch mých badatelů, kteří mylně tvrdí, že mohou oddělit mysl (poznávací nástroj) od těla (poznávaný předmět). Určitě se do země Vindů v budoucnu znovu vydám, abych došel k hlubším úvahám v tomto bohem zapomenutém kraji, kterému zatím vládnou hluboké lesy. Sice mě tam podle pohanských bludů zahrnujících pochybné věštění a konzumaci ještě pochybnějších rostlin čeká smrt, avšak skutečně cítím, že jsem za dobu mého pobytu tam poznal něco hlubšího, něco, co nelze popsat slovy.“ – Johan, <em>Lúán Rélta</em></p>
+<hr />
+<p style="text-align: center;"><em>„Dobří a špatní lidé jsou na všech stranách.“ – Lado</em></p>
+<p><span style="font-size: 10pt;">Když se Lado na Červeném ostrově zrovna vracel od šípkových keřů, kde se ze všech těch svých neobvyklých zážitků málem pomátl, uslyšel při příchodu do Přístavu Koní následující slova, která ho dojala.</span></p>
+<p>„Každý národ si představuje sám sebe jinak, někdy více majestátně, jindy méně. Vindové jsou jako mladá dívenka v bílých šatech a s věnečkem na hlavě, která klečí u lesní studánky a čistí ji od popadaných lístečků a malých kamínků. Takoví jsme my a naše místo na světě.“ – velekněz z Červeného ostrova, <em>Ve</em> <em>jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<p><span style="font-size: 10pt;">Avšak zároveň Lado pochopil, že dobří a špatní lidé jsou na všech stranách.</span></p>
+<p>„‚To všechno ti naši vladykové,‘ vložil se do rozhovoru poblíž stojící Našinec*, ‚my jsme nikdy nic z toho nechtěli. Ale oni na nás hned brali vojsko a říkali, abychom neměli s vindskou tradicí nic společného, abychom se stali křesťany a platili desátky. Ba co je horší, mnohé z mého rodu unesli a prodali jako otroky. Do toho přišli ti biskupové se sekerami, kteří začali vraždit dubové háje a číst nějaký starý Cyrilův zákoník, podle kterého církev dostane všechen majetek vesnice, jestli budeme dále provádět pohanské obřady.‘“ – <em>Ve</em> <em>jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<p><span style="font-size: 10pt;"><em>*</em><em>Našinci se v jazyce (převážně nemytých) obyvatelů říše řeknou Beovinidi. První část slova je odvozena od jména potomků těch, kteří mluvili řečí předků, a druhá část od jména Vindů. Pokud byste tento název malinko upravili a vyslovili v řeči předků, znamenal by „bílá Kráva“. Území Našinců pak někteří obyvatelé z říše označují slovem Beovinidis podobně, jako se území Lužičanů označuje slovem Bójka.</em></span></p>
+<p><span style="font-size: 10pt;">A když se věci nedají vyřešit ani v dubovém háji s pomocí bohů a ze srdce vycházejících proslovů, dojde často ke krátké dětinské výměně názorů, po níž ihned následuje zábavné „pošťuchování“. Tak se vše ocitne v bludném kruhu, který přeruší až rázný zásah zvenčí.</span></p>
+<p style="text-align: center;"><img class="alignnone size-large wp-image-802" src="img/sraz_studanka_zivota-1024x576.jpg" alt="sraz_studanka_zivota" width="474" height="267" sizes="(max-width: 474px) 100vw, 474px" /><br />
+<em>V dáli je sráz, na kterém přistál Čár (Černý drak) ve Studánce života.<br />
+Snímek byl pořízen v neznámých časech.</em></p>
+<p>„Kruh se změnil ve dvě rovnoběžné přímky. Na jednom konci stáli odpůrci vyvolání Čára, na druhém pak vášniví podporovatelé. Jakmile skončila výměna názorů, která u Vindů trvala zpravidla jen chvíli v porovnání s lidmi z říše, oba soupeřící tábory se na sebe vrhly. Náčelník jen zakroutil hlavou, protože se to celé opět zvrtlo jako už několikrát předtím. Jednalo by se o dokonalý zmatek, kdyby rod Vlka skutečně netáhl za jeden provaz, protože se nyní jako jediný dokázal zorganizovat a systematicky postupovat od jednoho konce podporovatelů ke druhému a jako lavina je porážet. Začala být už poměrně tma. Vysvitly první Hvězdičky. ‚Zastavte tu šílenost!‘ ozval se najednou dunivý ženský hlas, ‚hned!‘ Lado ztuhl, protože na něj ten zvuk působil trojnásob. Opatrně se s vyděšeným výrazem na obličeji otočil a na okraji mýtiny uviděl stát svou matku následovanou vesnickými ženami, mezi kterými byla přítomna i Mlada. Výraz na jejím obličeji byl vážný. Jeho matka na sobě měla červenobílé oblečení a v ruce držela dřevěnou hůl. Sněm žen a matek zasáhl do jednání sněmu svobodných. Hluk přestal, všichni ztuhli. ‚Mami,‘ řekl Lado potichu a koktavě, ‚tady tihle jsou …‘ ‚Ticho, Lado!‘ odpověděla jeho matka rázně. ‚Dobře,‘ pošeptal Lado se sklopenou hlavou a posadil se na své místo. Všichni už byli klidní. ‚Dohodly jsme se,‘ pokračovala Ladova matka, ‚že jsme zásadně proti tomu, aby byl vyvolán Čár. Rozhodnutí bylo jednohlasné a vám nezbývá nic jiného, než ho poslechnout.‘ Přísně všechny přítomné přejela pohledem, načež se hrdě otočila a spolu s ostatními ženami zmizela pod korunami stromů. Jediné, co za nimi zůstalo, byl zvuk praskajících větviček. Milo popotáhl nosem. ‚No,‘ řekl nakonec poněkud smutně, ‚a máme po zábavě.‘ Náčelník si povzdechl. Lado a Věko se na sebe nenápadně usmáli.“ – <em>Ve jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„‚Podle mě,’ dokončil Lado s úsměvem, ‚není ani skutečnost ani představy, ale jen různé světy, které se navíc vzájemně prolínají. Záleží na tobě, v kterém zůstaneš a do kterého vstoupíš, avšak pamatuj, že každý z nich je svým vlastním způsobem nebezpečný …’“ – <em>Ve jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<p>„Když se tak houpali na vlnách, stařík vyprávěl příběhy z dob, kdy byl ještě mladý a odvážný. ‚… zkrátka,’ navázal na svůj předchozí dlouhotrvající projev, ‚ten kněz k nám přišel s velikou zaoblenou holí a řekl, že nám pokácí nejen sochu boha, ale i posvátný Dub.’ Na chvíli se zamyslel. ‚Toho se samozřejmě lidé polekali,’ pokračoval, ‚a nakonec jsme se dohodli, že mu pomůžeme pokácet sochu, pokud nám zachová posvátný Dub. On, vida, jak se dobrovolně vzdáváme model, souhlasil a slíbil, že Dub nepokácí.’“ – <em>Ve jménu osudu, Ladovid z Hor, Lúán Rélta</em></p>
+<hr />
+<p>Elektronický rukopis knihy Ladovid z Hor je zdarma ke stažení <a href="http://www.vindove.cz/">na této stránce</a>.</p>
+<hr />
+<p>Oficiální popis:</p>
+<p><em><span style="font-size: 10pt;">Lado ve své vesnici v horách žije poměrně klidným a ničím nerušeným životem. Před rokem se oženil, pomohl zahnat nájezdníky na Červeném ostrově, a dokonce uprostřed lesa v jedné podivné bylinným kouřem provoněné chaloupce získal prazvláštní sen, ve kterém k němu ze svého hnízda promluvil ohromný Jestřáb, jenž slíbil, že mu bude ve všem pomáhat. Avšak jedné temné noci se Lado ocitne tváří v tvář skupině podivných krvepijců, kteří ho budou chtít zabít. Na poslední chvíli však Lada zachrání bílý Vlk, který mu pomůže krvepijce zahnat a kouzlem vykřesat plamen života. Když se posléze Lado probudí, uvědomí si, že je celý propocený. Zpočátku si všichni včetně Lada myslí, že šlo pouze o noční můru, avšak celá vesnice brzy zjistí, jaké hluboké dopady mají tyto sny na svět a krajinu kolem. Ničím moc nevybočující laskavý podivín Lado se totiž má stát součástí pradávného povolání, takzvaným <strong>křísníkem</strong>. Do toho všeho západní říše hrozí nečekaným útokem a Lado je nucený opustit své přátele, aby mohl vyrazit do <strong>Města rady</strong> jako poradce. Tam potká svého starého známého, Johana, který před mnoha léty přišel k němu do vesnice pozorovat a zaznamenávat vindské zvyky. Ladovi jeho myšlení přijde velmi zábavné, protože Johan se snaží vše obhajovat, o všem diskutovat a hledat obecnou pravdu, zatímco Lado věří v různé světy a snaží se vyhledávat prostý a vyrovnaný život. Nakonec všichni musí vyrazit za úkolem, při jehož nesplnění by se říše okamžitě obrátila proti Vindům a všechny by je zničila. Lado, Johan a velitel bojovníků z <strong>Červeného ostrova</strong> Jaromír tak vyráží na dobrodružství, na jehož konci se Lado ještě více sblíží se svou ženou Mladou. Lado si stále více uvědomuje, jak jeho osobní zážitky, sny, vidění a přírodní síly kolem splývají se skutečností a vzájemně se ovlivňují. Během svého dobrodružství se utká v boji se cvičenými zabijáky, projde šípkovým keřem, provede pradávné obřady, pomůže bojovníkům v bitvě proti říšskému vojsku, potká císaře, zúčastní se oslav a sněmů pod vysokým Dubem, se svou ženou prozkoumá houští u horského potoka, potká veselé Seveřany a čarodějky z blat, zažene Černého draka, nasbírá houby, zachrání svou ženu před pádem ze srázu, setká se s vílami, bohy, duchy předků a dalšími bytostmi a hlavně bude mít tu čest promluvit s tím, který za všemi jeho zážitky stojí a jenž se mu zjevuje jako Jelen se zlatými parohy – <strong>Mocným <span title="přibližně „pán“, ale také „vládce, vítěz“">Vid</span>em</strong>, s jehož dvěma bratry a půvabnou ženou, <strong>Květinovou Dívkou</strong>, zažene zbývající krvepijce v nitkách času. Do toho všeho stále nenápadně vstupuje záludný <strong>Leši</strong>, který od samého počátku svým podivným způsobem stojí na Ladově straně a jehož zásluhou se nakonec Vindům podaří vojsko říše zahnat.</span></em></p>
+
+  </div>
+  
+		</body>
+</html>

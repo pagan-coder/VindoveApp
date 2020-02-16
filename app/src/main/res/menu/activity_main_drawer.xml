@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/firstGroup"
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_overview"
+            android:title="@string/menu_overview" />
+        <item
+            android:id="@+id/nav_info"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_for"
+            android:title="@string/menu_for" />
+        <item
+            android:id="@+id/nav_phil"
+            android:title="@string/menu_phil" />
+        <item
+            android:id="@+id/nav_quote"
+            android:title="@string/menu_quote" />
+        <item
+            android:id="@+id/nav_golden_heart"
+            android:title="@string/menu_golden_heart" />
+        <item
+            android:id="@+id/nav_diary"
+            android:title="@string/menu_diary" />
+
+    </group>
+    <group
+        android:id="@+id/secondGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_story_sixth"
+            android:title="@string/menu_story_sixth" />
+        <item
+            android:id="@+id/nav_stories"
+            android:title="@string/menu_stories" />
+        <item
+            android:id="@+id/nav_story_first"
+            android:title="@string/menu_story_first" />
+        <item
+            android:id="@+id/nav_story_seventh"
+            android:title="@string/menu_story_seventh" />
+        <item
+            android:id="@+id/nav_story_second"
+            android:title="@string/menu_story_second" />
+        <item
+            android:id="@+id/nav_story_third"
+            android:title="@string/menu_story_third" />
+        <item
+            android:id="@+id/nav_story_fifth"
+            android:title="@string/menu_story_fifth" />
+
+    </group>
+    <group
+        android:id="@+id/thirdGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_episodes"
+            android:title="@string/menu_episodes" />
+        <item
+            android:id="@+id/nav_poems"
+            android:title="@string/menu_poems" />
+        <item
+            android:id="@+id/nav_nature"
+            android:title="@string/menu_nature" />
+        <item
+            android:id="@+id/nav_other"
+            android:title="@string/menu_other" />
+
+    </group>
+    <group
+        android:id="@+id/fourthGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_fb"
+            android:title="@string/menu_fb" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/menu_about" />
+
+    </group>
+
+</menu>

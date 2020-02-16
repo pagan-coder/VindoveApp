@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Antika – Lúkiános</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+
+<p><em>Lúkiános byl autorem příběhů a zamyšlení, které popisují lidskou mysl a její náchylnost k uváznutí v nepodložených (náboženských) přesvědčeních a planých filozofických hovorech. Jako obdivovatel Epikúra a svým střízlivým úsudkem dokázal překonat nejedno nebezpečí. Jeho tvorbou byli inspirování pozdější autoři, například William Shakespeare (který se mj. inspiroval i Ovidiem).</em></p>
+<hr />
+<p><em>Následující úryvky přeložili Václav Bahník, Milada Říhová a Ladislav Varcl. Jednotlivá díla vyšla v souboru „Lúkiános: O bozích a lidech“ v nakladatelství Svoboda v roce 1981.</em></p>
+<p><em>„Dámis</em>: Tak se tedy ptej, Tímokle. Svou přísahou jsi nade mnou vyhrál. Ale bez urážek, prosím.<em><br />
+Tímoklés</em>: Tak je to správné. Řekni mi tedy, ty zlořečený, ty nevěříš, že se o nás bohové starají?<br />
+<em>Dámis</em>: Vůbec ne.<br />
+<em>Tímoklés</em>: Co to říkáš? Všechno, co se děje, toto všechno že postrádá jejich péči?<br />
+<em>Dámis</em>: Ano.<br />
+<em>Tímoklés</em>: Žádný bůh se tedy o svět nestará?<br />
+<em>Dámis</em>: Ne.<br />
+<em>Tímoklés</em>: Vše se tedy pohybuje silou pro nás nepochopitelnou?<br />
+<em>Dámis</em>: Ano.<br />
+<em>Tímoklés</em>: Lidé, vy jste schopni poslouchat to a neukamenujete toho bezbožníka?<br />
+<em>Dámis</em>: Proč štveš, Tímokle, lidi proti mně? Kdo jsi, že se rozčiluješ kvůli bohům, když oni sami se kvůli tomu nerozčilují? Už dávno mě slyší, jestli mě ovšem slyší, a nic mi ještě neudělali.<br />
+<em>Tímoklés</em>: Slyší, Dámide, slyší, a jednou tě za to potrestají.<br />
+<em>Dámis</em>: A kdy by na mě měli mít čas, když mají tolik práce, jak říkáš, a spravují všechno ve vesmíru, a toho je tolik, že se to ani spočítat nedá? Proto ještě ani tebe nepotrestali za tvé věčné křivé přísahy a za jiné věci, které nebudu jmenovat, abych nebyl nucen i já sáhnout k urážkám a porušit naši dohodu. Ačkoli nevidím, jaký by mohli podat lepší důkaz své starostlivosti než ten, že by tebe, ničemu, zničili. Je však zřejmé, že odešli někam za Oceán, možná k těm výtečníkům Aithiopům. Mají přece ve zvyku stále k nim chodit na hostiny, leckdy i bez pozvání.<br />
+<em>Tímoklés</em>: Co ti mám říci na takovou nestydatost, Dámide?<br />
+<em>Dámis</em>: To, co jsem toužil už dávno od tebe slyšet, Tímokle: co tě přivedlo k víře ve starostlivost bohů?<br />
+<em>Tímoklés</em>: Přesvědčilo mě o tom především uspořádání toho, co se děje na světě, Slunce, které jde stále po stejné dráze, a právě tak Měsíc, střídání ročních dob, růst rostlinstva, rozmnožování živých tvorů a jejich důmyslné ustrojení, díky němuž se mohou živit, myslit, pohybovat se, chodit, stavět příbytky, vyrábět obuv a jiné věci. Nezdá se ti, že to jsou díla božské starostlivosti?<br />
+<em>Dámis</em>: Tímokle, ty bereš jako hotovou věc to, co se teprve má zjistit. Vždyť ještě není dokázáno, že toto všechno je dílem božské starostlivosti. Že ony jevy jsou takové, s tím i já souhlasím, avšak z toho ještě nevyplývá přesvědčení, že se to děje působením něčí starostlivosti. Je přece možné, že se to všechno nyní děje stejně a týmž způsobem, i když to mělo jiný počátek. To, čemu ty říkáš uspořádání, to je nutnost. A tak se zřejmě budeš zlobit na toho, kdo nebude sdílet tvůj názor, až budeš vypočítávat a vychvalovat to, co se děje na světě, a věřit, že je to důkazem toho, že každá jednotlivost je uspořádána něčí starostlivostí. Proto, jak říká autor komedie, <em>to neobstojí, řekni něco jiného</em>.<br />
+<em>Tímoklés</em>: Já si myslím, že jiný důkaz už není zapotřebí, přesto ti však uvedu další. Odpověz mi: považuješ Homéra za nejlepšího básníka?<br />
+<em>Dámis</em>: Ovšem.<br />
+<em>Tímoklés</em>: To on mě tedy přesvědčil, když jasně dokázal božskou starostlivost.<br />
+<em>Dámis</em>: Můj milý, že je Homér dobrý básník, v tom s tebou budou všichni lidé zajedno, ne však v tom, že by Homér nebo některý jiný básník mohl být věrohodným svědkem v něčem takovém. Básníkům přece nejde o pravdu – já si to alespoň myslím –, ale o potěšení posluchačů, a z toho důvodu okouzlují zpěvem veršů a vyprávěním bájí a vůbec si vymýšlejí všechno možné, aby pobavili. Já bych však rád slyšel, co tě v Homérovi nejvíc přesvědčilo. Snad to, co říká o Diovi, jak se jeho dcera, bratr a manželka domluvili, že ho spoutají? A kdyby Thetis, která se dověděla, co se chystá, nebyla přivolala Briarea, byli by se našeho milého Dia zmocnili a spoutali ho. Zeus na to nezapomněl a odvděčil se za to Thetidě tím, že poslal Agamemnonovi lživý sen, aby zahynulo mnoho Achajců. Vidíš? Nebylo pro něho možné mrštit po Agamemnonovi bleskem a spálit ho na prach místo toho, aby se utíkal ke klamu. Nebo tě snad nejvíc strhlo k víře, když jsi slyšel, jak z Athénina popudu Diomédés zranil Afrodítu a později i samého Area a jak se krátce nato do sebe pustili sami bozi, muži s ženami, a utkali se v soubojích, jak Athéna přemohla Area (myslím proto, že byl vyčerpán zraněním, jež mu způsobil Diomédés), a jak <em>s Létou bujarý Hermés šel bojovat, nositel blaha?</em> Nebo se ti zdálo přesvědčivé vyprávění o Artemidě, jak těžce nesla a jak se rozhněvala, že ji Oineus nepozval na hostinu, a poslala proto do jeho země obrovského a mimořádně silného Kance, kterému nemohl nikdo odolat? Takovými řečmi tě Homér přesvědčil?“ – <em>Tragický Zeus, Lúkiános</em></p>
+<p>„Vy se však ve své nenasytnosti a nestřídmosti zcela podobáte člověku, který se vrhá na všechna jídla. Toužíte užívat nejen to, co vám patří, ale chcete okusit všechno odevšad. Myslíte si, že vám nepostačuje ani vaše země, ani vaše moře, ale kupujete si přepych ze všech koutů světa. Vždy dáte přednost cizímu před tuzemským, nákladnějšímu před levným, hůře dosažitelnému před snadno dostupným. V každém případě chcete mít raději trampoty a svízele než žít bez nich. Vždyť mnoho vzácných věcí, z nichž máte velkou radost, se pro vás získává za cenu četných nezdarů a útrap. Vezmi si třeba tolik žádané zlato! Vezmi si stříbro, vezmi nádherné domy, vezmi šaty složitého střihu, vezmi všechny věci s tím související! Za jakou cenu jsou na prodej, jakou stojí námahu a jaká nebezpečí, řekněme rovnou kolik krve, smrti a záhuby lidských životů! Kolik lidé kvůli tomu zahyne při plavbě, kolik jich strašně zkusí při těžbě a výrobě! Navíc je proto hodně válek a vy si kvůli tomu vzájemně strojíte úklady: i přátelé přátelům, i děti otcům, i ženy mužům. Myslím, že z takového důvodu – za kousek zlata – zradila i Erifýlé svého muže. Ano, to všechno se opravdu děje. Avšak vyšívaný oděv nemůže hřát o nic víc, zlacené střechy příbytků o nic lépe nekryjí a nechrání, stříbrné a zlaté poháry nevylepšují nápoj a ani lůžko ze slonoviny nečiní spánek sladším. Naopak, často uvidíš, že šťastlivci na slonovinovém loži s přepychovými pokrývkami nemohou dosáhnout spánku. A jistě nemusím nic dodat k tomu, že rozmanité, pracně připravované pokrmy vůbec nemají větší výživnou hodnotu, naopak že tělu škodí a způsobují různá onemocnění. Nač hovořit o tom, co všechno lidé podnikají anebo vytrpí kvůli milostným rozkoším? A přece je snadné léčit tuto touhu. Jen kdyby lidé nechtěli rozmařile užívat! Ale zdá se, že jim nestačí, ani když se vyblázní a zničí v tomto směru; dokonce už obracejí naruby užívání různých věcí tak, že užívají každou věc k něčemu zcela jinému, než byla od Přírody určena – podobně jako kdyby někdo chtěl místo vozu zapřáhnout postel a jezdit na ní jako na voze.“ – <em>Kynik, Lúkiános</em></p>
+<p>„A po tom všem se vy opovažujete chtít nás měnit a naše jednání a záměry přivádět na pravou cestu! Jako kdybychom to, co děláme, dělali často ze špatného úmyslu, ačkoliv vy sami při svých vlastních činech neuvažujete a nic neděláte s úsudkem a s rozvahou, ale jen ze zvyku nebo z náruživé vášně. Proto se ničím nelišíte od lidí, které unáší proud: ti jsou strháváni vírem a vás vlečou vaše vášně. Děje se s vámi něco podobného jako s člověkem, který vsedl na splašeného Koně: Kůň ho rychle unášel, ale on nemohl za žádnou cenu z letícího zvířete seskočit. Někdo ho potkal a zeptal se, kam má namířeno, a on odpověděl: ‚Kam bude chtít …‘ a ukázal na Koně. A když se někdo zeptá vás, kam se ubíráte, měli byste bez zakrývání říci, kdybyste chtěli mluvit pravdivě: ‚Tam, kam nás vedou naše vášně.‘ A kdybyste odpovídali jednotlivě: ‚Kam nás vede touha po rozkoši, kam touha po slávě nebo po zisku.‘ Jindy zas vás může unášet hněv, strach nebo i něco jiného, protože vy se nevezete na jednom Koni, ale na mnoha Koních, na každém jindy, ale všichni jsou splašení a unášejí vás sem a tam. A proto vás také unášejí do propastí a srázů. A vy nikdy netušíte, kdy se kam zřítíte.“ – <em>Kynik, Lúkiános</em></p>
+<p>„Potom však mnoho rozumných lidí, jako by se probírali z těžkého opojení, povstávalo proti němu [Alexandrovi], především přívrženci Epikúrovi. Bylo jich mnoho a ve městech již bylo poznenáhla odhalováno celé jeho šejdířství, i co je za tou jeho šaškárnou. I vytasí se proti nim se zastrašovacím prostředkem: prohlásí, že Pontos je přeplněn bezbožníky a křesťany, kteří se o něm odvažují vyslovovat nejhorší rouhání. Ty prý je třeba hnát pryč kamením, chtějí-li, aby jim byl bůh milostiv. O Epikúrovi dokonce vyslovil asi takovou věštbu: když se kdosi zeptal, co dělá Epikúros v podsvětí, prohlásil: <em>Okovy má olověné, po krk sedí v bažině!</em> Potom se div, že se sláva té věštírny povznesla tak vysoko, když vidíš, jak rozumné byly a o jakém vzdělání svědčí dotazy těch, kteří k němu přicházeli! A vůbec proti Epikúrovi vedl krutý a nesmiřitelný boj. Je to zcela pochopitelné! Proti komu jinému měl oprávněněji vést boj ten šejdíř, milovník čarodějnictví a velký nepřítel pravdy než proti Epikúrovi, člověku, který prohlédl přirozenost věcí a jediný zná jejich pravou podstatu! Přívrženci Platónovi, Chrýsippovi a Pýthagorovi mu byli přáteli a vůči nim zachovával hluboký mír. Neúprosný Epikúros – tak jej nazýval – mu byl právem největším nepřítelem, protože to všechno má pro smích a žert. Proto též nenáviděl z pontských měst nejvíce Amastridu, jelikož věděl, že v tom městě je kroužek Lepidův a mnoho jiných jim podobných. Také nikdy neprorokoval člověku z Amastridy. A když se přece odvážil vydat věštbu bratru jistého senátora, odtáhl s dlouhým nosem, protože nedokázal ani sám utvořit případnou věštbu, ani najít někoho, kdo by mu ji včas sestavil. Ten si totiž stěžoval na bolesti žaludku a Alexandr mu chtěl předepsat, aby pojedl vepřovou nožičku připravenou v zápražce, i vyslovil se takto: <em>Vezmi prasečí nožku a pokmínuj v posvátné jíše!</em> Jak jsem již řekl, častokrát na požádání ukázal toho hada, ne celého, nýbrž tak, že předvedl především ocas a ostatní tělo, kdežto hlavu schovával v záňadří, aby ji nebylo vidět. A protože se mu zachtělo ohromit dav ještě více, slíbil, že představí boha, jak promlouvá a jak sám, bez tlumočníka, vydává své věštby. Nato bez velké námahy napojil na sebe jeřábí hrtany a prostrčil je tou hlavou, sestrojenou s co možná největší podobností; pak odpovídal na dotazy tak, že někdo druhý křičel z vedlejší místnosti, aby hlas pronikal skrze toho plátěného Asklépia. Tyhle věštby se nazývaly ‚Vlastní hlas boha‘, ale nebyly vydávány všem, ani jen tak namátkou, nýbrž jen lidem velkorysým, bohatým a kavalírským. Také předpověď daná Severianovi o tažení do Arménie byla pronesena Vlastním hlasem; k tomu tažení ho Vlastní hlas povzbuzoval slovy: <em>Až zlomíš oštěpem rychlý lid arménský, k tomu i parthský, do Říma vrátíš se zpátky a k Tiberu zářivým vodám, ozdoben na skráních vínkem, jenž smíšen je s paprsky Slunce.</em> Když se tím ten bláhový Kelt dal přesvědčit, vpadl do Arménie, a zahynul tak i s vojskem, byv poražen Othryadem, odstraní Alexandr tuto věštbu ze zápisů a vloží místo ní jinou: <em>Vojsko neveď tam v arménské kraje – vždyť není to k dobru –, aby někdo, kdo žensky je oděn, tě nestřelil z luku smrtící střelou, jež rázem tě světla života zbaví.</em> Však také vymyslel i toto přemoudré opatření, že skládal antedatované věštby, aby napravil, co dříve prorokoval nedobře a co nevyšlo. Často totiž ohlašoval nemocným před smrtí, že se uzdraví, a když zemřeli, byla po ruce jiná předpověď, opačná: <em>Záštitu žádnou už nesnaž se v kruté nemoci najít; osud tvůj zpečetěn je a ty nemůžeš vyhnout se smrti!</em> A poněvadž věděl, že i kněží v Klaru, Didymech a Mallu jsou právě tak proslulí pro podobné věštění, spřátelil se s nimi a mnohé z těch, kteří přicházeli k němu, posílal k nim se slovy: <em>Do Klaru vydej se nyní, bys vyslechl hlas mého otce!</em> nebo také:<em> Do chrámu v Branchidách zajeď a tamní vyslechni věštby!</em> a opět: <em>Pro věštby Amfilochovy si nyní do Mallu zajdi!</em>“ – <em>Alexandr neboli Lžiprorok, Lúkiános</em></p>
+<p>„Bál se totiž, jak jsem už řekl, Epikúra, ježto v něm viděl obratného a moudrého odpůrce svého šejdířství. A tak jednoho epikúrovce, který se odvážil v přítomnosti velkého zástupu usvědčovat jej ze lži, uvedl v nemalé nebezpečí. Ten k němu přišel a řekl hodně nahlas: ‚Ty jsi, Alexandře, přiměl toho a toho Paflagonce předvést své sluhy před správce Galatie, aby je odsoudil k smrti, protože prý zavraždili jeho syna, který byl za vzděláním v Alexandrii. A zatím ten mladík žije a vrátil se živ a zdráv, když už ti otroci zahynuli, poněvadž byli na tvé ponoukání předhozeni šelmám. Stalo se to takhle: ten mladík doplul do Egypta a loď jej dovezla až do Klysmatu. Tam se dal přemluvit, aby zajel až do Indie. A když se dlouho nevracel, ti jeho nešťastní sluhové v domnění, že mladík zahynul při plavbě po Nilu nebo že byl sprovozen ze světa loupežníky – těch bylo tehdy mnoho –, vrátili se se zprávou o jeho zmizení. Potom přišla ta věštba a to odsouzení! A nato se dostavil ten mladík a vyprávěl o svých cestách.‘ Tohle řekl. Alexandr se rozvzteklil nad tím, že byl usvědčen, a protože nesnesl pravdivost té pohany, kázal přítomným, aby ho kamenovali, sic že budou rovněž nečistí a budou se taktéž nazývat epikúrovci. Ti po něm začali házet kamením a jen jistý Démostratos, přední občan z Pontu, který byl náhodou přítomen, uchránil toho člověka tím, že jej přikryl svým tělem, od smrti, když už byl málem ukamenován – a docela právem! Copak měl sám jediný mít zdravý rozum mezi tolika potřeštěnci a neměl zakusit nic z bláznovství Paflagonců? Tolik o něm.“ – <em>Alexandr neboli Lžiprorok, Lúkiános</em></p>
+<p>„Alexandr provedl také jednu velmi směšnou věc. Jednou se mu dostaly do rukou Epikúrovy Hlavní zásady, knížka, jak víš, překrásná, jež obsahuje stručně shrnuty jeho filozofické nauky. Přinesl je doprostřed náměstí a spálil na fíkovém dříví, přesně tak, jako by spaloval jeho samého, a popel vyhodil do moře. Přitom pronesl ještě také věštbu: <em>Učení slepého starce vám kážu do ohně házet!</em> A přitom ten padouch nevěděl, kolik dobrého tato knížka přináší těm, kdo se s ní seznámí, jaký v nich vzbuzuje klid, duševní pohodu a volnost! Zbavuje je různých projevů strachu z přízraků a zázraků, marných nadějí a lichých žádostí, vštěpuje jim rozumnost a pravdivé poznání a očišťuje doopravdy jejich mysl, a to ne pomocí pochodně a mořské cibule a takových pošetilostí, nýbrž správným výkladem, pravdou a svobodou projevu.“ – <em>Alexandr neboli Lžiprorok, Lúkiános</em></p>
+<p>„Nastražil jsem na něj také sám ještě mnoho takových léček, například tuto: Položil jsem jen jednu otázku, ale na vrchní stranu destiček jsem napsal podle obyčeje ‚Osm dotazů toho a toho‘, tu jsem si vymyslel nějaké jméno a přiložil jsem osm drachem a k tomu ještě to, co dělal dohromady přídavek. Alexandr uvěřil poslanému obnosu a nápisu na destičkách a na jediný dotaz – ten zněl: ‚Kdy bude Alexandr přistižen při šejdířství?‘ – mi poslal osm věšteb, které, jak se říká, neměly ani hlavu, ani patu, byly všechny nesmyslné a nesrozumitelné. Když se o tom později dozvěděl, a nadto i to, že jsem Rutilliana odrazoval od sňatku, jakož i aby nespoléhal na naděje vzbuzované věštírnou, pochopitelně mě nenáviděl a pokládal za úhlavního nepřítele. A jednou, když se Rutillianus dotazoval na mě, mu řekl: <em>V nočních potulkách zálibu má a v nečistých stycích</em>. Byl jsem zcela pochopitelně jeho úhlavním nepřítelem. Když se dověděl, že jsem zavítal do města, a zjistil, že jsem ten známý Lúkiános – však jsem s sebou měl dva vojáky, jednoho s kopím a jednoho s oštěpem, které mi dal s sebou můj přítel, správce Kappadokie, aby mě doprovodili až k moři –, ihned mě k sobě pozve velmi přátelsky a s velkou laskavostí. Já k němu přijdu a zastihnu u něho množství lidí. Vzal jsem s sebou šťastným řízením osudu i ty vojáky. On mi nastavil ruku k políbení, jako to dělal s davem. Já jsem přiblížil ruku k ústům, jako bych ji chtěl políbit, ale kousnutím vskutku důkladným jsem mu ji div nezchromil. Přítomní se mě pokoušeli škrtit a bít jako svatokrádce, když se už předtím rozhorlili, že jsem jej oslovil jen jako Alexandra a ne jako proroka. On však to přijal velmi ušlechtile a utišil je slibem, že mě lehko zkrotí a prokáže moc Glykónovu tak, že si dovede dělat přátele i z lidí velmi vzpurných. Potom poručil všem odejít a omlouval se přede mnou. Řekl, že dobře ví i to, co jsem radil Rutillianovi, a dodal: ‚Co jsem ti udělal, žes mi provedl takové věci, ač bys mohl mou pomocí dosáhnout u něho mnohého?‘ Já hned rád přijal tuto laskavost, protože jsem si uvědomil, do jakého až jsem se dostal nebezpečí, a zakrátko už jsem vyšel jako přítel. Těm, kteří to viděli, se zdála tato má tak rychlá proměna nemalým divem. Když jsem se potom chystal odplout, poslal mi mnoho hostinných darů – byl jsem tam sám, jen s Xenofóntem, kdežto otce a rodinu jsem poslal předem do Amastridy – a slíbil mi, že mi sám poskytne plavidlo a veslaře, kteří mě odvezou. Já se domníval, že to je upřímná a přátelská nabídka. Když jsem však byl v půli plavby, uviděl jsem, jak kapitán s pláčem v něčem plavcům odporuje. I neočekával jsem od budoucnosti nic dobrého. Dostali od Alexandra příkaz, aby nás vzali a hodili do moře. Kdyby se tak bylo stalo, měl by Alexandr válku proti mně snadno z krku. Ale kapitán s pláčem přemluvil mořeplavce, aby nám neudělali nic hrozného ani zlého. A mně řekl: ‚Šedesát let, jak vidíš, jsem žil bezúhonný a poctivý život a nechtěl bych v tomto věku, kdy mám ženu a děti, poskvrnit ruce vraždou‘ a vyjevil mi, k jakému účelu nás nalodil a jaké byly Alexandrovy příkazy.“ – <em>Alexandr neboli Lžiprorok, Lúkiános</em></p>
+<p>„Druzí právě předtím něco o té jeho chorobě už říkali a něco ještě vykládali a každý navrhoval nějaký způsob léčení. A tak povídá Kleodémos: ‚Jestliže tedy někdo sebere levou rukou ze Země zub Hraboše zabitého tak, jak jsem právě řekl, a zaváže jej do čerstvě stažené lví kůže a pak ji obalí kolem nohou, ta bolest ihned přestane.‘ ‚Ne do lví,‘ na to Deinomachos, ‚ale do kůže Laně ještě jalové a neobskočené. Tak je, jak jsem slyšel já, ta věc nejpravděpodobnější: Laň je přece rychlá a má v nohách největší sílu. Lev je sice silný a jeho sádlo, pravá přední tlapa a dlouhé vlasy z jeho hřívy mohou mít velký účinek, jestliže by jich někdo dovedl používat se zaříkáváním každé z těch věcí příslušejícím, ale vyléčení nohou se od nich vůbec nedá očekávat!‘ Kleodémos na to: ‚Také já jsem dříve byl toho názoru, že je zapotřebí kůže jelení, protože Jelen je rychlé zvíře; nedávno mě však člověk z Libye, který se v těch věcech vyzná, poučil o jiném – řekl, že Lvi jsou rychlejší než Jeleni. Prostě prý je při pronásledování dohoní! Přítomní potvrdili, že ten Libyjec mluvil správně.‘ Já se otázal: ‚Domníváte se tudíž, že se takové věci dají odstranit nějakým zaříkáním nebo nějakými amulety, přičiňovanými zvenčí, když choroba vězí uvnitř těla?‘ Zasmáli se mým slovům a zřejmě odsuzovali moji velkou nerozumnost, poněvadž jsem nechápal věci tak jasné, o nichž by nikdo, kdo má zdravý rozum, nepochyboval, že tomu snad tak není. A jenom lékař Antigonos, jak se zdálo, byl potěšen mou otázkou. Už dlouho ho tuším nedbali, když chtěl Eukratovi pomoci svým lékařským uměním a doporučoval mu, aby se zdržoval vína, jedl zeleninovou stravu a vůbec nepřepínal své síly. Avšak Kleodémos promluvil s úsměvem: ‚Co to říkáš, Tychiade? Zdá se ti neuvěřitelné, že by z takových věcí plynul nějaký užitek při nemocích?‘ ‚Také že ano,‘ já na to, ‚ledaže bych měl hlavu celou pomatenou, abych věřil, že by věci vnější, které nemají s vnitřními příčinami chorob nic společného, jsou-li přičiňovány, jak říkáte se zaříkáváním a nějakým čarováním, mohly účinkovat a přinášet vyléčení. To se nemůže stát, ani kdyby někdo do kůže nemejského Lva zavázal celých šestnáct Hrabošů! Já aspoň jsem častokrát viděl samotného Lva kulhat bolestmi, ač byl oděn celý do své kůže!‘“ – <em>Milovník lží, Lúkiános</em></p>
+<p>„Ale nemusíme mít strach, milý brachu, protože máme velikou záštitu proti takovým věcem v pravdě a ve zdravém rozumu – budeme-li toho používat, tak nás z těch prázdných a lichých výmyslů nevyděsí nic.“ – Tychiadés, <em>Milovník lží, Lúkiános</em></p>
+<p>„Když jsem se dostal na slavnostní shromáždiště, nachomýtl jsem se k nějakému šedovlasému muži, který vypadal namouvěru důvěryhodně pro svou bradu a celkový důstojný zjev. Ten vykládal o Próteovi mimo jiné i to, že ho už po upálení před krátkou chvílí viděl v bílém šatě a právě teď že jej opustil, jak se jaře procházel v Sedmihlasém sloupořadí ověnčen snítkou divoké Olivy. Nakonec pak připojil toho Supa, kterého jsem krátce předtím já nechal vzlétnout, abych si udělal dobrý den z pošetilců a troupů, a zapřísahal se, že ho osobně viděl, jak vyletěl z hořící hranice.“ – <em>O Peregrínově smrti, Lúkiános</em></p>
+<p>„A nepovažuj to, co ti budu říkat, za zákon, a nevěř tomu bezvýhradně! Naopak: když se ti bude zdát, že něco není v pořádku, hned mi odporuj a uveď můj výklad na správnou cestu. Vždyť v jednom ze dvou předpokladů se v žádném případě nemůžeme mýlit: jednak nabudeš jistoty o své nezvratné pravdě a vychrlíš na mě všechny své námitky, jednak se poučím jako člověk, který věci správně nerozumí. V tom případě bude celá athénská obec spěchat, aby ti poděkovala. Čím víc mě totiž budeš vychovávat a vést k lepšímu, tím více jí budeš prospěšný. A já nebudu rozhodně nic tajit. Naopak, ihned tvé připomínky předložím lidu. Postavím se ve sněmu a všem řeknu: ‚Athéňané, sepsal jsem vám sice zákony, o nichž jsem si myslel, že budou pro obec velmi prospěšné, ale tento cizinec – a tu ukážu, Anacharside, na tebe –, ačkoliv je ze Skythie, je moudrý a změnil mé názory. Poučil mě o jiných, lepších poznatcích a zvyklostech. Ať je proto tento muž zapsán jako váš dobrodinec. Postavte mu kovovou sochu vedle soch zakladatelů tohoto města, anebo zde, v obci, vedle sochy Athéniny.‘ A dobře si pamatuj, že se athénský stát nebude stydět přijmout pro něj užitečné poučení od barbara a cizince!“ – Solón, <em>Anacharsis, Lúkiános</em></p>
+<hr />
+<p><em>Následující úryvky přeložil Ladislav Varcl. Jednotlivá díla vyšla v souboru „Lúkiános: Šlehy a úsměvy“ v nakladatelství Svoboda v roce 1969.</em></p>
+<p>„Především je rozdílný jejich názor na vesmír, jestliže jedni jsou toho mínění, že je bez vzniku i zániku; druzí naopak se pokoušejí mluvit o jeho tvůrci i o způsobu, jak byl sestrojen; těm jsem se také nejvíce podivoval, že k tomu dokonce stavějí nějakého boha jako strůjce veškerenstva, avšak nedodávají, ani odkud přišel, ani kde byl, když to všecko sestavoval, ačkoliv nelze pomýšlet na nějaký čas a prostor před vznikem všehomíra.“ – <em>Íkaromenippos, Lúkiános</em></p>
+<p>„Cožpak myslíš, že jsem se kdysi dočista zbláznil, kdyby bohatství a kralování bylo něco krásného, že bych se toho zřekl a přenechal to druhým, sám žil jako soukromník a snášel být podřízen druhému? Ale protože jsem znal množství toho, co nezbytně doléhá na boháče a vládce, vzdal jsem se vlády – a dobře jsem udělal! A jestliže mi předhazuješ s takovým pathosem, že oni se cpou vepřovým a koláči, kdežto vy že o svátcích hryžete hořčičné semeno, Tymián nebo Česnek – podívej se na to zblízka. Pro přítomnost je to obojí jistě příjemné a nijak trapné; ale vzhledem k tomu, co následuje, to už vypadá jinak. Potom nevstáváte druhý den s těžkou hlavou po opici jako oni, ani neříháte páchnoucí výpary od přílišného přejedení. Ti, kdo se oddávají požitkům a po většinu noci pěstují styk s chlapci nebo ženami, nebo jak jim to jejich chlípnost káže, velice snadno si svou velkou rozmařilostí uženou úbytě, zánět plic nebo cukrovku. Můžeš mi ukázat někoho z nich, aby nebyl celý žlutý a nejevil četné známky odumírání? A někoho, že by dospěl do stáří na vlastních nohou, a ne v nosítkách se čtyřmi nosiči, navenek celý zlatý a uvnitř všelijak slátaný, jako oděvy na divadle sešité z nejlacinějších hadrů? Ale vy, kteří jste nikdy neochutnali ryby a nemáte co do úst, nevidíte, že se vás nechytá dna ani zánět plic nebo podobné neřádstvo přicházející z jiné příčiny? Vždyť ani jim samým není pro přesycení příjemné jíst denně takové lahůdky; naopak vídáš, jak oni někdy touží po zelenině a po Tymiánu víc než ty po Zajíci nebo vepřovém.“ – Kronos Lúkiánovi, <em>Listy Kronovi, Lúkiános</em></p>
+<p>„Héraklea nazývají Keltové domácím jazykem Ogmios a zobrazují tohoto boha v podobě velmi prapodivné. Je to u nich stařec vysokého věku, s velikou lysinou a zbytkem šedivých vlasů, s vrásčitou kůží a opálený úplně do temna, jako bývají námořníci v stáří. Spíše bys v něm viděl Charóna nebo jakéhosi Íapeta z těch, co jsou na dně Tartaru, prostě každého spíše nežli Héraklea. Ale třebaže vyhlíží takto, přece má výstroj Hérakleovu. Neboť má na sobě lví kůži, v pravici třímá kyj, po boku má zavěšen toulec a v napřažené levici napjatý luk, zkrátka po té stránce je to úplný Héraklés. Měl jsem tedy za to, že si Keltové takto vedou bezbožně, pokud jde o podobu Hérakleovu, na posměch řeckým bohům, protože se mu mstí tou kresbou za to, že kdysi vnikl do jejich země, když vedl svou kořist a hledal stáda Géryonova, a proto zchodil území většiny západních národů. Avšak ještě jsem neřekl, co je na tom obraze nejpodivnější: ten stařičký Héraklés totiž za sebou vleče náramně velké množství lidí, všecky přivázané za uši. K upoutání mu slouží jemné řetízky zhotovené ze zlata a z élektra, podobné nejkrásnějším náhrdelníkům. A přestože jsou vedeni na tak slabých poutech, nepomýšlejí ti lidé na únik, ač by snad mohli, a vůbec se nezpěčují, ani se neopírají nohama proti směru, kterým jsou vedeni, nýbrž jdou za ním vesele a s radostí, chválí toho, kdo je vede, všichni pospíchají, a jak se snaží navzájem se předstihnout, povolují své pouto, jako by se chtěli horšit, kdyby z něho byli vyproštěni. A řeknu bez váhání i to, co se mi zdálo ze všeho nejpodivnější. Protože malíř neměl, kde by upevnil druhé konce řetízků, poněvadž pravá ruka už třímá kyj, levá pak luk, provrtal bohovi špičku jazyka a zobrazil jej, jak na něm ty lidi vleče a s úsměvem se na ně ohlíží. U toho obrazu jsem často stával a díval se, podivoval, přemítal a horšil se. Tu ke mně přistoupil jakýsi Kelt, který byl vzdělán i po našem, jak prokázal tím, že mluvil správně řecky, patrně jakýsi filosof v domácím slohu, a řekl mi: ‚Já ti, cizinče, vysvětlím tajemství té malby. Zdá se totiž, že jsi jí zmaten. Za slovem my, Keltové, nevidíme jako vy, Řekové, Herma, ale přirovnáváme je k Hérakleovi, protože ten je o moc silnější nežli Hermés. Nediv se, je-li zpodoben jako stařec! Vždyť slovo rádo prokazuje vrchol dokonalosti jenom v stáří, říkají-li pravdu vaši básníci, že mysl mladých je nestálá, avšak stáří co říci má nad mladé moudřejšího cos! Tak i u vás kane z Nestorova jazyka med a řečníci trójští vydávají jak lilie hlas, tedy jakoby kvetoucí: lilie přece, pokud se pamatuji, znamenají květy. A vede-li tento starořecký Héraklés-Slovo jazykem lidi připoutané za uši, ani tomu se nediv, znáš přece těsný vztah uší a jazyka. A není vůči němu nevážné, má-li jazyk provrtaný; pamatuji si dokonce nějaké veršíky z komedie, které jsem se naučil od vás: neboť špičku jazyka ať mají provrtanou všichni mluvkové! My se vůbec domníváme, že i Héraklés byl moudrý a vykonal všechny činy slovem a většinu že jich prosadil přesvědčováním. A jeho střelami jsou právě slova, ostrá, dobře mířená, rychlá a zraňující duši. Vždyť vy rovněž říkáte o slovech, že jsou perutná.‘ Až potud ten Kelt. Ale mně, když jsem uvažoval o tomto svém vystoupení, zda je správné, neboť jsem už starý a dávno jsem přestal předvádět své řečnické umění, abych nedával možnost tolika soudcům vynášet rozsudek nad sebou, připadalo právě vhod, že jsem si vzpomněl na ten obraz …“ – <em>Héraklés, Lúkiános</em></p>
+<hr />
+<p><em>Následující úryvek přeložil Václav Bahník. Vyšel v souboru „Lúkiános: Pravdivé výmysly“ v nakladatelství Odeon v roce 1983 s ilustracemi Adolfa Borna.</em></p>
+<p>„Nevědomost je strašná věc a působí lidem mnoho zlého. Zahaluje věci jakousi mlhou, zatemňuje pravdu a vrhá na život každého člověka stín. Všichni se proto podobáme bloudícím v temnotách, ba ještě spíš vypadáme jako slepci, když hned nerozumně o něco klopýtáme, hned zas něco překračujeme, třebaže to nebylo třeba, nevidíme, co je blízko a přímo před našima nohama, a bojíme se toho, co je daleko, oddělené od nás velkým prostorem, jako by nás to bezprostředně ohrožovalo. Zkrátka ať děláme cokoli, každou chvíli uklouzneme.“ – <em>Nevěřte pomluvě, Lúkiános</em></p>
+      	    
+  </div>
+  
+		</body>
+</html>

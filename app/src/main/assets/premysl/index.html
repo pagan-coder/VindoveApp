@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Přemysl: vladyka dávných dob – úryvky</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p>Povídka o vladykovi Přemyslovi ukazuje, jak různorodá může být lidová tradice. Obsahuje náhled do představ a zvyků, které panovaly v pohanských časech. Jedná se o hrdinný příběh, jenž je doprovázen starostí o blízké a o krajinu kolem.</p>
+<p><em>Úvodem k této knize je i sbírka s názvem Předkové po krajině, krvi a zvycích. Ta je souhrnem příběhů, zamyšlení a popisů zajímavých míst, které mají spojitost s našimi pradědečky a prababičkami již od nejstarších dob. Tento souhrn popisuje stopy ukryté v krajině (archeologické „kultury“), naší krvi a bájeslovných představách s odkazy a poučeními pro dnešní dobu.</em></p>
+<hr />
+<p>Pověsti prochází změnami. Každý, kdo si na nějakou pověst činí nárok, si ji přizpůsobuje svému prostředí, podmínkám a záměrům. To platí, ať už se jedná o jednotlivce nebo celý vládnoucí rod. Tento nárok si pak stačí jen potvrdit například dobře placeným kronikářem či „bardem“, díky čemuž se daná varianta pověsti vtiskne do tradice národa. Časem by se taková pověst znovu samovolně proměnila, získala nové podoby a „setřásla“ ze sebe mnohé záměry, pokud by však nebyla zapsána. Dá se říci, že zapsáním se udržuje jisté dogma. Za „tradiční“ se pak prohlašuje něco, co už pěkně dlouho tradiční není (z latinského <em>trādere</em>; svěřovat, vypravovat). Někdy však zapsání naopak pomáhá – když je tradice násilím potlačena či v nezdravé míře ovlivněna něčím jiným, lze se pak vrátit ke spisům, kdy bylo vše „v pořádku“. Zde však vyvstává další otázka: Copak bylo zatím všechno špatně? Lid a jeho příběhy se proměnil natolik, že nemá cenu se těmito novými verzemi zabývat? Říct že to, co bylo „původnější“, je lepší? A jak moc původnější? Před sto, tisícem, desetitisícem let? Tradice se proměňuje, avšak v každé době si udržuje svůj jedinečný ráz, který je neodmyslitelně spjatý s daným lidem a danou krajinou. Mnohé sesbírané západoslovanské i jiné pohádky<strong><sup>1 2 3 4 </sup></strong>jsou součástí tradice v dané době, nicméně i nadále v sobě nesou odkazy na doby mnohem starší<strong><sup>5</sup></strong> – mnohé prvky pak dokonce odhalují nejhlubší lidské touhy a nejstarší moudrosti z dob dávno zapomenutých. Taková „totožnost“, která se danou tradicí nese, vychází z novověkých, středověkých<strong><sup>6</sup></strong>, starověkých a pravěkých představ. Z dob, kdy „pohostinství a péče o rodiče byly u Slovanů první ze ctností“<strong><sup>7</sup></strong>, nebo když „byli Slované nespravedlivě utlačováni křesťanskými soudci. Svrhli jho služebnosti a byli dohnáni k tomu, aby svou svobodu bránili zbraněmi“<strong><sup>8</sup></strong>. Avšak i přesto stále „ctili prameny aneb ohně“<strong><sup>9</sup></strong> a „o důležitých věcech rozmlouvali na sněmu“<strong><sup>10</sup></strong>. Doby před tím, kdy „shromáždil muž jménem Sámo, původem Frank z kraje senonského, větší počet kupců a odebral se za obchodem do země Slovanů zvaných Vinidové“<strong><sup>11</sup></strong>, jsou méně jasné – nicméně i přesto v tradici zanechaly své stopy, na které může následující příběh poukázat.</p>
+<p>Pověst o bájném oráči, který byl povýšen na vladyku a správce země, je vlastní západoslovanské oblasti. Kromě českých Bořivojovců tuto pověst přejali i polští Piastovci<strong><sup>12</sup></strong>, pravděpodobně i Slované z oblasti Korutan či východogermánští Gótové (například vizigótský král Wamba<strong><sup>13</sup></strong>). To může být způsobeno vzájemným ovlivňováním mezi Góty a „Slovany“ v době zhruba od 2. – 3. století n. l., kdy „Slované“ přejali mnoho slov souvisejících s obchodem a cizokrajným zbožím/předměty. Sem patří slova jako kupovat, víno (původně latinské), lék či Osel. Kolik slov přejali Gótové od „Slovanů“, to se žel již nedozvíme. Ostatně vyvozovat cokoli jen na základě původu slov je ve většině případů cesta do slepé uličky (viz 23. poznámka s názvem Slovanská slova v části Poznámky na konci příběhu). V minulosti i v současnosti vzniká mnoho různých teorií o tom, jak vlastně původní náboženství západních Slovanů vypadalo. Využívá se například i takzvaná trojfunkční hypotéza, při které se různí indoevropští bohové uměle rozdělují do skupin vlivu. Nejen, že tomu mnohé případy odporují (například právě pověst o oráči, který se stal vladykou, nebo zachované rukopisy původního irského práva), ale badatelé v této oblasti také často odkazují na mnohé zachované pověsti, ze kterých si vybírají pouze část, která se jim hodí, a často nad jednou větou naprosto vytrženou z kontextu staví svůj myšlenkový systém. Laikovi to může připadat jako „důkaz“, nicméně na člověka, který má tyto pověsti přečtené, to působí přinejmenším scestně. Navíc v různých indoevropských náboženstvích došlo k výrazným posunům, ať už zevnitř nebo ovlivněním od okolních národů. Příkladem buď spojení „Nebeskozářivého“ (Dyēus) s „Bouřným“ v jednu osobu, k čemuž došlo v řeckém náboženství pravděpodobně pod vlivem nějakého národa z Blízkého východu, což se pak odrazilo i v náboženství římském<strong><sup>14</sup></strong>. Dále se pak různé kulty v Evropě promíchávaly a proměňovaly. Vzhledem k tomu všemu nelze označit žádnou osobní víru, která z tohoto společného dědictví vychází, za nepravdivou či neúplnou. Pamatujte na to, co často pravila babička Boženy Němcové a také známý básník a vypravěč Publius Ovidius Naso ve svém Umění milovati: „Není na světě člověk ten, aby se zalíbil lidem všem.“</p>
+<p>V příběhu níže se často objevuje označení Vid, jehož podoba se v praslovanštině často rekonstruuje jako vitъ a nachází paralelu v keltských jazycích, například v rané kymerštině/velštině jako uid, kde se zachovalo do dnešních dob v osobních jménech typu Meredith (původně Morgetuid), Griffith (původně Gripuid) nebo Bleidd[i]udd. Toto slovo v obou skupinách jazyků zjednodušeně znamená „pán“ či „vládce“. Na českém území se dochovalo v mnohých místopisných názvech, jako jsou Vidice, Vidov, Vidovice, Vidonín, Knovíz (od Knovida) či známější Vizovice (viz 5. poznámka v části Poznámky na konci příběhu). Postava Slunečního Hrdiny se v nejucelenější podobě zachovala ve slovinském (potomci korutanských Slovanů) Kresnikovi<strong><sup>15</sup></strong>, a odkazy na některou z jeho podob poskytují především sesbírané lužickosrbské a české pohádky. Sluneční Hrdina zachovaný v podobě Kresnika je popisován jako „zářivý mládenec“, „bojovník“, „bájný vládce“, „kouzelník“ a projevuje zájem o zemědělství, což všechno sdílí například s irským Lughem Lámhfadou<strong><sup>16</sup></strong>. Ovšem různé příběhy se prolínaly, převypravovaly, a často tak můžeme nalézt stopy i v jiných tradicích. Co si z toho každý pro sebe vyvodí, je jen na něm a na jeho uvážení.</p>
+<p>Následující příběh se snaží v krátkosti objasnit, jak dokáže být tradice různorodá a míchat minulost, současnost i jakékoli představy, ať už jsou vlastní či ne. Taková různorodost je například ukázána v tom, jak jednotlivé části příběhu působí na pocitovou stránku. Například část „Smíření v šílenství“ může znít děsivě až hororově, naproti tomu setkání s cizinci (a následné uspání) v části „Voj srdce světa“ má zase tendenci směřovat k příběhu pro děti. Pamatujte, že v bájných příbězích neexistuje žádné umělé dělení typu racionální/iracionální. Příběhy vedle mnohých pouček často obsahují i moudrost, která se nedá vědomě pochopit. Myslím si, že je důležité mít k tradici a k jejím příběhům a zvykům<strong><sup>17</sup></strong> úctu, napojit se na ně, na náš lid a krajinu, abychom k nim mohli zdravě přispívat vlastní tvorbou.</p>
+<p><em>Přemysl Lúa Černý</em></p>
+<hr />
+<p><strong><sup>1</sup></strong><em>Slovanské pohádky, Karel Jaromír Erben</em><br />
+<strong><sup>2</sup></strong><em>Lidové pohádky Lužických Srbů, Společnost přátel Lužice</em><br />
+<strong><sup>3</sup></strong><em>Serbske ludowe bajki, Ludowe nakładnistwo Domowina</em><br />
+<strong><sup>4</sup></strong><em>Za lesy a za horami – polské národní pohádky, Janina Porazińska</em><br />
+<strong><sup>5</sup></strong><em>Mythiske bytošce lužiskich Serbow, Adolf Černý</em><br />
+<strong><sup>6</sup></strong><em>Stopy zapomenutého lidu: Obraz dějin Polabských Slovanů v historiografii, Libuše Hrabová<br />
+</em><strong><sup>7</sup></strong><em>Kronika Slovanů, Helmold z Bosau</em><br />
+<strong><sup>8</sup></strong><em>Činy biskupů hamburského kostela, Adam Brémský</em><br />
+<strong><sup>9</sup></strong><em>Kosmova kronika česká, Kosmas</em><br />
+<strong><sup>10</sup></strong><em>Kronika, Dětmar z Merseburku</em><br />
+<strong><sup>11</sup></strong><em>Historia Francorum či Fredegarova kronika</em><br />
+<strong><sup>12</sup></strong><em>Kronika a činy polských knížat a vládců, Gallus Anonymus</em><br />
+<strong><sup>13</sup></strong><em>Historical Tales: Spanish, Charles Morris</em><br />
+<strong><sup>14</sup></strong><em>Perun: historie a typologie slovanského hromovládce, Michal Téra</em><br />
+<strong><sup>15</sup></strong><em>Slovene Folklore, F. S. Copeland</em><br />
+<strong><sup>16</sup></strong><em>Lebor Gabála Érenn; anglické převyprávění například v Gods and Fighting Men, Lady Gregory<br />
+</em><strong><sup>17</sup></strong><em>Obyčeje a slavnosti v české lidové kultuře, Eva Večerková</em></p>
+<hr />
+<p>„Mezi severními horami kdysi stával dřevěný dům, který byl kol dokola obklopen nekonečnými hvozdy. V tom domě přebýval šedovousý stařec, jehož málokdo z lidí pravidelně vídal. Není divu – cesta do nejbližší vesnice trvala pěšky přibližně sedm dní, a to záludnou a skalnatou krajinou, která skrývala mnohá nebezpečí. Kdyby šlo jen o Vlky, ale občas bylo možné spatřit Zubra či dokonce Losa, jak si razí cestu mezi Duby a Habry. Dřevěný trám spojující oba vzdálené konce střechy v domečku staříka byl ověšen sušícím se Pelyňkem, Třezalkou a Řebříčkem, který příjemně provoňoval celou místnost. Stařík sáhl do rozpálené hliněné pece a vytáhl odtamtud několik žitných placek, které donesl do protějšího kouta domečku. Teprve teď bylo možné v mihotavém stínu spatřit postavu muže zabaleného do kožešin. Na hlavě měl plátěnou kapuci, takže krom tváře s několika starými jizvami nebylo možné určit, o koho se vlastně jednalo. Ani stařík sám to nevěděl. Popravdě ho to ani moc nezajímalo, jednalo se prostě o vítanou návštěvu v této lidmi zapomenuté divočině, o dalšího poutníka, který ve své mysli skrýval mnohé zajímavé příběhy. ‚Děkuji, dědečku,’ pronesl muž vlídně, když mu stařík nabídl ony žitné placky spolu s domácím medem. Stařík se pod šedivým vousem pousmál. ‚Jste z daleka?’ zeptal se se stařeckou zvědavostí. Muž se nadechl. ‚Popravdě,’ pravil zamyšleně, ‚ani moc ne. Jenže časy se mění.’ Povzdychl si. Jako by nestačili zloději, lapkové, ty hrozné přízraky na Koních, a tihle, kterým se říkalo prostě a jednoduše cizinci – ještě se objevily nemoci. Stařec spatřil mužovo zamyšlení a zvědavost v něm ještě více vystoupala. ‚Zajímal by mě,’ řekl nakonec, ‚váš příběh, mládenče.’ Muž pozdvihl hlavu, ale do očí mu stále vidět nebylo. ‚Již dlouho nejsem mládencem,’ odvětil, ‚a ptáte-li se na můj příběh, pak vězte, že pro vás bude lepší, když nebudete mít nejmenší tušení, jaká je má totožnost.’ Muž se znovu zamyslel. Venku v lese se roztančil hravý Vítr, načež se ozvalo křupání větví na vysokých stromech. ‚Příběh,’ pokračoval muž, ‚příběhy … jeden stařík, zrovna jako vy, mi kdysi řekl, jak moc jsou příběhy důležité, všechny ty zamotané pověsti, co v sobě skrývají nejednu moudrost.’ Stařík koukal poněkud vyjeveně, a aby své zmatení rozptýlil, sáhl na trám a vzal odtamtud hliněný džbán naplněný sladkým tmavým pivem, které nepěnilo. Když se sám napil, džbán podal muži, který mu pokýváním hlavy poděkoval. Chvíli oba jen tak mlčky seděli. ‚Povím vám zajímavější příběh,’ řekl muž nakonec, ‚o někom, kdo měl vykonat veliké věci a také je vykonal.’ ‚Veliké věci?’ zajímal se stařík, ‚jaké veliké věci?’ Muž se od srdce zasmál. Vítr už venkovní vlhký vzduch pořádně rozdmýchal, takže museli oba mluvit více nahlas. ‚Třeba ukázat lidem,’ odpověděl muž na starcovu otázku, ‚kdy přesně mají sít, kdy sklízet, jaké slavnosti ctít …’ Muž si odkašlal. ‚… a hlavně,’ dodal, ‚jak se starat o Zemi, jak se vypořádat se všemi vetřelci a zloduchy jednou provždy.’ Stařík zavřel oči. Jak tajemný muž mluvil, na starcových víčkách se malovaly obrazy. Jeden za druhým, hezké, ošklivé, boj, milování, radost, utrpení … slova vycházející z úst muže zněla jako zaříkání, které mělo moc proměňovat to, co se zdálo být pevným a neměnným.
+<br />‚Střílejte!’ zazněl dunivý hlas mládence, který seděl na stromě. Koukal se do dálky, na blízko, všude po hustém prastarém lese. Všude po houštím pokrytém vršku. ‚Támhle vedle potoka!’ zakřičel znovu, ‚Dývušo, Pravomíre!’ Dvojitý výstřel z jasanových luků. Šípy přesně zasáhly živý terč. ‚Miřte na krk,’ pokračoval mladík ve vydávání rozkazů, zatímco samotné stromy v nelibosti šuměly a hýbaly se3. Neměly rády útočící vetřelce, kteří postupovali podél potoka. Navíc na takový hluk žádný ze zdejších stromů nebyl zvyklý. Mladík na stromě vytáhl zpod opasku dřevěnou píšťalku, na kterou spustil děsivou trhanou písničku. Zvuk se nesl až k uším vetřelců, kterým vtiskl neklid do srdcí. Mladíkovým spolubojovníkům však dodával sílu. Na první pohled se zdálo, že všude po rozlehlé zvlněné lesnaté krajině panuje zmatek. I když měli vetřelci veliké ztráty, stále postupovali dále. Nehodlali se vzdát, nechtěli na sebe vzít takovou potupu. Když už se první z nich dostali do blízkosti stromu, na kterém mladík seděl, zvuk najednou ztichl. Vetřelci se zastavili. Ticho před bouří. Zasvištění nikdo z nich neuslyšel. Jeho důsledku si povšimli teprve tehdy, když se jeden z nich svalil na Zem, mrtvý. V obličeji měl zabodnutou vrženou sekeru. Ani se nenadáli, když tu najednou mladík seskočil ze stromu do hromady listí přímo před ně. Na nic nečekal a vší silou udeřil do dalšího vetřelce, kterého odrazil přímo do skalnaté a zrádné rokle, jejíž bílé kamenné tesáky byly chtivé krve. Mladík byl neuvěřitelně silný – ne nadarmo se o něm říkalo, že má železnou pěst. Teprve nyní se vetřelci dali na útěk. Mladík s hnědými lesklými vlasy se jen usmíval. Potom se sehnul a z mrtvoly cizince vytáhl svou kouzelnou sekeru, kterou zastrčil za svůj tajemný opasek. Ten byl získal darem od své milé, jejíž domov se nacházel za neviditelnými dveřmi u jedné statné Lípy, které byly přímo v hlohovém keři. Mladík jí v duchu děkoval a těšil se, až se s ní opět shledá. Při této myšlence si rukama očistil své plátěné převážně bílé oblečení. Nadechl se čerstvého vzduchu s příměsí vůně vítězství. Zanedlouho bylo slyšet křupání větviček a lehké kroky cvičeného běžce. ‚Dobrá práce, Lesklovlasý,’ pronesl jen o něco málo starší muž, ‚máš vskutku pozorovací nadání.’ Mladík se jen pousmál. ‚Ještě není konec, Pravomíre,’ dodal potichu, ‚vrátí se, i se svými vůdci v čele.’ V tu chvíli se začaly ozývat kroky ze všech stran. Popadané listí šumělo. Za okamžik se kolem stromu sešlo všech dvanáct mužů, kteří si dohromady říkali jednoduše Voj. Úplně všichni do jednoho byli ještě v bojovém nadšení … a měli hlad. Dokonce i Slunce najednou více zazářilo a osvětlilo tvář lesklovlasého hrdiny. Jemné listy stromů se působením paprsků uklidnily. Nastala chvíle ticha. Chvíle, kdy byl mladík hluboko ve svých myšlenkách. Někdo k němu promlouval. Někdo ho utěšoval. Zvedl se Vítr. Mladík v duši spatřil vlídný obličej, který si jasně pamatoval z dětství. Ten obličej nyní přebýval v zelené podzemní říši, s mladíkovými prarodiči, jejich rodiči, a tak dále. Všichni na něho byli hrdí. Viděl to, cítil to. Byl znovu malým chlapcem žijícím v chaloupce se svou maminkou, s tím vlídným obličejem a jemnou rukou, která ho hladila a utěšovala. Ostatní mladíci již z úkrytu donesli zásoby jídla a pití, spoustu placek, ovoce a celou mísu jáhlové kaše. Pravomír se dal do zpěvu, i když hudební nadání zrovna neměl. Soběslav si začal brousit sekeru a smát se příběhům, které vyprávěli jeho druhové. A onen velikou silou nadaný mladík stále seděl v zamyšlení. Daleko od ostatních. Bohové totiž chtěli, aby právě tady a teď, uprostřed hlubokého lesa, o samotě přemýšlel.“ – <em>První část z Přemysl – vladyka dávných dob, Přemysl Lúa Černý</em>
+</p>
+
+ </div>
+  
+		</body>
+</html>

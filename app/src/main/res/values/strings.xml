@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Vindové</string>
+
+    <string name="menu_golden_heart">Zlaté srdce (kniha)</string>
+    <string name="menu_overview">Přehled</string>
+    <string name="menu_info">Úvod, zvyky a tradice</string>
+    <string name="menu_for">Lesní krajina</string>
+    <string name="menu_phil">Filozofie</string>
+    <string name="menu_quote">Citáty z knih a kronik</string>
+    <string name="menu_read">Čtení</string>
+    <string name="menu_stories">Vybrané příběhy a příhody</string>
+    <string name="menu_story_first">Příběhy Vindů</string>
+    <string name="menu_story_second">Kmen bohů</string>
+    <string name="menu_story_third">Ladovid z Hor</string>
+    <string name="menu_story_fourth">Pocta bylinám</string>
+    <string name="menu_story_fifth">Příhody lidí z Beovinidis</string>
+    <string name="menu_story_sixth">Přemysl (vladyka)</string>
+    <string name="menu_story_seventh">Promluvy s bohy</string>
+    <string name="menu_other">Myšlenky</string>
+    <string name="menu_contact">Kontakt</string>
+    <string name="menu_episodes">Příhody</string>
+    <string name="menu_poems">Básně</string>
+    <string name="menu_diary">Deník</string>
+    <string name="menu_nature">Přírodní koutek</string>
+    <string name="menu_fb">Facebook</string>
+    <string name="menu_about">O aplikaci</string>
+
+    <string name="till_full">Počet dní do úplňku:</string>
+    <string name="till_new">Počet dní do nového měsíce:</string>
+    <string name="tomorrow_full">Zítra je úplněk. Slavte dnes večer.</string>
+    <string name="tomorrow_new">Zítra je nový měsíc. Slavte dnes večer.</string>
+    <string name="moon_growing">Měsíc dorůstá.</string>
+    <string name="moon_fading">Měsíc couvá.</string>
+    <string name="moon_full">Dnes je úplněk.</string>
+    <string name="moon_new">Dnes je nový měsíc.</string>
+
+    <string name="first_moon_celebration">Oslavy hromu</string>
+    <string name="second_moon_celebration">Oslavy milování</string>
+    <string name="third_moon_celebration">Oslavy úrody</string>
+    <string name="fourth_moon_celebration">Oslavy předků</string>
+
+    <string name="moon_3">Břízen</string>
+    <string name="moon_4">Duben</string>
+    <string name="moon_5">Květen</string>
+    <string name="moon_6">Červen</string>
+    <string name="moon_7">Lípen</string>
+    <string name="moon_8">Chrpen</string>
+    <string name="moon_9">Vřesen</string>
+    <string name="moon_10">Šípen</string>
+    <string name="moon_11">Listen</string>
+    <string name="moon_12">Světlen</string>
+    <string name="moon_1">Leden</string>
+    <string name="moon_2">Bílen</string>
+    <string name="moon_after_solstice">měsíc od zimního slunovratu.</string>
+
+    <string name="sunset_before">před stmíváním (slavte večer předchozí den)</string>
+    <string name="sunset_after">po stmívání (slavte večer ten den)</string>
+    <string name="sun_today">Dnes je</string>
+
+    <string name="label_first">Nejnovější příspěvky:</string>
+    <string name="label_second">Nejnovější příhoda:</string>
+
+    <string name="navigation_drawer_open">Otevřít menu</string>
+    <string name="navigation_drawer_close">Zavřít menu</string>
+    <string name="browser_error">Nejste připojeni k Internetu. Prosím připojte se a znovu stránku načtěte pomocí tlačítka obnovy níže.</string>
+    <string name="action_settings">Nastavení</string>
+
+    <string name="moon_info">Měsíc</string>
+    <string name="full_moon_info">Počet dní do dne začínajícího úplňkem nebo hned po úplňku. Slaví se předchozí den večer.</string>
+    <string name="new_moon_info">Počet dní do dne začínajícího novým měsícem nebo hned po novém měsící. Slaví se předchozí den večer.</string>
+
+</resources>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Poznání, lesy a Příroda</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p style="text-align: center;"><em>„Zanikne teprve tehdy i báseň Lucretiova (báseň o lásce k Přírodě, radosti, o upřímném poznání a o tom, že se hmota skládá z atomů), až pak jednoho dne záhuba postihne svět.“ – Lásky, Publius Ovidius Naso</em></p>
+<p>„Stromy tvoří les a ten má obrovský význam v hydrologickém cyklu krajiny. Bylo zjištěno, že na pevnině pokryté pouští, poli nebo nízkým rostlinstvem srážky klesají velice rychle na vzdálenost několika set kilometrů od pobřeží. Pokud je ale pevnina pokryta vzrostlým lesem, srážky neklesají, ale naopak mírně stoupají až do vzdálenosti 3 000 kilometrů od moře. Tam, kde byly lesy vykáceny, a to nejen v tropických oblastech, ale i jinde na Zemi, se snížily srážky, zvýšilo se ‚sucho‘; původní husté lesy se změnily v řídké porosty či lesostepi, na mnoha místech se již samy neobnovují, neregenerují a při obnově se neobejdou bez pomoci člověka. V takových podmínkách pak dochází ke zvýšenému projevu globálních klimatických změn, k extrémním projevům počasí vyznačujícím se prudkými silnými dešti a vichřicemi. Pokud by byl na rozsáhlejších plochách les, udržoval by vhodnější a příznivější mezoklima a umírněný ráz počasí. Voda znamená život. Je nezbytností pro stromy i pro lidi. A díky stromům se dostává k lidem. Chraňme si stromy, jsou pro nás zárukou přežití.“ – <em>Stromy a voda, Luboš Úradníček, Život se stromy, Marie Hrušková, Václav Větvička a spol.</em></p>
+<p>„Před začátkem intenzivního lidského působení měla lesní vegetace Českého Švýcarska zásadně odlišnou druhovou skladbu, než má dnes. Až do začátku 18. století porůstaly pískovcová skalní města přirozené lesy s dominantním podílem Jedle a Buku. Se Smrkem bychom se setkali pouze sporadicky, a to nejspíše na dnech roklí. Ostatní dřeviny (nejhojnější z nich byl Dub a Habr) rostly pouze jako příměs v ostatních porostech. Historie právě popsaných porostů sahá až do období subboreálu (do doby kolem 3000 BP), kdy tato vegetace vznikla přirozeným způsobem na troskách původnějších smíšených doubrav.“ – <em>Vegetační změny v Českém Švýcarsku jako důsledek lesnického hospodaření – pokus o kvantitativní rekonstrukci na základě výsledků pylových analýz a rozboru historických pramenů, Vojtěch Abraham, Petr Pokorný; z knihy Bioarcheologie v České republice, ed. Jaromír Beneš, Petr Pokorný</em></p>
+<p>„Buk tu kdysi přirozeně rostl, vyhovují mu půdní i klimatické podmínky, a navíc je to strom velmi krásný, s nenapodobitelnou atmosférou v každé roční době. Přirozené složení navíc zcela promění barevnost interiéru lesa, kde se díky změně druhové skladby objeví specifické, velmi příjemné měkké světlo. Se změnou druhové skladby dojde přirozeně i ke změně mikroklimatu. Návštěvníci přijdou na totéž místo, kde však v parném létě klesne teplota oproti původní teplotě ve smrkové monokultuře až o několik stupňů. Listnatý porost je navíc provázen příjemným podrostem bylin, se kterými v kyselém prostředí jehličnatého lesa nemůžeme počítat.“ – <em>Nejen stromy v krajině, Markéta a Petr Vlčkovi, Život se stromy, Marie Hrušková, Václav Větvička a spol.</em></p>
+<p>„Strom chladí svoje okolí a brání jeho přehřívání. Suché povrchy bez vegetace se přehřívají, ohřívá se od nich vzduch a ten stoupá vzhůru do atmosféry a odnáší sebou vodní páru. Teplý vzduch pojme velké množství vodní páry, krajina potom vysychá. Stromy v krajině a ve městech potřebujeme mimo jiné k tomu, aby za slunných dnů chladily a udržovaly vlhký vzduch v krajině, vodní pára se potom může vrátit v noci zpět ve formě rosy a drobného deště. Stromy hlavně vyrovnávají rozdíly teplot mezi dnem a nocí a mezi místy. Prudký vítr a přívalové deště vznikají následkem vysokých rozdílů teplot a tlaků, stromy tyto rozdíly snižují. Týká se to jednotlivých stromů, ale platí to ve stejné míře i o lesích. Les má zásadní význam v oběhu vody dokonce i mezi kontinenty a oceány, protože i tam vyrovnává teplotní rozdíly. Proto bude dobré pokračovat v zamyšlení nad stromy, vodou a teplotou … Velké solitérní stromy v letním jasném dni chladí intenzitou několika desítek kW. Zdravý les o rozloze 1 km<sup>2</sup> chladí intenzitou několik stovek MW … Teplý vzduch přicházející ze zemědělských polí obsahuje vodní páru, která se však nesráží na teplém odlesněném povrchu, ale odchází z krajiny. Odlesnění kopců a hor, stejně tak jako uschnutí dospělého lesa tedy přispívá k dlouhodobému vysušování krajiny, protože odlesněná a odvodněná krajina se ve dne přehřívá a vytváří se nad ní vysoký tlak, který zabraňuje přístupu vlhkého oceánského vzduchu.“ – <em>Stromy, voda a teplota, Jan Pokorný, Život se stromy, Marie Hrušková, Václav Větvička a spol.</em></p>
+<p>„Prvním zdrojem antropocentrismu byla antika, ačkoli racionalismus ve vztahu k Přírodě nebyl jen utilitární, tedy užitné povahy, ale akceptoval i její krásy a požitky z nich plynoucí. Křesťanství přineslo dualistický pohled na Přírodu a lidský rod. Rozšířením mystiky nebeského domu (celestial home) ‚vytáhlo‘ člověka ven z Přírody, spříznilo ho prostřednictvím každodenních gest s bohem za předpokladu vyhnání lidí z původního prostředí. Disciplína středověku, který centralizoval lidskou ne-živočišnost pomocí formální poslušnosti tvrdým církevním trestáním rozměrné škály hříchů, ‚poučila‘ lidstvo o svrchovanosti nadpřirozena. To otevřelo dveře opovržení vůči fyziologickým potřebám. Dokonce i když renesance rehabilitovala přímé pozorování a reformace vrátila hodnotu svědomí jednotlivce, nezměnilo to příliš rámec vnímání prostředí. Křesťanská oslava lásky v zástupné oběti pokračovala, aby se stala aktem sublimace – přetavení jinak nepřekročitelné hranice mezi světem přirozeným a nadpřirozeným … Výslovně formulovanou potřebu ‚nové etiky‘ předkládá práce G. P. Marsche z roku 1864 (<em>Man and Nature</em>). Popisuje tu destruktivnost vyrůstající ‚nevědomé bezohlednosti k zákonům Přírody‘. Mnoho přírodovědců ho pak následovalo v tomto požadavku ‚etiky ochrany‘ … Ovšem mechanistické chápání Přírody (jako ‚stroje‘), tradující se od Descarta, Bacona a Newtona, přijali vzdělanci minulého století v širokém měřítku. Příroda sama o sobě nemá hodnotu, je soběstačným komplexem převážně fyzikálních sil. Tato koncepce mocně ovlivnila současné evropské ideologie a prakticky přežívá dodnes … Není udivující, že Charles Darwin (1859) vyrostl jako hrozba pro toto manželství racionalismu a romantismu, které odělo náš druh do takového množství jednotlivých privilegií humanistického antropocentrismu. Svrchovanost člověka byla ve středu pozornosti spíš než jeho integrace do prostředí.“ – <em>Ekosystémová a krajinná ekologie, Pavel Kovář</em></p>
+<hr />
+<p>„Pokud se stane něco, co se zdá být vědecky nevysvětlitelné, můžete z toho bezpečně vyvodit dva závěry. Buď se to ve skutečnosti nestalo (pozorovatel udělal chybu, nebo lhal, nebo byl přechytračen); nebo jsme odhalili nedostatek dnešní vědy. Pokud se dnešní věda setká s pozorováním nebo s výsledkem pokusu, který nemůže vysvětlit, pak bychom měli vytrvat tak dlouho, dokud naši vědu nezlepšíme do takové míry, aby poskytla vysvětlení. Pokud si to vyžaduje radikálně nový druh vědy, revoluční vědy tak divné, že ji staří vědci sotva rozpoznají jako vědu – to je také v pořádku. Už se to tak stalo. Ale nikdy nebuďte tak líní, tak poraženečtí, a tak zbabělí, abyste řekli: ‚To musí být nadpřirozené‘ nebo ‚To musí být zázrak‘. Místo toho řekněte, že se jedná o záhadu, že je to podivné, že je to výzva, které se máme postavit. Ať už se k této výzvě postavíme tak, že zpochybníme pravdivost daného pozorování, nebo že rozšíříme naši vědu do nových a vzrušujících směrů, správná a odvážná odpověď na jakoukoli podobnou výzvu je postavit se jí čelem. A dokud nenajdeme správné vysvětlení této záhady, je v pořádku jednoduše říct: ‚Je to něco, čemu ještě nerozumíme, ale pracujeme na tom.‘ Vskutku je to ta jediná poctivá věc, kterou můžeme udělat. Zázraky, kouzla a bájné příběhy – mohou být zábavné, a bavili jsme se s nimi v průběhu této knihy. Každý má rád dobrý příběh a já doufám, že jste si užili všechny ty bájné příběhy, se kterými jsem započal většinu mých kapitol. Ale ještě víc doufám, že jste si v každé kapitole užili přírodní vědu, která za příběhy následovala. Doufám, že souhlasíte, že pravda má svá vlastní kouzla. Pravda je dokonce ještě více kouzelnější – v tom nejlepším a nejvíce vzrušujícím smyslu slova – než jakýkoli mýtus nebo vymyšlená záhada či zázrak. Věda má své vlastní kouzlo: kouzlo skutečnosti.“ – <em>The Magic of Reality, Richard Dawkins</em></p>
+<p>„Rozumnost je ta, která nás učí, že není možné poznat slast života, jestliže nežijeme rozumně, krásně a spravedlivě, a že není ani možné žít rozumně, krásně a spravedlivě, aniž bychom přitom nepoznali slast života.“ –<em> Epikúros (z dopisu Menoikeovi)</em></p>
+<p>„Jakmile se totiž prvním posluchačům zaklapla víčka, bylo mi jasné, že moje povídání je moc suchopárné. V průběhu let získalo emocionální tón, který podstatně více odpovídal mému vnitřnímu postoji. Dalo by se říci: otevřel jsem se a místo mozku nechal mluvit srdce … Bohužel jsem ponechal stranou odborné diskuze s jinými lesníky, které vedeme o způsobu zacházení s lesy. Zpětně mi je jasné, že z pohledu lobbistů je nejrozumnější, nejsou-li kritická témata diskutována veřejně. Až když vyšla kniha <em>Tajný život stromů</em>, zazněla z odborných / lesnických kruhů hlasitá kritika. Vzrostl totiž tlak ze strany již početného čtenářstva; stále znova se z řad obyvatelstva ozývaly dotazy, proč je například nutné v lese používat v takové míře těžkou techniku. Avšak většina kritiků z lesnických kruhů namísto toho, aby se zabývala mými tezemi, zvolila jiný přístup: používám prý příliš emocionální jazyk, ve svých popisech polidšťují stromy a zvířata, což vědecky vzato není správné. Je ale jazyk bez emocí ještě vůbec lidský? Není naše fungování z velké části emocionální? Jsou přípustné pouze takové popisy Přírody, které všechny procesy vykládají z biochemického hlediska a pitvají je do takových podrobností, až vzniká dojem, že zvířata a rostliny jsou plně automatickými a geneticky naprogramovanými bioroboty? Stejně bychom mohli postupovat u všech svých pocitů a činností, a přece bychom tím ani v nejmenším nevyjádřili, co se děje v našem nitru a co je bohatstvím našeho života. Pro mě má větší význam, pokud fakta vyložím tak, aby byla emocionálně uchopitelná a vy jste se tak mohli všemi svými smysly ocitnout v říši Přírody. Pak totiž mohu zprostředkovávat jedno: radost z našich bližních tvorů a jejich tajemství.“ – <em>Tajná síť přírody, Peter Wohlleben</em></p>
+<p>„K pochopení významu objevu, že se Země otáčí kolem Slunce, není potřeba zcela chápat Koperníkovy složité výpočty; k porozumění důležitosti zjištění, že všechny živé bytosti na naší planetě mají stejné prapředky, není třeba chápat komplikované argumenty z Darwinových knih. Věda je ve skutečnosti o chápání světa z postupně stále se rozšiřujícího hlediska … Ať už vliv [Danteho představy v <em>Paradiso</em> na Einsteinovo pojetí vesmíru jako 3-sféry] nastal nebo ne, věřím, že tento příklad ukazuje, jak skvělá věda a skvělé básnictví jsou vizionářské, a dokonce mohou dojít ke stejným myšlenkám. Naše kultura je pošetilá, když drží vědu a básnictví odděleně: obě jsou nástroji k otevření našich očí spletitosti a kráse světa.“ – <em>Reality is not what it seems: the journey to quantum gravity, Carlo Rovelli</em></p>
+<hr />
+<p>„Když se bodrý, rozvážný Buk před 4000lety navracel z Jihu, byl les už obsazen Duby a Lískami. To mu nikterak nevadilo – jeho strategii už známe. Snese víc stínu než ostatní stromy, takže může bez problému vzejít u jejich nohou. Ta trocha světla, kterou Duby a Lísky propustí k Zemi, malým dobyvatelům stačila k tomu, aby směřovali neustále vzhůru, a nakonec prolomili koruny konkurence. Pak přišlo to, co přijít muselo: Buky vyrostly nad svůj předvoj a uloupily mu světlo, nezbytné k životu. Toto nemilosrdné vítězné tažení na Sever aktuálně dosáhlo jižního Švédska a není ještě u konce. Přesně řečeno, nebylo by u konce, kdyby nezasáhl člověk. S příchodem Buku začali naši předkové zásadně měnit ekosystém lesa. Vymýtili veškeré stromy kolem svých osad, aby získali místo pro zemědělskou produkci. Kvůli dobytku se vykácely další plochy, a protože to ještě nestačilo, vyháněly se Krávy a Prasata jednoduše do lesa. Pro Buky to byla katastrofa, poněvadž jejich potomci vyčkávají celá staletí blízko u Země, než smějí zamířit vzhůru. V této době jsou pupeny na jejich vrcholcích vydány býložravcům na milost a nemilost. Původně byly počty savců extrémně nízké, protože jim les stěží skýtal potravu. Šance stromu, že zůstane po 200 let nerušen a neožrán, byly velmi slušné – než se na obzoru objevil člověk. Pak už neustále táhli krajinou pastevci se svými nenasytnými stády, která se zběsile vrhala na lahodné pupeny. V porostech prosvětlených kácením se mohly uchytit takové druhy stromů, které Buku předtím podlehly. Tím se poledová [tj. po poslední době ledové] cesta Buku značně ztížila a některé oblasti jím nebyly osídleny dodnes. V posledních staletích k tomu všemu ještě přibyl lov, díky němuž paradoxně velice stouply počty Jelenů, divokých Prasat a Srnců. Zásluhou masivního přikrmování ze strany lovců, majících zájem především na množení parožím ozdobených samců, se kvóty zvýšily až na padesátinásobek přirozeného stavu. V německy mluvících oblastech máme co do hustoty jednu z největších armád býložravců na světě, takže to malé Buky mají těžší než kdykoli dřív. Jejich rozšíření brání i lesní hospodářství. V jižním Švédsku, kde by Buk měl být domovem, najdeme jednu smrkovou a borovicovou plantáž vedle druhé. Jakmile však dá člověk od téhle hry ruce pryč, bude migrace Buků na Sever pokračovat.“ – <em>Tajný život stromů, Peter Wohlleben</em></p>
+<p>„Lze tedy říci, že již dlouho před tím a nezávisle na stavu vědy byly uplatňovány metody těžby, které předcházely narušování pralesa. Mnoho pralesů tak bylo, bez narušení jejich hodnotných struktur, převedeno ‚výběrem‘ do stadia hospodářského lesa. Jejich vlastníci se výběrem jednotlivých stromů pro momentální potřebu selského hospodářství vyhýbali pasečné těžbě, a tím nevědomky prováděli harmonický přechod k hospodářskému lesu. Vznik ‚výběru‘ a výběrného lesa z původních pralesů tak nebyl jen teorií profesorů pěstění lesa, ale výsledkem účelné, smysluplné práce ‚primitivního‘ sedláka. Pokud nechceme být vzdělanými hlupáky, nezbývá nám nic jiného, než toto selské počínání v lesích pokorně a v úctě k našim lesnickým předkům napodobovat. Tím spíše, když si uvědomíme, že existující různověkost těchto lesů naznačuje, že vznikly bez holé seče. Ale i přesílené dimenze s jejich nadprůměrným věkem dokládají bezprostřední návaznost na někdejší pralesy. Mnoho selských lesů, udržovaných po generace svými vlastníky ve výběrném stavu, je příkladem cesty k ekologickému, vysoce šetřivému obhospodařování lesa a jeho zachování v Přírodě odpovídajícím stavu.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Skutečně vzrušující mi připadá, že jednotlivé rostliny zjevně samy vypočtou, jak intenzivní má být nasazení jedu: prozkoumají nabídku živin a podle ní určí svou vlastní (lze říci osobní) obrannou strategii. Bližší průzkum proběhl na pastvinách. Sazenice Vrby z téhož keře, přestože jsou geneticky totožné jako dvojčata, se chovají odlišně a volí si každá (podle kvality půdy) jiný obsah fenolu v listech: vysoká ochrana na chudých půdách, méně jedu při lepším přísunu živin – protože v druhém případě lze případné ztráty snáze oželet a napravit. Geneticky totožné rostliny se chovají jako dvě uvažující a spekulující individua, která chtějí ze své situace vytěžit to nejlepší. Jak se přitom rozhodují či které buňky provádějí výpočet potřebné koncentrace fenolu, doposud zůstává neobjasněno. Jedno je ale jisté: běžný obraz rostlin jako pasivních živých tvorů bez jakékoli vůle k rozhodování nemá žádné oprávnění. … Rostliny vnímají velmi dobře, kdo si na nich pochutnává, a míří produkci jedu přímo na něho. Jedná se o jeden z nejsenzačnějších objevů posledních let, který provedl revoluci v našem nazírání na rostliny. Rozeznají útočníka! Aby si zachránily život, mnohé dokonce přepečlivě rozlišují mezi různými druhy housenek (jež podle mne vypadají všechny stejně).“ – <em>Fascinující život rostlin, Volker Arzt</em></p>
+<p>„U ryb lze prokázat dokonce i hormon oxytocin, který u lidí upevňuje nejenom mateřské štěstí, nýbrž i lásku mezi partnery. Štěstí a láska u ryb? To alespoň v dohledné době nebude možné potvrdit, avšak proč ‚v případě pochybností’ vždycky argumentujeme ‚v neprospěch obžalovaného’? Věda se ohledně emocí u zvířat vyjadřovala negativně tak dlouho, až už se nedaly popírat. Nebylo by pro jistotu lepší argumentovat opačně, abychom zvířata zbytečně netrápili?“ – <em>Citový život zvířat, Peter Wohlleben</em></p>
+<hr />
+<p>„Obhospodařování není vůbec tak těžké, jak se zpočátku může zdát. Není náhodou, že rodiny sedláků dříve pečovaly i o kus lesa, aniž by byly musely studovat lesnictví. Právě tyto ‚selské‘ lesy jsou nezřídka ve zvlášť přirozeném stavu, a navíc hospodářsky velice úspěšné. Co k tomu především potřebujeme, je zdravý rozum a láska ke stromům. Jakmile vyvinete cit pro to, co těmto zeleným obrům prospívá, tak už vlastně není co zkazit. Jeden známý, ekologicky hospodařící soukromý majitel lesa z Bavorska, dával k lepšímu následující anekdotu: Jeho otec si ho zavolal, aby s ním pohovořil o budoucnosti rodinného lesního podniku. Nejstarší syn měl jednoho dne tyto aktivity převzít, avšak ještě předtím bylo na pořadu dne důrazné varování: ‚Tak poslouchej, hochu,‘ pravil otec s vážnou tváří, ‚jestli budeš studovat lesnictví, tak tě vydědím.‘ To zní jako tvrdá kritika konvenčního lesního hospodářství, které už ani mě ničím nevábí. Velké stroje, plantáže jehličnatých stromů v řadách, jako když střelí, mýcení, zkrátka cosi jako ‚hromadný chov stromů‘, který se velice podobá masovému odchovu zvířat – nic z toho nepřináší klid vám ani Přírodě. Jemné postupy, přizpůsobené pomalému rytmu stromů, se oproti tomu vyplatí hned několikanásobně: Les je zdravější a výkonnější, produkuje více dřeva, které je navíc lepší, nabízí domov nesčetným živočišným i rostlinným druhům, a především: Člověk z toho má mnohem větší radost!“ – <em>Můj první les: Trvale udržitelné a přirozené lesní hospodářství, Peter Wohlleben</em></p>
+<p>„Všimli jste si někdy, jak rostliny, zejména tráva vypadá pěkně zeleně po bouřce? Není to optický klam. Jsou opravdu zelenější jako výsledek elektrických výbojů v ovzduší, které uvolňují 78 % dusíku obsaženého ve formě vodního roztoku. Déšť a blesky jsou činitelé zúrodňování. Pokaždé, když blesk osvítí Zemi, vybije se do Země velké množství dusíku. Podle vědeckého zdroje se každý den vyprodukuje 250 000 tun přírodního dusíku v 1800 bouřkách na různých místech zeměkoule. Na některých místech to může být i více než 50 kg na 0,5 ha ročně. Síra přichází s deštěm, přibližně 20 kg na 0,5 ha za rok. Dešťová voda obsahuje také kyselinu uhličitou, z níž se v půdě tvoří oxid uhličitý, který je nezbytný pro výživu rostlin. Miliony tun spadnou ročně a uvažujeme-li, že rostliny jsou téměř z poloviny složeny z uhlíku, umíme si představit, jak významný prvek to je. Evidentně se ukazuje také, že i vzácné minerály, jako je selen a molybden jsou v dešťové vodě obsaženy.“ – <em>Mrkev miluje rajčata – tajemství úspěšného zahrádkáře, Louise Riotteová</em></p>
+<p>„Pod čtverečným metrem je několik metrů strukturních kořenů, několik desítek metrů drobných kořenů, které přijímají vodu a živiny, a stovky kilometrů jemných houbových vláken, která prorůstají do kořínků a propojují náš strom s dalšími rostlinami. Dešťová voda se snadno vsakuje hluboko do půdy podle kořenů. Kořenová zóna je živý ekosystém, který vodu drží a podržuje si schopnost vodu nasávat při dešti a doplňovat zásoby vody. Strom tak reguluje odtok vody – brání zrychlenému odtoku, což je jednou z příčin povodní. Vzrostlý strom přijme a vypaří za den i několik set litrů vody. Na odpaření litru vody se spotřebuje 0,7 kWh (2,5 MJ) sluneční energie. Z jednoho litru vody vznikne až 1 200 litrů vodní páry, která obsahuje spotřebovanou sluneční energii (skupenské teplo výparu, latentní teplo, skryté teplo). Energie uschovaná ve vodní páře se uvolní zpět až při kondenzaci (srážení) vodní páry zpět na vodu. Vodní pára se srazí postupně na mlhu a rosu, případně na kapky deště. Pokud náš strom vypaří za den 100 litrů vody, ochladí svoje okolí o energii 70 kWh. Jinými slovy, energie 70 kWh se neprojeví jako teplo, ale je uschována ve vodní páře a uvolní se až při kondenzaci vodní páry zpět na kapky vody tekuté … Zacházením s vodou a rostlinami ovlivňujeme klima zahrady i jejího nejbližšího okolí. Odvodněním a odstraněním zeleně na velkých plochách navozujeme zvláště ve městech či na polích pouštní klima, které nenapraví žádné technické zařízení … Velké solitérní stromy v letním jasném dni chladí intenzitou několika desítek kW. Zdravý les o rozloze 1 km<sup>2</sup> chladí intenzitou několik stovek MW.“ – <em>Stromy, voda a teplota, Jan Pokorný, Život se stromy, Marie Hrušková, Václav Větvička a spol.</em></p>
+<p>„S novým náboženstvím dorazil příslušný pohřební obyčej [pohřbívání do rakví] i k nám, kde vlastně neměl žádný smysl. Háje klidu, vyžadující pohřeb žehem, tudíž nejsou ničím jiným než návratem ke kdysi rozšířenému pochovávání v lesích.“ – <em>Les – návod k použití, Peter Wohlleben</em></p>
+<p>„Ty víly mohly zahynout, pokud by lidé zbytečně pokáceli živý strom; byla to pohádková představa, mýtus, který pomáhal chránit les a stromy. Takové poslání v sobě nesou pohádkové příběhy dodnes.“ – <em>O životě lesa, Iva Kubátová, Život se stromy, Marie Hrušková, Václav Větvička a spol.</em></p>
+<hr />
+<p>„Ve střední Evropě máme zase Vlky a já bych rád řekl: „Bohudík!“ Staré ruské přísloví totiž praví: „Kde je Vlk, tam roste les.“ Tato zvířata sice stromy nesázejí, zabraňují však jejich přílišnému spásání. Pupeny malých semenáčků v zimě končívají v hladových žaludcích Srn a Jelenů, jejichž počet se především následkem krmení v zájmu lovu razantně zvýšil. Lesní půdu navíc plení celé roty divokých Prasat, která vyčenichají téměř každou bukvici či žalud; na jaře se tím pádem stěží objeví nějaký stromový dorost. V celkovém pohledu to zvlášť odnáší potomstvo listnáčů, přičemž dlužno říci, že původní lesy v našem geografickém pásmu byly téměř výlučně lesy listnaté. Tam, kde se všechno zbaští, vysazují zoufalí majitelé lesů Smrky a Borovice, kterých se, podobně jako Kopřiv a Bodláků, lesní zvěř sotva dotkne. Jejich jehličí v tlamě píchá, pryskyřice a éterické oleje jsou, jak už bylo zmíněno, hořké a lepkavé, takže Jeleny a Srnce brzy přejde chuť. Většina našich lesů tak má podobu jednotvárných, nudných plantáží. Teď je tu ale zase Vlk, a ten pomůže nově namíchat a rozdat karty.“ – <em>Les – návod k použití, Peter Wohlleben</em></p>
+<p>„Obroda bukových lesů, naší původní vegetace, bohužel likviduje s kulturními zásahy spjaté Tetřevy a Borůvky. Je to tak špatně? Nikoli. Tyto druhy budou pouze vytlačeny do své rodné domoviny a na oplátku tak naši vzácní obyvatelé bukových lesů získají nazpět svůj původní životní prostor. Nakonec bychom mohli říci, že pomalu dochází k obnovení rovnováhy. Nebýt jednoho ale – nyní totiž nastupují státní a soukromí ochránci Přírody. A opět jsme u našich velkých hodin. Jsou skutečně rozbité? Je tu co opravovat? Tuto otázku si bohužel nikdo neklade, alespoň ne ve velkoplošném měřítku. A tak byl Tetřev hlušec v Černém lese, někdejší oblasti listnatého pralesa, prohlášen za přísně chráněný druh. Usilovně se tu mýtí, tu a tam je dokonce kus lesa vypálen, aby vznikly volné plochy pro Borůvčí. To, že přitom strádají naši domácí obyvatelé lesa, například Střevlíci, kteří milují tmu, jde zcela stranou.“ – <em>Tajná síť přírody, Peter Wohlleben</em></p>
+<p>„Stalo se něco, co bylo více než šťastnou náhodou, byl to skoro zázrak. V druhé polovině 19. století, v době, kdy byly zničeny bukové porosty Brd a přeměněny skoro všechny české lesy na smrkové monokultury, zůstalo kopcovité pásmo křivoklátských lesů v mnoha úsecích jen málo dotčeno. Kdo mohl, odešel z chudých vesnic pěstovat chmel na Rakovnicko, ale hlavně do rychle rostoucího Kladna, kde šikovný člověk vydělal na tehdejší dobu slušné peníze. Černé a rudé Kladno zachránilo královský hvozd. I jinde v Čechách, třeba hned v Českém krasu, zůstaly plošky původních lesů, ale nikde jinde – a to dokonce ani na již hustě osídlené Šumavě, v těžce zkoušených Krkonoších či na odlesněných krušnohorských pláních – se nejednalo o tak velkou plochu listnatého lesa.“ –<em> Křivoklátsko: Příběh královského hvozdu, Karel Žák, Martin Majer, Petr Hůla, Václav Cílek</em></p>
+<p>„Na prostoduchý údiv, že ‚zvěř přece v lesích vždycky žila a lesy existovaly‘, je snadná odpověď. Lesy měly na svou obnovu neomezený čas bez lidské netrpělivé, často spíše škodlivé než prospěšné intervence, a pak: ‚Milovníci chovu Jelenů nemají nikdy zapomínat, že v přirozených poměrech v pralesích a v horách je jelení zvěře velice málo, kdežto velká hustota byla vyvolána umělou ochranou a péčí člověka, který vybil všechny velké šelmy, které byly kromě hlubokých sněhů a společně s nimi hlavními nepřáteli Jelena‘, říká prof. J. Komárek (1948), a pokračuje: ‚V lesích se stává Jelen velmi škodlivým, jsou-li to umělé lesy koniferové, v nichž je nedostatek pastvy na křovinách, na listech podrostu a na travinách.‘ … ‚Snad jediný Jelen tam však dokáže s neomylnou jistotou zlikvidovat každý lesníkův pokus o zajištění Buku a Jedle sadbou, nebude-li léta důkladně proti zvěři chráněn‘, říkával Jan Metzl … Česká republika je příliš malá země, ale s příliš mnoha poškozenými lesy nevalného stavu a tedy s příliš velkými úkoly v jejich ozdravení, než aby si mohla dopřát tento velkolepý přepych – chovat ve volnosti tak potravně náročnou a nemocným lesům nebezpečnou zvěř jako je zvěř jelení a ostatní velká spárkatá. Současné poměry v české myslivosti, v politice pronájmů honiteb, síla myslivecké lobby na nejrůznějších úrovních, malý zájem laické veřejnosti o lesnické problémy představují faktory, které budou i nadále komplikovat cestu k přestavbě českých lesů. Věřit přitom v dlouhodobou udržitelnost únosných, tedy nízkých stavů zvěře rovná se víře v zázrak.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Konkrétně u Jelenů může přikrmování vést dokonce nepřímo k vyhladovění. To se událo v zimě na přelomu let 2012 a 2013, kdy napadlo hodně sněhu. V mém rodném okrese Ahrweiler vzrostly jednotlivé populace tak, že zvířata po sobě málem šlapala. Hladová zvěř se objevovala zemědělcům ve stájích a ujídala krmení Kravám. Jeden kolega mi dokonce poslal obrázek Laně, která si zaskočila pro občerstvení ke krmítku. Je jasné, že myslivci hlasitě volali po povolení ke krmení; dokonce navštěvovali školy, aby probouzeli soucit se zvířaty a vyvíjeli tlak na politiky. Bylo nalezeno několik mrtvých Jelenů, což podnítilo žhavou debatu: skutečně bychom měli nechat tuto vzácnou zvěř hynout hlady? Veterinární vyšetření však přišlo se zcela odlišným nálezem: oběti měli zcela plné žaludky, čímž bylo vyloučeno vyhladovění jako příčina úmrtí. Ne, šlo o střevní a žaludeční parazity, kterými se to tu jen hemžilo – to oni zpečetili osud napadených hostitelů.* Vzhledem k vysokým stavům zvěře docházelo stále častěji ke vzájemným kontaktům a rovněž ke kontaktům s infikovaným trusem, což vytvořilo nadmíru příznivé podmínky pro šíření červů – nepřímý důsledek přikrmování. Výsledky tohoto vyšetření přesto nepřivedly myslivce k rozumu. Pro ně je pořád lákavější, pokud přežije co nejvíce velkých býložravců, pak totiž žádný večer na posedu nevyjde naprázdno. Nicméně nadměrná populace vytváří rovněž stres spjatý s bojem o teritorium a ten se u divoké zvěře projevuje taktéž menší tělesnou vahou a konkrétně u Srnců menším parožím. To je nežádoucí vedlejší účinek, neboť myslivci usilují o jiný cíl: velké množství zvěře s co největšími trofejemi. Nedoceňují skutečné příčiny a nadále se snaží vykrmovat slabé jedince, což zmiňovaný efekt ještě zesiluje. A výkrm také něco stojí. Časopis <em>Ökojagd</em> kdysi jako příklad uvedl přepočtené údaje o krmení od nájemců honebních pozemků. Došli přitom ke dvanácti a půl kilogramu Kukuřice na kilogram zvěřiny** – to je mnohonásobek toho, co spotřebuje masný průmysl ve svých velkochovech. A jak to už v Přírodě chodí, dostupnost potravy se okamžitě projeví v reprodukci, tudíž dochází k mohutné populační explozi. Důsledkem toho jsou divoká Prasata na vinicích, zahradách nebo i na berlínském Alexandrově náměstí, jelikož les začíná být těmto zvířecím hordám pomalu těsný. A vlivem těchto zásahů do jemné přírodní rovnováhy se na straně poražených ocitá ještě někdo: stromy. Ty si totiž v průběhu milionů let vytvořily dokonalou strategii, jak si udržet velké býložravce od těla, strategii, která však v důsledku přikrmování přestala fungovat. Oba naše hlavní přirozeně se vyskytující druhy stromů, Buk a Dub, plodí opravdu velká semena. Taková bukvice váží sice jen půl gramu, už to je ale na lesní strom pozoruhodné. Semena Smrků, jež jsou důležitým zdrojem potravy Veverek, Myší a mnoha druhů ptáků, váží pouhé dvě setiny gramu, tedy pětadvacetinu jejich váhy. Přesto jsou pro zvířata velmi zajímavá. Ovšem bukvice můžeme označit jako skutečné kalorické bomby, a to jednak vzhledem k jejich velikosti, jednak k obsahu tuku, který dosahuje téměř padesáti procent. Předstihnou je již jen žaludy vážící v průměru čtyři gramy. Obsahují sice jen tři procenta tuku, zato ale padesát procent škrobu, takže v podzimní potravní loterii představují hlavní výhru.*** Tato loterie se koná vždy jen po třech až pěti letech a mezitím bývá na denním pořádku zvěře hlad. To je přesně důvodem, proč Buky a Duby neplodí každý podzim: brání tak tomu, aby se na ně zaměřovali Srnci, Jeleni, ptáci i zástupy hladového hmyzu.“ – <em>Tajná síť přírody, Peter Wohlleben</em></p>
+<p><span style="font-size: 10pt;">*http://www.blick-aktuell.de/Bad-Neuenahr/Hohe-Rotwilddichte-imKesselinger-Tal-wird-zu-Problem-27341.html</span><br />
+<span style="font-size: 10pt;">**DOHLE, U. Besser. Wie mästet Deutschland? Ökojagd, únor 2009, s. 14-15</span><br />
+<span style="font-size: 10pt;">***http://www.uni-goettingen.de/de/bl%C3%BCten%2C+samen+und+fr%C3%BCchte/16692.html</span></p>
+<hr />
+<p>„Tehdejší lidé věřili, že jim posvátný strom může zprostředkovat spojení s bohem a naznačit jim božskou vůli. V takovém stromě viděli svoji jistotu, proto se k němu obraceli ve chvílích, kdy se potřebovali o někoho nebo o něco opřít. Nedovolili mu ublížit ani ulomením větvičky, protože věřili, že jeho poškozením by škodili sami sobě. Chránili ty výjimečné, posvátné stromy, protože chránili božstva, která v nich sídlila. Chovali se k nim uctivě jako k někomu, koho si není radno rozhněvat … Stromy rostou o tolik déle, než lidé žijí – byly tu před námi a budou, i když odejdeme. Proto mohou připomínat a také připomínají. Ne, nemusíme si představovat, že k nám jejich duše promlouvají. To, co připomínají, souvisí s naším vztahem k rodině, k vlasti, k historii. Byly svědky událostí, které známe jen z kronik, scházeli se pod jejich korunami lidé, o kterých třeba víme jen z fotografií nebo z vypravování. A stromy pamatují …“ –<em> Život se stromy, Marie Hrušková, Václav Větvička a spol.</em></p>
+			
+  </div>
+  
+		</body>
+</html>

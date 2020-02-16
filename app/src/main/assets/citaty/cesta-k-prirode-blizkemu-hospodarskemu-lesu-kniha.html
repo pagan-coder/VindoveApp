@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Cesta k přírodě blízkému hospodářskému lesu (kniha)</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+
+<p><i>Knihu „Cesta k přírodě blízkému hospodářskému lesu“ napsal Milan Košulič st. a vydalo FSC ČR, o. s. v roce 2010</i>. <em>Kniha obsahuje velmi cenné poznatky o lesích, zdraví ekosystémů, genetice a hospodaření.</em></p>    
+<p>„A nejen to – vidím ještě jeden důvod k výraznému rozšíření disponibilních pěstebních nástrojů o výběrný princip. Je jím potřeba v koncepčním rozhodování zohlednit princip předběžné opatrnosti. V jeho rámci je potom třeba vžít se do možných změn kontinentálního makroklimatu, které by mohly vážně ohrozit úsilí o dosažení vyššího stupně ekologické stability současných ekosystémů. V této souvislosti se nám proto vybaví užitečnost dobrovolně a uvědoměle akceptovat pro určitou větší část lesů takový hospodářský způsob, který by překračoval meze legislativně stanovených povinností nebo omezení. Tedy koncept, který si z opatrnosti klade za cíl dosáhnout vyššího stupně přirozenosti lesních ekosystémů s vyšším stavem ekologické pružnosti, s vysokou biologickou rozmanitostí a genetickou proměnlivostí, než jaký je dosažitelný v rámci legislativních pravidel, tedy se schopnostmi lépe reagovat na možné změny prostředí v budoucnosti. Řada faktů a skutečností naznačuje, že výběrné principy jsou těmi, které tuto předběžnou opatrnost v zacházení s lesem mohou zajišťovat zatím relativně nejlépe. S politováním sleduji rozpaky, někde dokonce odpor, s nímž se tyto tendence u některých lesníků setkávají.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Ačkoliv přirozený rozpad v pralesích prostupuje všemi tloušťkovými třídami, přesto převládají velmi tlusté přežívající stromy, jejichž objem převyšuje průměrné hodnoty populace. Z toho lze usuzovat na vysoce vyvinuté porostní struktury. Přirozené výměně generací vlivem větru se v pralesích nepřikládá tragický význam. Plošná narušování lesa chybějí. Pasečný les věkových tříd, zejména ve tvaru monokulturních smrčin, původně zakládaný s malými provenienčními ohledy, je Přírodě i svou strukturou cizí. To umožňuje ničení pasečného lesa přírodními vlivy.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Domnívám se, že přírodě blízkých lesů nelze efektivně dosáhnout s velkou spárkatou zvěří ani s četnější zvěří srnčí a nepopulárně v této souvislosti obhajuji návrat k oborním chovům všech druhů velké spárkaté zvěře v kritických lesních oblastech. Vím, že je to pro většinu lesníků odpudivé. Ani mně se to nelíbí, ale mám pro to mnoho důvodů.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Přírodě blízké hospodářství usiluje o řadu atributů, které obecně mění les k vyšší ekologické a ekonomické účinnosti: Smíšení – výskyt různých dřevin na téže ploše; uplatňují se synergicky při využívání slunečního záření, srážek a živin. Členitou, pestrou texturu – velké a malé, slabé a tlusté stromy, jednotlivě i ve skupinách vedle sebe či nad sebou; většina vzdušného prostoru je vyplněná chlorofylem, půda kořeny, které zpřístupňují různé půdní vrstvy. Stanovištně vhodné dřeviny – vybírají se podle mikrostanovištních podmínek s předností domácím dřevinám oblasti, respektuje se původ. Vysoká optimální zásoba – vyplývá z vysokého požadavku společnosti na dřevo jako surovinu malé energetické náročnosti pro další využití; má svá pravidla s ohledem na optimální produkci a porostní bezpečnost. Přírodě blízké hospodářství mění lesnickou filozofii: Permanentně musí být zachován charakter lesa (trvalý les); trvalý les je přirozená forma lesa; těžba je zaměřena na jednotlivé stromy a zachování typického lesního klimatu; stromy se těží až v plné zralosti, proto mají v Přírodě blízkém lese dle objemu převahu tlusté stromy; těží se nízkou intenzitou, přibližně ve výši běžného přírůstu za těžební interval; podporují se cílové stromy (C-stromy); využívá se kombinovaný výběr (přednost má kladný výběr); nejdříve se těží špatné tlusté, jakostní tlusté až nakonec; dbá se na ponechávání všeho těžebního odpadu na místě; klade se maximální důraz na přirozenou obnovu; usiluje se o přiměřené stavy zvěře, aby neškodila; přírodně-ochranářská hlediska (péče o krajinu) jsou pevnou součástí repertoáru Přírodě blízkých metod; vyžaduje se vysoká osobní angažovanost lesníků.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Vyšší genetickou hodnotu přirozeně obnovovaných porostů potvrdilo zkoumání genetické struktury horských přírodních smrkových lesů původem z přirozené a umělé obnovy pomocí izoenzymových analýz. Zjistilo se, že uměle založené smrkové porosty, a to i z autochtonního materiálu, mají v porovnání s přírodními populacemi sníženou vnitropopulační variabilitu, snížený podíl heterozygotů a nadbytek homozygotů. Značné narušení struktury izoenzymových genů se odráží ve snížené frekvenci těch genů, které kontrolují tak závažné znaky, jako je adaptabilita na změněné podmínky prostředí. V porostech z přirozené obnovy se zhoršení genetické struktury neprojevilo. ‚Zkušenosti z posledních desetiletí potvrzují, že místní provenience dřevin mají větší toleranci k imisím. Jejich důslednější využívání znamená zvyšování ekologické stability horských lesů‘ (Hladík et al., 1993).“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Noví jedinci vznikají přímo pod starými stromy i vedle nich v mezerách a světlinách o velikosti obvykle nepřesahující dvě porostní výšky (přibližně 0,3 hektaru). Obnova lesa na velkých, katastrofických holinách bývá v pralesích střední Evropy výjimečnou vývojovou epizodou. Např. v Badinském bukovém pralese Jedle velmi dobře odrůstá v mezerách do jednoho aru, zatímco přirozená obnova Buku má plošnější charakter jednoho až dvaceti arů; přitom i v okrajích těchto větších, vesměs ‚clonně‘ obnovovaných bukových skupin se dobře obnovuje a výškově odrůstá Jedle. Struktura pralesa je vrstevnatá, ale nemusí to být vždy a zejména nikoliv trvale na celé jeho ploše. Zpočátku je růst stromů silně tlumen stínem. Struktura se stupňuje, jakmile odumírají starší a vyšší stromy nad mladšími a nižšími, kterým se tak dostává více světla. Stín, polostín, plné oslunění části koruny – to je gradace tohoto elementárního růstového faktoru v pralese, kterou si zapamatujme!“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Poznatky z této oblasti by měly přispět ke změně dosavadních praktických pěstebních stereotypů jako pozůstatků holosečného myšlení, které se totiž nejvíce zpronevěřilo přirozenosti klimaxových dřevin a nejhruběji ignorovalo jejich biologické vlastnosti, genetickou podstatu a zaměření. Chceme-li to dnes změnit v rámci ekologizace pěstění lesa, genetickou stránku tohoto procesu nemůžeme pominout.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„K tomu Bezačinský (1962) dodává: ‚Rychlým uvolňováním nárostů a dokonce podněcováním růstu sazenic již ve školkách měníme průběh růstu Jedle v prvních letech vývoje. Právě tím se pravděpodobně formuje, podle Backmana, specifický růstový rytmus dřevin. A Jedle jako stinná dřevina reaguje na změněné podmínky. Je možné, že se tímto způsobem stává z klimaxové dřeviny dřevina pionýrská, tj. se změněným růstovým rytmem v mládí, raným dospíváním, ale také s dřívějším stárnutím a s menší konečnou hmotou. Tato násilná změna vývoje organismu se může projevit snížením jeho odolnosti a predispozicí pro onemocnění a možná se projevuje i změnou dědičných vlastností.‘ … To znamená podstoupit genetickou repatriaci (návrat k původní genetické struktuře) populací klimaxových dřevin [kromě Jedle i Dubu, Buku, Borovice aj.] a nikoli pokračující holosečnou praxí tento genetický propad rozhodujících cílových dřevin dále prohlubovat.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Na prostoduchý údiv, že ‚zvěř přece v lesích vždycky žila a lesy existovaly‘, je snadná odpověď. Lesy měly na svou obnovu neomezený čas bez lidské netrpělivé, často spíše škodlivé než prospěšné intervence, a pak: ‚Milovníci chovu Jelenů nemají nikdy zapomínat, že v přirozených poměrech v pralesích a v horách je jelení zvěře velice málo, kdežto velká hustota byla vyvolána umělou ochranou a péčí člověka, který vybil všechny velké šelmy, které byly kromě hlubokých sněhů a společně s nimi hlavními nepřáteli Jelena‘, říká prof. J. Komárek (1948), a pokračuje: ‚V lesích se stává Jelen velmi škodlivým, jsou-li to umělé lesy koniferové, v nichž je nedostatek pastvy na křovinách, na listech podrostu a na travinách.‘ … ‚Snad jediný Jelen tam však dokáže s neomylnou jistotou zlikvidovat každý lesníkův pokus o zajištění Buku a Jedle sadbou, nebude-li léta důkladně proti zvěři chráněn‘, říkával Jan Metzl … Česká republika je příliš malá země, ale s příliš mnoha poškozenými lesy nevalného stavu a tedy s příliš velkými úkoly v jejich ozdravení, než aby si mohla dopřát tento velkolepý přepych – chovat ve volnosti tak potravně náročnou a nemocným lesům nebezpečnou zvěř jako je zvěř jelení a ostatní velká spárkatá. Současné poměry v české myslivosti, v politice pronájmů honiteb, síla myslivecké lobby na nejrůznějších úrovních, malý zájem laické veřejnosti o lesnické problémy představují faktory, které budou i nadále komplikovat cestu k přestavbě českých lesů. Věřit přitom v dlouhodobou udržitelnost únosných, tedy nízkých stavů zvěře rovná se víře v zázrak.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Chápu postoje lesníků ke genetice. Je chladný, snad pro vlivy domněle až příliš vzdálené. Ale nejsou takové. Mnohé důsledky se projeví brzy, jiné skutečně až za velmi dlouhou dobu. V souladu s požadavkem trvalosti na základě přirozených vlastností klimaxových dřevin je genetika jedním z východisek moderního pojetí lesnictví, a je proto nutné genetiku favorizovat především u klimaxových dřevin. Jsou nejproduktivnější, tvoří páteř lesa a špatným pěstováním se mohou brzy či o něco později zcela změnit. Tomu však lze předejít přirozenou obnovou a také podsadbami mateřských nebo přípravných porostů na holinách. Pro úspěšnost podsadeb a zachování biologické trvalosti klimaxových dřevin je nutné respektovat jejich přirozené chování na základě dědičně podmíněné adaptability a podsadbami je napodobovat, a to zejména těžbou, odpovídající přípravou sazenic, dostatečně dlouhým setrváním podsazovaných dřevin pod porostem pro dobrou funkci autoredukce podrostů, důslednou technologickou kázni při těžbě a dopravě dříví z lesa apod. Chování dřevin z genetického hlediska může být velmi proměnlivé, skoro tajemné. Není proto ani tak důležité přesně je rozpoznat, ale ‚trochu‘ je znát, v praxi dle možností využívat a hlavně hospodařit podle pečlivého pozorování ve vlastních přírodních, byť již malých částech lesa; nesázet obecně uznávané stinné dřeviny na paseky bez krytu, zmlazení uvolňovat pomalu, nechávat dlouho fungovat autoredukci podrostů, vitální jedince v nižších vrstvách porostů výchovou neodstraňovat, sazenice do podsadeb pěstovat v zástinu, obecně vysazovat spíše vyšší než vyhláškové hektarové počty atd. Moderní, vysoce ekologickou se péče o les stane, až se bude odvíjet na pozadí dlouhodobých genetických vlivů.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Je nesporné, že přirozená obnova má mimo biologický (genetický) a ekologický význam i výrazný význam ekonomický. Nutná náhrada umělou obnovou, když se přirozená obnova nezdaří, je velmi drahá a vede ke značnému snížení zisku hospodářské jednotky. Proto lze přirozenou obnovu považovat, podle mého názoru, za společný cíl pěstění lesa (ačkoliv se zpravidla za cíl neuznává). Ten je rovněž doplňován nepřímými ekonomickými přínosy přirozené obnovy – genetickými a ekologickými efekty, vyšší ekologickou a statickou stabilitou lesa apod.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„První výsledky nových výzkumů o růstu Buku v současných ekologických podmínkách po kultivaci na holinu a pod clonou porostu po třech vegetačních obdobích naznačují zatím vyšší růstovou dynamiku pod porostní clonou (Podrázský, 1997). Úhyn Buku na holině činil 23-26 %, ale pod porostem 1-2 % při dvojnásobné výšce.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Ve standardním podrostním hospodářství se nárost obvykle zcela uvolňuje velmi brzy, podle lesnické tradice tehdy, když dosahuje výšky ‚po kolena‘. Tím se dává přednost rychlému odrůstání nárostů na úkor autoregulačních procesů, a to pod sugestivním dojmem potřeby a dokonce nenahraditelnosti porostní výchovy a obav z poškozování nárostů pozdější těžbou a vyklizováním stromů mateřského porostu, a také bezpochyby i pod vlivem představy, že to nejlepší, co lesník může učinit pro novou generaci lesa, je pomoci jejímu nárostu k co nejrychlejšímu růstu. To znamená prakticky vždy předčasně. V pěstební literatuře dokonce nechybí ani zdůraznění, že ‚výchovou je nutné předcházet přírodnímu výběru‘, což pokládám za velký omyl.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Vyšší vývojový stav přírodního lesa se vyznačuje vícevrstevnatou výstavbou. Přístup světla k přízemním vrstvám je tam po dlouhou dobu tlumen a přitom vznikají podmínky nezbytné pro redukci počtu stromů a jejich následné přirozené vyvětvování. ‚Silné zastínění spodní vrstvy nelze proto považovat za útlak, ale pozitivně výchovný a zkvalitňující efekt‘ (Reininger, 1992). Z letokruhových analýz stromů v přírodních a výběrných lesích lze usuzovat na jejich dlouhý vývoj v zástinu, 60 až 100 let u Jedle a Smrku, o něco méně u Buku, aniž by přitom stromy ztratily schopnost po uvolnění dále dobře přirůstat. Známá je také odolnost k zastínění i u Smrku, dnes suverénní dřeviny holosečného hospodářství. Nenasvědčuje to snad tomu, že se s genetickou strukturou mnohých jeho populací ‚něco stalo‘?“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Z uvedených poznatků je zřejmé, že klimaxové dřeviny jsou schopné přežívat clonění podrostu v přírodních podmínkách mnohem déle, než se obvykle předpokládá. Možnosti napodobovat tento proces i v hospodářských lesích tedy existují, nelze ovšem přitom nevidět fakt, že snášenlivost zástinu některých dřevin v současných hospodářských lesích je někdy očividně malá. To si patrně nelze vysvětlit jinak než určitými změnami struktury genotypů v lokálních populacích, tedy tím, že se po několik generací opakovanou holosečnou obnovou populace změnily v populace ‚pionýrské‘. Intenzitu clonění je potom ovšem nutné zmírnit, ale ne ji zcela odstranit. Tím se snad podpoří postupný návrat k původnímu rozložení četnosti klimaxově a pionýrsky orientovaných jedinců v populacích hospodářských dřevin.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Také jsem chtěl připomenout, že kromě objemového a hodnotového výnosu má problematika obhospodařování lesa ve fázích obnovy i složku biologickou, že i ona se nakonec projeví ekonomicky, zpočátku skrytými, potenciálními, ale dříve či později uplatněnými efektivními přínosy. Snad právě v nich je utajené a dosud málo oceňované tajemství úspěchu, a neváhám říci, i kouzlo lesa blízkého Přírodě a biologické automatizace lesní produkce.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Lze tedy říci, že již dlouho před tím a nezávisle na stavu vědy byly uplatňovány metody těžby, které předcházely narušování pralesa. Mnoho pralesů tak bylo, bez narušení jejich hodnotných struktur, převedeno ‚výběrem‘ do stadia hospodářského lesa. Jejich vlastníci se výběrem jednotlivých stromů pro momentální potřebu selského hospodářství vyhýbali pasečné těžbě, a tím nevědomky prováděli harmonický přechod k hospodářskému lesu. Vznik ‚výběru‘ a výběrného lesa z původních pralesů tak nebyl jen teorií profesorů pěstění lesa, ale výsledkem účelné, smysluplné práce ‚primitivního‘ sedláka. Pokud nechceme být vzdělanými hlupáky, nezbývá nám nic jiného, než toto selské počínání v lesích pokorně a v úctě k našim lesnickým předkům napodobovat. Tím spíše, když si uvědomíme, že existující různověkost těchto lesů naznačuje, že vznikly bez holé seče. Ale i přesílené dimenze s jejich nadprůměrným věkem dokládají bezprostřední návaznost na někdejší pralesy. Mnoho selských lesů, udržovaných po generace svými vlastníky ve výběrném stavu, je příkladem cesty k ekologickému, vysoce šetřivému obhospodařování lesa a jeho zachování v Přírodě odpovídajícím stavu.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Je všeobecnou zkušeností, že na živých stanovištích se zpravidla špatně daří zmlazení jehličnanů s drobnými semeny, zejména u Smrku a Borovice. V přírodních lesích na živných stanovištích se proto původně tyto dřeviny vůbec nevyskytovaly. Přesto je ‚moderní‘ hospodářská úprava v cílově skladbě předpokládá, a to nemalým zastoupením. V situaci, kdy se k obtížné obnově ještě přidává problém chřadnutí smrčin a borů (případně invazní škůdci Borovice), vnucuje se stále naléhavěji myšlenka vyloučit Smrk (či dokonce Borovici) z umělé obnovy živných stanovišť. Pokud skutečně při umělé obnově nahradíme ve větším rozsahu Smrk a Borovici Jedlí a listnáči, jejichž přirozená obnova je zde potenciálně snadná, pak pro jejich budoucí reálnou přirozenou obnovu vytvoříme základní podmínku – dostatek plodících stromů.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Je skutečně potřebné, aby se podíl holosečí v našich lesích radikálně snížil, dost na tom, že vznikají v nadměrném rozsahu kalamitami. Pominu-li výnosovou a pěstební újmu, je snad nejnebezpečnější negativní vliv na hydrické funkce lesa.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Je však pravděpodobné, že se zřetelem k očekávaným klimatickým změnám bude nutné zastoupení Smrku snižovat ještě více. ‚Důsledky prognózovaných změn klimatických podmínek pro pěstování Smrku podle scénáře trendu posunu vegetačních stupňů k roku 2030 vedou v podstatě k závěru, že dobré a velmi dobré klimatické podmínky pro Smrk ztepilý zůstanou zachovány pouze v oblastech jeho přirozeného rozšíření‘, uvádění Buček, Kopecká (2001) … Je tedy zřejmé, že další obhospodařování smrkových porostů je nutné ve většině případů spojovat s přeměnami jejich druhové skladby. Současně by mělo jít i o jejich převody na strukturnější tvary lesa, výběrnou formu nevyjímaje … Živná stanoviště nejsou typická pro vyšší zastoupení Smrku, neboť se v přirozené skladbě původních lesů nevyskytoval. Proto je předpoklad účasti Smrku na těchto stanovištích ve výši 50-70 % Přírodě značně odporující.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Snad ve všech smrčinách lze meliorační a zpevňující dřeviny skupinovitě zmlazovat s předstihem, především Jedli s Bukem, neboť mezi oběma dřevinami existují úzká, životně důležitá spojení. Z nich je nejpozoruhodnější podpora Jedle v zásobování vodou v důsledku nižší intercepce Buku a jeho hladší kůry, po níž stékající vodou je Jedle přímo zalévána. Lze předpokládat, že mezi nimi existují ještě další, alelopaticky významné vztahy, dosud nepoznané. Je rovněž žádoucí přimísit porostům v přestavbě Dub, nejlépe skupinovitě, neboť např. Jedle se ráda zmlazuje právě pod Dubem. Dub lze rovněž velmi doporučit k zakládání porostních okrajů. Zvláštní užitek také poskytují tzv. pomocné dřeviny, Vrba, Osika, Bříza, Ptáčnice aj. Tito pionýři se jednak často vyskytují při přirozené obnově hlavních dřevin, jednak přednostně okupují holá místa v sekundární sukcesi. Pomáhají vytvářet požadovanou druhovou pestrost, podporují prokořeňování půdy a opadem listů i svou biologickou aktivitou s melioračním účinkem půdu obohacují, přejímají ochrannou funkci pro klimaxové dřeviny, doplňují stupňovitý zápoj a podílejí se i na vytváření klidu porostního ovzduší. To vše bez nákladů, a navíc přispívají k vyšší resilienci porostů.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Borovice je jednou z mála dřevin, které rozšiřují svůj kořenový systém za obvod korunové projekce, což jí umožňuje přežívat i na nepříznivých stanovištích. Tomu by měla odpovídat poměrně řídká porostní výstavba. Pohled do výnosových tabulek udává, že u slunné Borovice (a Dubu) dochází s přibývajícím věkem k největšímu poklesu běžného přírůstu ze všech dřevin, patrně jako důsledek nepřiměřené porostní hustoty v monokulturách a v důsledku toho málo vyvinutých korun stromů.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Zajímavé ovšem je, že při převodu čistých borových porostů na smíšený les v Brandenburgu se ukázala značná růstová energie Buku i na kyselých, chudých stanovištích se suboceánickým klimatem a v suchém roce 2003 k žádnému výraznému snížení růstu nedošlo. V souvislosti s poznatky i z jiných míst severního Německa by mělo být ekologické amplitudě Buku se zřetelem k jeho reakci na klimatické změny věnováno více pozornosti, a to i na jeho klimatickém rozhraní výskytu. Jak ukazuje uskutečněný výzkum, ekologickému potenciálu této důležité středoevropské dřeviny se dosud věnovalo málo pozornosti (Zerba, Jansen; 2008).“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Zkracování obmýtní doby u Buku, stejně jako u jiných dřevin, neodpovídá představě o Přírodě blízkém obhospodařování lesa. Nejenže nutně zvyšuje těžební intenzitu, vyplývající z výpočtu etátu mýtní těžby podle ukazatele ‚normální paseky‘ (snížení obmýtí ze 130 na 110 let znamená vyšší decenální etát mýtní těžby téměř o 20 %), ale je i biologicky problematické, pro trvale příznivý vývoj Buku nežádoucí. Snižuje se fyzický věk stromů, již tak v hospodářských lesích podstatně kratší než v lesích přírodních, a tím se mění vývojová dynamika lesa, aniž bychom vůbec věděli, jak to dlouhodobě ovlivní biologické děje a trvalost lesa v čase.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Na živných stanovištích se často vyskytují mocné pokryvy Kopřivy, která úporně brání zmlazování Dubu a Jasanu. Jejímu zastínění odolává snad jedině vysázená nebo přirozeně zmlazená Lípa, pod níž Kopřiva a jiná nitrofilní buřeň rychle hyne. Teprve pod odrostlými skupinami Lípy se objevuje nálet jiných dřevin, hlavně Dubu a Jasanu. Lípa je zde nepostradatelnou dřevinou zejména podružného porostu, protože umožňuje a reguluje přirozenou obnovu dvou hlavních dřevin doubrav – Dubu a Jasanu.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„S uvedenou informací bezprostředně souvisí i stanovisko Hegera (1948): ‚Je třeba také upozornit na to, že Jedle je od Přírody vázána na společenství s Bukem. Mělo by se tedy stále dbát, aby Jedle rostla v okruhu vlivu Buku.‘ A dále i názor Breunlina (1951/1952; In: Horndasch, 1993): ‚Jedle se přirozeně vyskytuje ve společenství Buku. Kde mizí Buk, nevyhnutelně mizí i Jedle. Problém Jedle je problémem listnáčů.‘ A nelze vynechat ani Kramera (1970): ‚Co nejvíce se přiblížit požadavkům Jedle znamená při porostní obnově okamžitě přimísit doprovodnou dřevinu, a to pokud možno Buk – skupinovitě.‘ (V Německu se považují za velmi dobré doprovodné dřeviny Jedle zejména Klen a Osika.) Scheifele (1965) uvádí: ‚Buk se v minulosti mnohokráte vytěžil, takže zůstaly čisté jedlové porosty. Dnes jsme však poznali, že přimíšení Buku k Jedli je pěstebně výhodné a především usnadňuje přirozenou obnovu Jedle. Mimoto se ukázalo, že v suchých rocích byly výpadky Jedle menší, když jí byl přimíšen Buk. Proto dnes považujeme přimíšení Buku k Jedli za žádoucí.‘“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„V soužití Jedle s Bukem je také pozoruhodná vzájemná záměna v témže prostoru. Zmiňuje se o ní Reininger (2000) na základě poznatků z Rumunska. Tento jev spočívá na druhově specifickém využívání jen některých částí slunečního spektra. Sluneční světlo není našimi dřevinami využíváno v celém rozsahu vlnových délek, některé části spektra dávají přednost. Jedle přednostně využívá krátkovlnnou modrou složku slunečního spektra, zatímco červenou část spektra dlouhé vlnové délky korunami propouští. Nároky Buku jsou opačné. Dává přednost červené spektrální složce, modrou propouští. Tím si lze vysvětlit, proč při zmlazování pod porostem nachází jedna dřevina lepší světelné podmínky pod clonou jiné dřeviny. Jedlovým semenáčkům pod Bukem se právě dostává více požadované modré světelné složky, naopak Buku pod Jedlí složky červené … Breunlin (1951, 1952): ‚Ve středním lese, v němž bylo jen málo Jedlí a navíc ještě většinou přestárlých, došlo pod ochrannou clonou Dubu a v zástinu početného podrostu včetně výmladků k velkému nasemenění Jedle. Tato porostní forma s podrostem Jívy, Habru, Bezu a Dubu včetně trní a různých jiných keřů vytváří optimální podmínky pro šíření Jedle.‘ Naprosto shodného názoru je u nás Zakopal (1959), který zdůrazňuje význam krycí houštiny pro Jedli, stejně jako Dannecker (1955).“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Podstatou moderní porostní výchovy, orientované na Přírodě blízký les a spontánní děje v přírodním lese, je tyto děje využívat v mnohem větší míře než dosud, zejména s ohledem na biologický prospěch lesa a hospodářský užitek člověka a odpoutat se od dosud proklamované soustavné péče o les od samého počátku jeho vzniku jako zcela neodvolatelné pěstební potřeby. Zdá se, že moderní lesní hospodářství, uchvácené před mnoha desetiletími pasečným směrem, konečně usiluje o zmoudření a chce přestat namyšleně zasahovat do každého dění v lese. Začíná uznávat, že les má vnitřní sílu zajišťovat si svou vlastní existenci, jestliže se naše zasahování do jeho vývoje s ním srozumí, zmírní a nebude se podstatně lišit od přirozeného průběhu vývoje.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Intenzita transpirace je ve skupině asi třikrát větší než u jednotlivých stromů. Ty trpí během vegetační doby často od desáté hodiny depresí transpirace, jakmile spotřebují vodu nashromážděnou během noci. Naopak stromy chráněné ve skupině před Sluncem mohou déle transpirovat v dobré míře a vodu částečně předávat sousedním jedincům. Současně s transpirací proto může strom i déle zachovávat fotosyntézu, což vysvětluje jeho větší přírůst. Silnější transpirace stromů ve skupině připouští domněnku jejich lepší adaptace ke stanovišti. Na předávání vody a živin mezi stromy skupiny se pochopitelně podílejí již zmíněné kořenové srůsty. Právě jimi se skupina může projevovat jako ‚zásobitelské společenství‘.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Dochází k tomu [okusu] jednak preferencí některých dřevin zvěří, jednak poklesem konkurenční schopnosti poškozených jedinců, kteří pak při opakovaném okusu z druhové skladby porostu mizí. Při špatné současné druhové skladbě lesů je právě její ochuzování daleko významnější než ztráta přírůstu. Takto jsou postihovány nejen vtroušené dřeviny, např. listnáče ve smrkových a borových porostech, ale i pionýrské dřeviny. Podíl Břízy, Osiky, Jeřábu a Vrby zejména v horských lesích s naprostou převahou smrkových lesů je přitom malý. Kupča (1964) např. uvádí, že vedle oplocené plochy zjistil v sedmileté smrkové kultuře kromě podstatně sníženého výškového vzrůstu všech dřevin s jedinci běžně chráněnými repelenty, ale přesto okusovanými, jen tři druhy dřevin, ale v jednohektarové oplocence sedm druhů. Sám jsem zjistil v desetiarové oplocence 11 druhů listnáčů, včetně keřů, v poštu 48 kusů, mimo oplocenku na stejně velké ploše jen 2 druhy ve 3 kusech.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Vliv zvěře se projevuje jako významný faktor neúspěchu přirozené obnovy. V důsledku okusu sotva povyrostlých semenáčků Smrku, Buku, Jeřábu, Vrb a jiných dřevin v horském lese jsou silně poškozeny až zničeny celé plochy náletů, jež se nemusí na těchto místech již nikdy dostavit. Dramatické je to tam, kde je přirozená obnova limitována i mimořádně nepříznivými bioklimatickými podmínkami stanoviště a řídkostí semenné úrody ve starších a starých porostech … Přirozená obnova lesa je tam mizivá, rozsáhlé plochy jsou zcela bez podrostu. Náhodný úspěch náletů jakékoliv dřeviny okamžitě upoutá pozornost zvěře a okusu se nic nevyhne. Sotva se objevivší nálety a kultury však vyžadují dlouhodobý klid od veškerého útisku a škod. Vše tam roste nesmírně pomalu a obtížně regeneruje. Ochrana proti okusu na velkých plochách v těžce přístupném terénu je věcně i ekonomicky nereálná. Se zvěří čeká tyto lesy černý osud; je však ještě daleko, a proto je, s výjimkou několika lesníků a ochránců Přírody, nevnímán a přehlížen.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„V českých lesích půjde v dalších desetiletích o zásadní přeměny druhových skladeb snad v každé lesní oblasti a bude přibývat i zájem o jemné hospodářské způsoby s dlouhou obnovní a zmlazovací dobou. Spárkatá zvěř, zejména velká, bude v tom zásadní překážkou. Žádná nová dřevina v jakékoli dosavadní monokultuře, když povyroste, často ještě ve stadiu sotva postřehnutelného semenáčku, neunikne pozornosti zvěře a nakonec vezme za své nebo je jakostně navždy poznamenána a ekonomicky znehodnocena. Jemné hospodaření v lesích za přítomnosti velké spárkaté zvěře má malou naději na úspěch. To zná každý lesník, usilující u našich západních a jižních sousedů o Přírodě blízký les. Proto se tam aspoň s jelení zvěří většinou ‚vypořádali‘ nebo o to soustavně usilují. Dost starostí mají i nadále se zvěří srnčí. Konstatuje to každá česká návštěva v tamních lesích.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Žádnou z uvedených motivací [tedy při pěstování lesa respektovat biologické, a tedy i genetické vlastnosti a ekologické nároky dřevin a jejich biocenóz; co nejvíce využívat přirozené růstové procesy] lesnická praxe dosud nevyužívá v plném měřítku. Je pravda, že většina lesníků již respektuje provenienční zásady zacházení s dřevinami, ale biologické vlastnosti, zejména populační genetika lesních dřevin, jsou vnímány dosud velmi málo. Ještě pořád se dřeviny v mládí ekologicky podporují, aby dobře rostly, aby kultury a nárosty byly co nejrychleji zajištěny a odrůstaly, ale to je jen zdánlivě správný požadavek. V přírodních podmínkách totiž klimaxové dřeviny obvykle nemají příležitost růst v mládí rychle, tj. za plného oslunění, až na výjimky. Zpravidla jsou naopak adaptovány k pomalému růstu v zástinu mateřského nebo přípravného porostu. Značně se chybuje při zalesňování holin, ale i při podsadbách; vidět Jedli vysázenou přímo na holině stejně jako Jedli vypěstovanou ve školce na slunném záhonu vysazovat do podsadby, to ještě zdaleka nejsou výjimky.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Využívání přirozených růstových procesů v lesích bylo omezeno holosečným hospodářstvím. Také standardní podrostní hospodářství k tomuto omezení přispívá, zejména pak jeho formy, které využívají krátkou zmlazovací dobu. Tím zůstává podrostní hospodářství jen na poloviční cestě za svými jinak lepšími potenciálními možnostmi. Především tím, že zcela zbytečně, z nepochopení biologických procesů v lesích, předčasně dotěžuje mateřské porosty nad sotva odrůstajícími nárosty a odstraňuje tak porostní clonu – zástin jako fenomenální faktor autoregulačních procesů v lesích. A právě takový postup spolu s holou sečí pravděpodobně pustoší genetický potenciál klimaxových dřevin a posunuje ho k převaze pionýrsky orientované populační složky. O to hůře pak dřeviny v dalších generacích lesa mohou snášet efektivní zastínění a v něm realizovat podstatnou část přírodního výběru, autoredukci, samočištění a rozmanitou diferenciaci, zkrátka projevovat přírodní procesy.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Zralostní výběr tlustých, plně zralých kmenů s donedávna nejvyšší cenou sortimentů (pokles jejich ceny je podle mne dočasný, pokud jde vůbec o reálný pokles) má snad všechny aspekty vývoje v přírodním lese. Ekologické ztráty v lesích minimalizuje. Jeho napodobování je to nejlepší, co vědecky řízené lesní hospodářství může vykonat a vůbec se nemusíme stydět za to, že má své předchůdce v selských lesích s ‚primitivním‘, ale obvykle velmi citlivým a efektivním hospodářstvím.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+<p>„Zralostní výběr není ničím novým. Nové je ale to, že jej lze úspěšně využívat i v pasečném lese věkových tříd k jeho přeměnám a převodům na strukturní lesy. Možná, že to bude již v tomto cyklu nějaký typ lesa výběrného. Vůbec není podstatné, jak jej budeme nazývat. Neděsme se tohoto výrazu. Je to dobrý typ lesa. V něm bude Příroda mnohé konat za nás. Tuto dosud pyšně a plýtvavě přezíranou možnost bychom měli uvítat a využívat. Zralostní výběr je významnou metodickou syntézou ekonomicky a biologicky pojatého lesního hospodářství. Jako takový by měl být lesnickou praxí více využíván v rámci celé řady potenciálně možných hospodářských postupů, protože jen jejich souhrn bude zajišťovat velkolepou proměnlivost lesního prostředí.“ – <em>Cesta k přírodě blízkému hospodářskému lesu, Milan Košulič st.</em></p>
+
+  </div>
+  
+		</body>
+</html>

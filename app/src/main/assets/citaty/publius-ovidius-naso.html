@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Antika – Publius Ovidius Naso</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+
+<p style="text-align: center;"><em>„Jakousi sladkou silou nás všechny k sobě poutá rodná zem, že na ni nikdy nemůžeme zapomenout.“<br />
+– Epistulae ex Ponto (dopisy z vyhnanství), Publius Ovidius Naso</em></p>    
+<p>„Často jsme si mezi stády hověli ve stínu stromů, spadlé listí a tráva lehátkem bývaly nám. Často jsme na seně též a na slámě leželi spolu, před šedou jinovatkou chatrč nás chránila jen. Kdopak ti ukázal háje, jež pro lov výhodné byly, jeskyně, ve kterých šelmy skrývaly mláďata svá? … Osud můj zpečetěn tehdy a žár tvé veliké lásky tehdy se měniti počal v ošklivou zimu a chlad, k soudu když přišly ti Héra i Afrodíté a nahá Pallas, jíž sluší lépe, svou-li si oblékne zbroj. Srdce v ňadrech se zděšeně zachvělo, mrazivá hrůza pronikla tvrdými kostmi, když jsi mi vyprávěl vše. Ve svém velikém strachu jsem se starci mluvila o tom, stařen se na radu ptala; nazvaly hříchem tvůj čin. … Ten bůh mě pak naučil léčit, neb poznal, že hodna jsem toho; vložil své dary v mé ruce, svěřil jim umění své. Kdekterou bylinu mocnou, jež pomáhá, kdekterý kořen schopný neduhy léčit z celého světa já znám. Škoda, že bylinami se nedá vyhojit láska! … Nemůže přinést mi pomoc ni Země, rodící hojně léčivých bylin, ni božstvo: můžeš ji přinést jen ty!“ – Víla/nymfa Oinóné Paridovi, <em>Listy milostné, Publius Ovidius Naso</em></p>
+<p>„Zanikne teprve tehdy i báseň Lucretiova (báseň o lásce k Přírodě, radosti, o upřímném poznání a o tom, že se hmota skládá z atomů), až pak jednoho dne záhuba postihne svět.“ – <em>Lásky, Publius Ovidius Naso</em></p>
+<p>„Ať to byl kdokoli z bohů, jenž utřídil směsici hmoty: rozťav ji tak a rozťatou spořádav do článků světa, jal se pak nejprve sbalovat Zem v tvar veliké koule, aby tak ze všech stran se jevila docela stejnou.“ –<em> Proměny (I. kniha), Publius Ovidius Naso</em></p>
+<p>„Obilí máte a ovoce, které svou tíhou sklání haluze k Zemi, a na Révě nalité hrozny; máte i rostliny sladké a takové, které se mohou zjemnit a změkčit v ohni … při tomto bohatství všeho, jež Země, ta nejlepší Matka, rodí, tebe snad těší jen žvýkati zuřivým chrupem žalostné kusy masa a řídit se Kyklópů mravem?“ – <em>Proměny (XV. kniha), Publius Ovidius Naso, před rokem 8. n. l.</em></p>
+<p>„Hle, viz mé ožehlé vlasy, viz, co žhavého pýří mám na tvářích, co ho mám v očích! Toť tvá odměna pro mne, tu poctu mi za plodnost dáváš, za služby mé: že motyk a ruchadla zakřiveného snáším rány a po celý rok se nechávám týrat, zeleň že dobytku dávám, a obilí, lahodný pokrm, lidskému rodu, a vám že přináším kadidlo vonné? Ale snad já si záhuby zasloužím: čím si však toho zasloužil bratr, čím vodní říš? Proč ubývá živlu, jehož nabyl on losem? Proč příliš se od Nebe vzdálil? Jestli tě nedojme však ni ke mně, ni k bratrovi láska, nad svým Nebem se smiluj! Jen pohleď na obě točny: z celého Nebe se kouří! A budou-li stráveny ohněm, příbytky vaše se zhroutí! Sám Atlás už zápasí těžce, sotva je s to, by udržel na plecích Oblohu žhnoucí! Zajde-li moře a Země i Nebes královský palác, v chaos pradávný splyneme zas. Nuž plamenům vyrvi to, co zbývá ještě, a zachraň Vesmír svou péčí!“ – promluva Země, <em>Faëthón, Proměny (II. kniha), Publius Ovidius Naso</em></p>
+<p>„Nyní je má práce dokonána, kterou hněv Jovův, oheň ani meč, ni požírající věky zničit nemohou. Nechť nastane onen den, který nemá na nic nárok vyjma mého smrtelného těla, a ukončí rozmezí mých nejistých let: lepší část mě se však znovu narodí, nad Hvězdami, nesmrtelná – a mé jméno nikdy nezemře.“ – <em>Proměny, Publius Ovidius Naso</em></p>
+<p>„Nesmíš však [muži] v oblibě mít si želízkem kadeřit vlasy, lýtka, zbavená chloupků, pemzou se hladiti chraň! Tohle ať činí ti, kdo hlučně při fryžské písni matku Kybelu slaví křikem a výskotem svým. Poněkud nedbalý zjev spíš mužům se hodí. Tak Théseus Ariadnu si odnes, aniž měl pěstěný vlas; zaplála k Hippolytovi kdys Faidra, ač málo se zdobil; Adónis, stvořený pro les, miláčkem bohyně byl. Čistotu v oblibě měj: buď opálen z letního hřiště, toga ať dobře ti padne, čistá a beze všech skvrn. Neměj stroupkatý jazyk, ať zuby jsou bez všeho kazu, noha ať v rozpláclé botce nepluje volně sem tam, nedej se nedbale stříhat a nevzhledně hyzdit si vlasy, holení vousů i účes obratným rukám vždy svěř! Nenech si přečnívat nehty a neměj za nimi špínu, nikdy ať z nosní dírky chloupek ti netrčí ven. Nedráždi nikomu čich ni potem, jenž po Kozlu páchne, nechať ti z páchnoucích úst nevane odporný dech. Ostatní provádět ponech všem rozverným dívkám a tomu, kdo jak zvrácený muž s mužem se stýkati chce.“ – Ne hejskovství, ale prostá elegance, <em>Umění milovati, Publius Ovidius Naso</em></p>
+<p>„… Také ti bezpečnou míru chci stanovit při pití vína: po pitce nohy i rozum musí ti sloužit jak dřív. Obzvláště hádek se chraň, k nimž vzněcuje víno, a neměj příliš ochotné ruce k šarvátkám krutým a zlým. Zahynul Eurytos tím, že nadmíru hloupě pil víno; k radostným žertům spíš sloužit má víno a stůl! Zpívej, jestli máš hlas. Máš ohebné paže? Pak tanči! Schopností, jíž se lze líbit, tou se vždy zalíbit snaž. Opilost pravá jak škodí, tak strojená pobaví hosty: jazyk ať šišlá a breptá, opilost předstírá tím; budeš-li cokoli dělat a bujněji mluvit než slušno, důvod ať vidí se v tom, nadmíru vína žes pil. ‚Na zdraví paní!‘ pak zvolej, ‚a na zdraví toho, s kým spává!‘ V mysli však potichu pros: Jen ať se trápí ten muž! Až se však odklidí stůl a hosté se rozcházet budou, zástup ti umožní sám, aby ses přiblížil k ní. Připoj se k zástupu tedy a v chůzi se lehce k ní přitul, nohou se dotýkej nohy, prsty jí po boku hlaď. Teď už je k hovoru čas: zmiz daleko, ostychu selský! Štěstí i Venuše přeje tomu, kdo odvahu má. Tady ať výmluvnost tvá se neřídí zákony mými: jenom měj touhu a budeš výmluvný od sebe sám.“ – Jak se chovat při pitce a po ní, <em>Umění milovati, Publius Ovidius Naso</em></p>
+<p>„Nebo snad škodí mi, běda, kouzelný nápoj a zpěv? Či snad babice zlá mi do vosku zaklela jméno a pak tenounkou jehlu do jater zabodla mi? Obilí zaříkáváním se promění v neplodnou trávu, účinkem zaříkávání vyschnou i prameny vod, padají po zaříkání i žaludy z Dubu a z Révy hrozny, ovoce klesá, aniž kdo větvemi třás. Nemůže tedy i úd být malátný účinkem kouzel? Patrně proto mé mužství nemohlo citlivé být. Přistoupil k tomu i stud – sám stud mi při práci škodil; to byla příčina druhá, že jsem ten neúspěch měl. Jakou to dívku jsem viděl a jen se jí dotýkal přitom …“ – <em>Neschopen, Lásky, O lásce a milování, Publius Ovidius Naso</em></p>
+<p>„‚Kdyby se splnila má i vaše, ó Řekové, tužba, dědic té skvělé ceny by nebyl tu pochybný dneska: Achille, ty své zbraně bys měl, a my zase tebe! Ježto však vám i mně jej odňal nepřejný osud – ‘ (při těchto slovech otřel si zrak, jak slzy by ronil) ‚ – kdože má největší právo být velkého Achilla dědic? Ten, kdo do řeckých řad kdys velkého Achilla přived! Nechť jen na prospěch není zde tomuto [Aiásovi], zdá-li se tupým, jakož i jest, a mně ať neškodí, Řekové, důvtip, který vám vždy prospěl; a výřečnost, mám-li snad jakou, dnes jež za pána mluví, však častokrát mluvila za vás, nechť jest nepřízně prosta: svých předností nikdo tu netaj!‘“ – <em>Odysseus, Spor o výzbroj Achilleovu, kniha třináctá, Proměny, Publius Ovidius Naso, před rokem 8. n. l.</em></p>
+<p>„Byl pak tu muž [Pýthagorás], jenž ze Samu pocházel, prchl však z něho před pány, tyranskou vládu měl v záští a z vlastní své vůle vyhnancem byl. Ten muž až k bohům pronikl v duchu, vzdáleným v končinách Nebes, a postřehl duševním zrakem všechno, co lidským očím kdy Příroda vzala a skryla. Když pak prozkoumal vše svou bdělou prací a duchem, předkládal veřejně nauku svou mlčícím žákům, žasnoucím nad jeho slovy, rád vykládal velkého světa počátky, příčiny všeho a učil, co to je božstvo, co jest Příroda, odkud je blesk a z čeho jsou sněhy, zdali snad rozráží Vítr či Júpiter oblaka hřmící, cože to otřásá Zemí, dle jakého zákona Hvězdy krouží, i vše, co skryto. On první zavrhl přísně předkládat na stůl maso a první otevřel ústa k takovým moudrým slovům, ač nedošla bohužel víry: ‚Lidé, hříšným jídlem se varujte poskvrňovati těla! Obilí máte a ovoce, které svou tíhou sklání haluze k Zemi, a na Révě nalité hrozny; máte i rostliny sladké a takové, které se mohou zjemnit a změkčit v ohni; a nikdo vám mléčného moku nebere, nebere med, jenž voní Mateřídouškou. Hýřivě dává Země jak bohatství, tak také pokrm lahodný, dává co jísti, a bez vraždy, prolití krve. Masem ukájí hlad jen zvěř, a ještě ne všechna! Na příklad Kůň a Brav i Skot, ti travou se živí; ti však, jejichžto duch jest surový, divý a krutý, Tygřice z arménských hor a Lvové vznětliví, vzteklí, Medvědi, jakož i Vlci – ti z krvavých těší se hodů. Běda, ach, jaký to zločin, když maso se do masa noří, dravé a lačné tělo když tuční polknutým tělem, když jest živočich živ zas jiného života smrtí! Při tomto bohatství všeho, jež Země, ta nejlepší Matka, rodí, tebe snad těší jen žvýkati zuřivým chrupem žalostné kusy masa a řídit se Kyklópů mravem? Cožpak bude ti možno jen záhubou jiného tvora ukojit žaludku hlad, té neslušné, hltavé šelmy? Ale ten dávný věk, jejž sami jsme nazvali zlatým, toliko stromů plody a rostlinstvem ze Země vzešlým docela šťastným se cítil a ústa si netřísnil krví. Pernatci za oněch dob si létali bezpečně vzduchem, Zajíc, prost vší bázně, se proháněl uprostřed polí, v liché důvěřivosti se nechytla na háček ryba. Bez nástrah bývalo všechno a nebylo třeba se báti podvodu, všude byl mír. Když jakýsi škodlivý rádce, nechať to kdokoli byl, se bohům jal závidět jídlo, a když masitou stravu si v hltavý žaludek spustil, zločinu otevřel cestu. Snad hubením divokých šelem zahřál se nejprve kov, když teplou krví se ztřísnil (na tom pak mohlo se zůstat!), a připouštím, nebylo hříchem, byla-li zabita zvěř, jež život náš ohrožovala; avšak zabíjet měla se jen, ne předkládat k snědku! Bezpráví zašlo pak dále. A zdá se, že smrti si první zasloužil, první jsa žertvou, Vepř, jenž rypákem křivým vyhrabal semena z půdy a zničil naděje roku. Kozel prý ohryzal Révu, a proto prý za oběť padl oltáři mstitele Bakcha. Nuž oba je zničila vina! Co jste však spáchaly, Ovce, vy mírné, k ochraně lidí stvořené? Nosíte nektar, jenž v plné výmě se stekl, dáváte nám svou vlnu a rouch nám poskytujete měkkých a životem svým jste prospěšny více než smrtí! Čím se provinil Vůl, ten živočich beze lsti, šalby, prostý, neškodný, stvořený jen, by námahy snášel? Nevděčný dokonce je a nehoden úrody polní, kdo moh dělníka zabít svých polností, sotva mu sňali břímě křivého pluhu, a kdo moh sekerou protít šíji, odřenou prací, jež tolikrát pomohla pánu zkypřiti tvrdou roli a tolikrát úrodu svážet! Avšak nedosti na tom, že páchají takový zločin: vinu za tento hřích též na bohy vznesli a věří, že prý se raduje bůh, když zabíjí dělného Býka! Žertva, prostá vší vady a postavou nad jiné krásná (právě ta krása ji ničí!), jsouc zdobena stuhou a zlatem, poblíž oltáře stojí nic netušíc, modlitby slyší, vidí, jak na její čelo a doprostřed rohů jí sypou zrna, jež pěstila sama, a raněna zabarví krví nůž, jejž před malou chvílí snad v jasné viděla vodě. Z hrudi, až dosud živé, jí ihned vnitřnosti vyjmou, prohlédnou je a zpytují na drobech úmysly bohů. Z těch pak (takový hlad má člověk na zakázaný pokrm!) troufáš si jíst, ó plémě smrtelné? Prosím, nečiňte tak a dbejte na mé výstrahy, slyšte má slova! Volů zabitých údy až budete klásti zas do úst, vězte a vědomí mějte, své vlastní že oráče jíte!‘“ – <em>Proměny (XV. kniha), Publius Ovidius Naso</em></p>
+<p>„Přišedši zůstala venku a prahu a dveří se netkla; nad sebou majíc jen blankyt a styků s muži se střehouc, vystaví pod širým Nebem dvé oltářů z pažitu, jeden Hekatě na pravé straně a druhý nalevo Hébě. Snítkami divokých křů je opřede, zelení svatou, opodál vyhloubí v Zemi dvě zející jámy a začne obřady. Černému Beranu chřtán svým obětním nožem protne a krví žertvy pak polije prostranné jámy. Poté z dvojuché číše tam nalévá čistého vína, z druhé dvojuché číše tam nalévá teplého mléka; přitom promlouvá stále a volá podzemní božstva, prosíc vladaře Stínů i choť, již únosem získal, aby tu stařeckou duši si nebrali předčasně z údů. Když tak získala bohy svou prosbou i mumláním dlouhým, zesláblé Aisona tělo dá vynést z paláce na vzduch, a když kouzelnou písní ho uvedla v hluboký spánek, v býlí prostřené na Zem ho uloží, jak by byl mrtev. Vzdálí pak Iásona a vzdálí odtud i sluhy: nesmí prý světský zrak ty tajemné obřady vidět. Na ten rozkaz jdou pryč. A Médeia spustí si vlasy, bakchantce podobna jsouc, a obchází planoucí oltář, v černé krvi těch jam pak namočí drobounké louče, napustí je a na obou oltářích rozžehne všecky, třikrát očistí starce jak ohněm, tak vodou a sírou. Mezitím nad ohněm v kotlu se mocný kouzelný nápoj vaří, hárá a vře a vzkypělou pěnou se bělá. Koření zaváří tam, jež v thessalském údolí právě sebrala, zaváří květy a semena, příšerné šťávy. Přidá kamení též, jež na krajním Východě našla, s pískem z Ókeanu, jejž omýval příliv a odliv; také přimísí rosy, jíž nabrala ze svitu Lúny, soví křídla i s masem, zle pověstná, do kotlu hodí, jakož i útroby Vlka, jenž měnívá zvířecí tvářnost v lidský vzhled a dvojí má tvar; a neschází tenká pokožka, plná šupin, již shodila kínyfská Zmije, Jelena věkovitého pak játra přidá a s nimi hlavu a zobák Vrány, jež devět prožila věků. Jakmile těmito věcmi a tisíci jiných, jichž nelze jmenovat, připraví podnik, jenž sahal nad lidské síly, Olivy lahodné větví, už dávno úplně suchou, zamíchá řádně všechno a smísí od vrchu po dno. Ejhle, ten starý kůl, jímž ve vroucím točila kotlu, okřívat nejprve začal, pak zeleným listím se oděl za krátký čas a náhle jej pokryly olivy těžké. Kamkoli z dutiny kotlu však vyhodil částečky pěny vzkypělý var, kam dopadly na Zem horké ty kapky, půda se zelená květy a kyprá tráva se zdvíhá. To když Médeia uzří, svůj meč hned vytasí, rychle otevře hrdlo starci a krev mu nechavši vyjít naplní cévy tou šťávou. Když vpil svým tělem to kouzlo Aisón, vstřebav je ústy či ranou, vousy a vlasy pozbyly šedé barvy a rychle se zbarvily tmavě, hubenost prchla a mizí i plíseň staří a bledost, hluboké vrásky se plní, jak přibývá nového masa, údy plností kypí. I vzpomíná žasnoucí Aisón, takto že býval svěží kdys před čtyřiceti lety. Uviděl z nebeských výšin ten podivný, zázračný úkaz Bakchos, i připomněl mu, že mladost možno tak vrátit stařičkým chůvám jeho; a Médeia splní to přání.“ – <em>Proměny (VII. kniha), Publius Ovidius Naso</em></p>
+<p>„Moc Nebes je nesmírná, mezí všech prostá; cokoli bohové chtí, to skutkem stane se ihned. Abys mi věřil, slyš! Kdes na frýžských pahorcích stojí Lípa a vedle ní Dub; kol obou se ohrada táhne. Sám jsem viděl to místo – mne panovník troizénský Pittheus poslal do frýžské země, kde otec jeho kdys vládl. Poblíž je velká tůň, dřív obytná půda to byla, dnes se tam bahenní Slípky a Potápky na vodách hemží. Júpiter v podobě lidské v ten kraj kdys přišel, a s otcem berlonoš Merkur, Atlantův vnuk, svá odloživ křídla. Tisíce obešli domů a hledali ke spánku místo, tisíce domů jim uzavřel klíč. Jen jeden je přijal: byl sic malý, jen slámou a bahenním rákosem krytý, avšak zbožný. V té chýši se spojili za mladých roků, v ní též zestárli spolu dva manželé, Filémón starý s Baukidou stejného věku. K své chudobě rádi se znali, nesli ji s klidnou myslí, a proto jim nebyla těžká. Ať by ses na pány ptal či na sluhy, bude to stejné: v domě jsou jen dva lidé, a oba jsou sluhy i pány. Když tedy nebešťané k té nevelké dospěli chýši, oba sklonili hlavu a vstoupili nízkými dveřmi. Stařec jim sedadlo podal, by údům pohovět mohli, přes ně pak ochotná Baukis hned režné prostřela plátno. Rozhrábne teplý popel, v němž doutnalo dříví, a křísí na krbu včerejší oheň: dřív suchou korou a listím živí troud a stařeckým dechem jej rozdmýchá v plamen, potom snesla s půdy i draček suchého klestí, poláme na drobno dříví a přiloží pod malý kotlík. Její milený choť již nasbíral v zahrádce Zelí. Oloupe listy z něho a dvojzubou vidlicí sejme uzený vepřový hřbet, jenž visel na černém trámu (dlouho již uschován byl!), a od něho nevelký kousek uřízne, uříznutý pak měkčí ve vřelé vodě. Mezitím prázdný čas svým hostům hovorem krátí, natřesou žíněnku též (jest vycpána sítinou měkkou), na lehátko ji vloží (má vrbový spodek i nohy), přes ně pak položí přehoz, jejž bývali prostírat zvyklí jenom ve svátek – ale i ten byl nuzný a vetchý: onen podstavec z Vrby si na přehoz nemusel stýskat! Bohové ulehli. Podkasána a chvějíc se, Baukis přistaví stůl, jenž nohy měl tři, však jednu z nich kratší; střípek přidal jí délky. Když podložkou nahnutí bylo zmírněno, srovnaný stůl pak zelenou otřela Mátou. Čisté Minervy dvojbarvý plod naň předloží hostům, lahodné podzimní dřínky, jež v jasné chovala šťávě, salát čekankový a ředkvičky, hromádku sýra, vejce, jež v popelu vlažném jen zlehounka vařila – všecko v čistém nádobí z hlíny. Pak postaví měsidlo na stůl, tepané z téhož ‚stříbra‘, a dřevěné, bukové číše: celá dutina jejich se blyštěla žlutavým voskem. Za malý okamžik dodal i krb své pokrmy horké. Víno skrovného stáří je sklizeno se stolu opět, ovšem na chvíli jen, a zákuskům učiní místo. Ořech tu jest, též kárský fík a svraštěné datle, slívy a jablka vonná se v širokých košících skvějí, jakož i chutné hrozny, jež sebrány s nachové Révy; uprostřed bělostný medový plást. A k tomu se druží nade vše milé tváře a ochota čilá a štědrá. Zatím si všimnou, že džbán, ač tolikrát nabrali z něho, samoděk plní se zas a vína přibývá stále. Užasli nad tím divem a chvějí se, vzepjavše ruce, modlí se nesměle Baukis i Filémón, o milost prosí, aby jim prominut byl ten prostý, chudičký oběd. Byla tam jediná Husa, jež hlídala malou tu chýši: tu svým božským hostům se chystají zabíti v oběť. Měla však rychlá křídla, i zchvátila pomalé starce, dlouho jim unikajíc, až konečně u samých bohů hledala spásu. A ti ji kázali na živu nechat. ‚Bohové jsme,‘ tak řekli, ‚a bezbožné sousedstvo dojde zaslouženého trestu, než vám bude dopřáno ujít bezpečně chystané zkáze. Jen opusťte rychle svou chýši, provázejte náš krok a k horské výšině s námi pospěšte!‘ Poslechnou oba a o hůl se opírajíce berou se s námahou pryč a stoupají po táhlém svahu. K vrcholu měli jen tolik, co šíp as dosáhne letem jednou vyslaný: obrátí zrak a spatří, že voda pokrývá vše, jen jejich že dům tam uchován stojí. A co se diví té věci a pro osud krajanů pláčí, hle, ta stařičká chýše, tak malá i pro dva jen pány, mění se náhle v chrám! Již ve sloupy rozsochy přešly, žlutě se lesknou došky, je vidět zlacenou střechu, veřeje tepané zdobně a podlahu mramorem krytou. Tehdy pak Sáturnův syn k nim promluvil s laskavou tváří: ‚Starče spravedlivý a stařeno, která jsi hodna spravedlivého muže, co žádáte?‘ – Promluviv stručně s Baukidou, Filémón zjeví, co usnesli společně oba: ‚Státi se božími sluhy a hlídači vašeho chrámu přejem si být, a jako jsme prožili svorně své roky, tak ať hodina táž nás usmrtí! Nikdy ať nezřím ženy své hrob, a mne ať nemusí pohřbívat ona!‘ Tužba ta splnění došla. I byli tam hlídači chrámu, dokud přáno jim žít. Pak zešedše lety a stářím, u svatých stupňů stáli kdys náhodou, vzpomínajíce osudů kraje: tu Filémón zří, že se odívá Baukis listím, a Baukis uzří, že Filémón listím se halí. Ačkoli oběma tvář již zarůstá vrcholkem stromu, dokud bylo to možno, přec hovoří spolu. ‚Buď sbohem, choti!‘ tak současně řekli, a současně ústa jim pokryl větvovím strom … I dnes ti tam ukáže bithýnský rolník dvojici sousedních pňů, jež vyrostly z těla jich obou. Takto mi vážní starci – a neměli příčiny lháti – tenkrát vyprávěli. Já sám jsem viděl tam vínky viseti na haluzích a řekl jsem věšeje čerstvé: ‚Miláček bohů buď bohem a ctěn buď, bohy kdo ctíval!‘“ – <em>Proměny (VIII. kniha), Publius Ovidius Naso</em></p>
+<p>„Nemá ni téhož vzhledu nic na světě: obnovitelka věcí, Příroda, v nový vždy tvar dřívější mění. Nic pak nepřijde nazmar, ó, věřte mi, na celém světě, vše se jen střídá a přetváří vzhled. My díme, že vzniká něco, když jiným to začíná být, než bylo; že hyne, jestliže přestává býti to týmž. Snad přejde cos onam, ono pak opět tam, však celek zůstává stejný. Zajisté netrvá nic, jak soudím, o témže vzhledu dlouho.“ – Pýthagorás, <em>Proměny (XV. kniha), Publius Ovidius Naso</em></p>
+<p>„Vůbec nemáš ponětí o době, ve které žiješ, pokud si myslíš, že med je sladší než peníze v rukách! Dokonce i pod Saturnovou vládou jsem sotvakdy viděl někoho, pro jehož srdce by zisk nebyl sladký. Časem touha po majetku rostla, a ta teď dosáhla svého vrcholu. Sotva může být ještě větší.” – bůh Janus Ovidiovi,<em> Fasti/Kalendář (leden), Publius Ovidius Naso, kolem roku 8. n. l.</em></p>
+<p>„Jaké bezpečí nám ještě zůstává, když Ovce nesoucí vlnu a Voli orající půdu složí své životy u oltářů? Persie využívá Koně, aby potěšila Hyperiona ověnčeného paprsky, aby snad pomalá oběť nebyla dána rychlému bohu … A uhájení Kapitolu nepomohlo Huse k tomu, aby její játra nezdobila tvé pokrmy, dcero Inacha.“ – <em>Fasti/Kalendář (leden), Publius Ovidius Naso, kolem roku 8 n. l.</em></p>
+<p>„Malé pozornosti jsou tím, čeho si duchové předků žádají. Oddanost je těší více než drahý dar.“ – <em>Fasti/Kalendář (únor), Publius Ovidius Naso, kolem roku 8 n. l.</em></p>
+<p>„Žádána je rada Zářivého. Proroctví pak zní takto: ‚Kdo jako první políbí svou matku, bude vítězem.‘ Každý pak rychle utíkal, aby dal své matce polibek, věříce bohu, kterého nepochopil. Brutus byl však moudrý, pomatence pouze předstíral, aby unikl tvým úkladům, hrozný [Tarquinie] Superbe. Ležící lícem dolů věnoval polibky Matce Zemi. Lidé si mysleli, že pouze zakopl a upadnul.“ – <em>Fasti/Kalendář (únor), Publius Ovidius Naso, kolem roku 8 n. l.</em></p>
+<p>„Na počátku se Quirité příliš hnali do války. Proto bylo rozhodnuto, že mají být zkroceni vládou práva a strachem z bohů. Tak byly ustanoveny zákony, aby silnějším bránily získat všechnu moc, a předávané obřady začaly být posvátně dodržovány. Divokost se stáhla, spravedlnost je silnější než zbraně a zdrojem hanby zůstává, když se někdo začne prát se svým sousedem. Osoba jednou násilná se změnila, jakmile uzřela oltář, a obětuje nyní sama víno a osolenou špaldu rozpálenému krbu.“ – <em>Fasti/Kalendář (březen), Publius Ovidius Naso, kolem roku 8 n. l.</em></p>
+<p>„Venuše vskutku řídí celý svět, a to zaslouženě. Spravuje říši nepodřízenou žádnému bohu. Dává zákony Nebesům, Zemi a svým rodným vlnám – skrze svou vůli zachovává živočišné a rostlinné druhy. Stvořila veškeré bohy (byl by to dlouhý úkol je vyjmenovat), dala plodinám a stromům jejich příčiny, dohromady svedla surová lidská srdce a naučila je spojení s jejich druhem. Co vytváří celé ptačí plémě, když ne lákavé potěšení? Ani dobytek by se nepářil bez lahodné lásky. Prudký Beran užívá svých rohů k souboji s nepřítelem, ale dává si velký pozor, aby nezranil čelo milované Ovce. Býk, před nímž se třesou lesy a vřesoviště, odkládá svou prudkost a Jalovičku následuje pokojně. Ta samá síla zachovává vše, co žije pod širým mořem, a naplňuje vodstva nespočtem ryb. Ona byla tou první, která odnaučila lidstvo divokým zvykům. Od ní pochází uspořádaný slušný život a čistá péče o sebe sama. Říká se, že milenec byl tím prvním, kdo zazpíval bezesnou píseň před zavřenými dveřmi, když mu byla noc odepřena. Výmluvností bylo možné získat tvrdošíjnou dívku, což každý činil. Skrze ni bylo tisíc umění uvedeno v pohyb, aby pak dychtivostí potěšit bylo objeveno mnoho věcí, které předtím bývaly skryty.“ – <em>Fasti/Kalendář (duben), Publius Ovidius Naso, kolem roku 8 n. l.</em></p>
+<p>„Pokud jsem pobýval na posvátné půdě či seděl pod posvátným stromem, zatímco se mé Ovce pásly na hrobech předků, pokud jsem vstoupil do zakázaného háje, nebo víly či kozího boha vystrašil svým příchodem, jestliže můj srp háj připravil o stinnou větev, odkud jsem byl nasbíral košík listí pro nemocnou Ovečku, odpusť mi, prosím, mé provinění.“ – modlitba k bohyni pastýřů Pales,<em> Fasti/Kalendář (duben), Publius Ovidius Naso, kolem roku 8 n. l.</em></p>
+<p>„Když je nyní noc ve své půli a poskytuje klid pro spánek, a vy, psi, a vy, ptáci všech druhů, jste se utišili, muž, který si pamatuje dávný obřad a který má strach před bohy, vstane – obě nohy bosé – a udělá prsty znamení tak, že mezi nimi stiskne palec, aby ho žádný nehmotný stín nemohl v tomto tichu potkat. Jakmile si umyl ruce vodou ze studánky, vezme několik černých bobů a obrátí se čelem vzad, načež je hodí za sebe. Zatímco je hází, říká: ‚Tyto odesílám. Těmito boby vykupuji sebe a své blízké.‘ Devětkrát to pronese, neohlíží se! Onen stín je pak prý sesbírá, nikým neviděn. Znovu se pak dotkne vody, zarachotí temešským bronzem, a požádá onen stín, aby opustil jeho dům. Když pak devětkrát pronesl: ‚Jděte pryč, duchové předků!‘ konečně se podívá za sebe a považuje celý obřad za úspěšně provedený.“ – <em>Fasti/Kalendář (květen), Publius Ovidius Naso, kolem roku 8. n. l.</em></p>
+<p>„Dokud Thrákové s oštěpy, Jazygové s luky bojují, dokud zůstává Ganga teplá a Dunaj studený, dokud na horách rostou Duby a pastviny mají dostatek šťavnaté potravy, dokud bude mít etrurská Tibera písčité vody, dotud proti tobě budu vést války! Ani smrt neukončí můj hněv, naopak, duchu předá nemilosrdné zbraně, aby mohl na jiného útočit chladně. Potom též, když v povětří budu pobývat, bez života, můj přízrak stále bude tvůj stín proklínat – ani jako duch nezapomenu na zlé činy tvé, a v podobě kostlivce zaútočím na tebe.“ – <em>Ibis, Publius Ovidius Naso (určeno údajnému nepříteli, který způsobil Ovidiovo vyhnání do Tomisu, mohlo se jednat o Gaia Hygina, Tita Severa, císaře Augusta, Tita Labiena a další)</em></p>
+
+  </div>
+  
+		</body>
+</html>

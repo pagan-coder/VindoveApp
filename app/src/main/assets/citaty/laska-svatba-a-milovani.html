@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Láska, svatba a milování</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p>„Do roku 1781 byli vojáci získáváni nahodile a verbováním, potom však byla zavedena všeobecná povinnost vojenské služby, kdy byl vrchnosti a obcím úředně stanovený povinný počet branců. Vojna se týkala především nejchudších vrstev, na jejichž láskách ležela jako břemeno, jak vyjadřuje úsloví: <em>Vojenská láska nestojí za ďáska.</em> Její délka vedla k značné traumatizaci chasy, ke skrývání a sbíhání, zejména v době, kdy podle typu služby trvala čtrnáct, eventuálně dvanáct let (po roce 1802), jak zaznamenávají lidové písně, vyjadřující smutek a beznaděj z dlouhého odloučení milého od své dívky: <em>Ach ta vojna, vojna, ta neščasná vojna, čekaj, moja milá, sedum roků na mňa. A po sedmém roku čekaj ešče pět let, potom sa mňa pytaj, budu-li tebe chtět. (Od Kyjova, Sušil III/1608)</em> Jarní odvody, na nichž se museli spolupodílet rychtář, konšelé, panský holomek či dráb, mládenci přečkávali schováváním na celé týdny do komor, do jam v Zemi, do stodol, hor a lesů, než nebezpečí pominulo.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Panenství a panictví bylo pojímáno jako všeobecně platný koncept doby. Církev kontrolovala a usměrňovala zbožné a ctné chování mládeže prostřednictvím povinné zpovědi. Zejména první zpověď chlapců a dívek se věnovala výtkám jakýchkoli blízkých kontaktů včetně doteku a objímání. Podle otázek, formulovaných ve zpovědních zrcadlech, byla sledována úroveň sexuálních zkušeností svobodných mladých lidí s cílem co nejvíce vyloučit útoky na jejich nevinnost a neznalost. Teprve kolem přelomu 19. a 20. století se v lékařských kruzích začíná šířit pojetí pohlavního aktu jako přirozeného projevu lidských potřeb a dochází k určitému zmírnění negativního pohledu na sexualitu … Na venkově, kde měla mládež bližší vztah k Přírodě i více příležitostí ke vzájemným stykům pohlaví, zpravidla nebyla nepoučenost tak tristní. Tělesný stud, cudnost a nahota byly pojímány diferencovaně – přiměřeně funkcím a souvislostem, v nichž tradičně nabývaly symbolický smysl (např. rituální nahota), popřípadě se vztahovaly k přirozeným činnostem života (porody, kojení, koupání atp.).“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Postoj k intimním stykům mládeže se lišil podle oblasti. Chudoba, charakter obživy a vzdálenost od domova i od center světské a církevní správy v horských a podhorských krajích vytvářely od jara do podzimu podmínky k důvěrným kontaktům obou pohlaví. Na vzdálených pastvinách mládež spávala ve stodolách, chlévech, na půdách a senících. Např. ve slezské Hrčavě se předpokládalo, že k intimním stykům dochází, často se odehrávaly s vědomím rodičů a nebyly považovány za něco nepřijatelného. Jestliže však děvče přišlo do jiného stavu, bylo povinností <em>pacholka</em> se s ní oženit. Někdy docházelo ke sporům o otcovství, protože v takových podmínkách se u některého děvčete během krátké doby vystřídalo i několik záletníků. <em>Chodzeni na zalety</em>, psal Ivo Stolařík, je typické pro všechny goralské (tj. horalské) obce těšínského Slezska. Chodívá se kterýkoli den kromě pátku, nejčastěji ve středu, sobotu a v neděli a chlapci si přitom vybírají své budoucí manželky. <em>Teprve církev začala označovat zálety jako záležitost nemravnou. Bylo však marné něco vysvětlovat a zakazovat, když v nuzných sociálních poměrech byly děti odmalička nechtěnými svědky styku svých rodičů.</em>“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Výsadou svobodných děvčat bylo chodit prostovlasá, zatímco vdané ženy si musely vlasy pečlivě skrývat ve všední den pod šátek (ve svátek pod čepec) a dávat pozor, aby jim ani pramínek vlasů nevylézal – neslušelo se, aby dávaly na odiv jejich půvab a chodily <em>jak vlasatice</em>. Někdy darovaly dívky svým mládencům jako výraz oddanosti a lásky pramínek vlasů, popřípadě drobné vlasové ozdoby, které si samy zhotovovaly. Vlasům věnovala děvčata velkou péči, neboť ty především přitahovaly pozornost mužů, a jak se říkalo ve Slezsku, byly tou <em>nejhlavnější šumnotou</em> (krásou) <em>každé děvuchy.</em> Umývaly je březovou vodou, později též lepším mýdlem, poněvadž šampony se ještě v období první republiky objevovaly jen velmi zřídka. Lesku dosahovaly oplachováním octem, odvarem z Kopřiv, Chmele či piva. Tmavé vlasy myly odvarem z duběnek, Řepíku nebo Lopuchu, na hnědé se používal odvar z listí Ořešáku, na světlé odvar z Hluchavky, Měsíčku, Heřmánku, Rebarbory. Známé byly též zábaly z čerstvých žloutků. Ve snaze přiblížit se ‚vznešeným dámám‘ si na Litomyšlsku potají vtíraly do vlasů mouku. Aby jim vlasy voněly, na Podluží si dívky zhotovovaly plátěné váčky, naplněné Rozmarýnou, Levandulí a Mátou peprnou, které si před taneční zábavou vkládaly pod polštář. Při zaplétání a tvarování vlasů se používala vazelína. Mnoho návodů ke zlepšení kvality vlasů nalezneme ve staročeských lékařských knihách z 15. a 16. století, např.: <em>Také popel z trusu kozieho s olejem dřevěným smiešený, když bude často mazána hlava, rozmnožuje vlasy. Také Pelyněk s týmž olejem smíšený též činí.</em>“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Jedním z nejstarších způsobů veřejného vyjádření milostného zájmu, symbolem mládenecké pýchy, prestiže a místní kulturní integrity bylo stavění zelených stromků zvaných májky. Vedle individuálních májů stavěných svobodným dívkám jsou již od středověku doloženy máje kolektivní, stavěné na veřejném prostranství obce a spojené se společnou zábavou, zpěvem, tancem a obyčeji, jejichž nositeli byla především mladá chasa. Byly stavěny i ve městech a dodnes jsou k vidění (hlavně na Moravě) zejména v předměstských čtvrtích. O původu individuálních májových stromků se vyprávěly různé pověsti. Jedna z nich, zřejmě christianizující starší vrstvu pohanského uctívání stromů, pochází z okolí Rožnova. Podle ní se lidé vysmívali pobožné dívce, která chtěla zůstat svobodná, že ji žádný nechce. Modlila se proto ke sv. Filipovi a Jakubovi, kteří ji vyslyšeli, takže do rána měla před domem postavený máj s bílými pentlemi a bílou Růží na vršku, aby jí ostatní věřili, že je poctivá a bohu milá panna. Děvčatům se máj natolik zalíbil, že jim je mládenci začali také stavět. Stavění májů symbolizovalo více významů. Uplatňovala se při něm zeleň jako tradiční symbol zdraví, plodivé síly a svěžesti.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Základní postup [staroslovanské] svatby podle něj [Lubora Niederla] spočíval v těchto ceremoniálech: přivedení nevěsty – vložení její ruky do ruky ženicha – obdarování dary (jablko, Kohout, Slepice) – zahalení nevěsty rouchem – odvedení do domu ženicha (vítání medem, chlebem, pohazování plodinami) – trojí obejití ohniště nevěstou s poklonou domácím bohům – posazení nevěsty na zvířecí kůži – rozdílení svatebního koláče hostům – rozpletení nevěstiných copů, ustřižení vlasů a jejich zahalení čepcem (závojem) – rozvázání obuvi muže jako znak poddání – veselí svatebčanů s prvky falického kultu – po svatební noci očištění vodou, snad i ohněm. Niederleho pojetí má platnost především uvnitř slovanských studií a je takto akceptováno; mnozí badatelé však upozorňují např. i na vlivy latinské kultury, mezi nimi zejména loučení s dobou dospívání (svobodou), průvod k nevěstě za doprovodu hudby a hořících svící, obřadní stěhování s výbavou k manželovi a další. S christianizací zřejmě souvisí nové interpretace významu svatebního stromku jako symbolu Adama a Evy, Tóbijášovy noci pohlavní zdrženlivosti, křesťanské modlitby při svatebních stolech, způsoby žehnání snoubenců (novomanželů) aj.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Obřadní přípitek nevěstě, pronášený při námluvách, symbolizoval její souhlas a ve starších dobách byl zřejmě součástí obyčejových právních zvyklostí. Spojení rukou (na Slovensku tzv. <em>zaručiny</em>, u jiných Slovanů <em>rukoviny</em>), rovněž naznačující oddávací akt, se někdy konalo až před odchodem snoubenců do kostela. Pozůstatkem staršího rituálu, propojujícího tento právní úkon s magickým významem, bylo otáčení ženicha a nevěsty kolem společné osy, často zleva doprava ve směru Slunce, konané v různých fázích svatebního obřadu …“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„V Morávce na Frýdecku byl při námluvách zaznamenán obyčej, při němž nabízeli ženichovi nepravou nevěstu, který se v jiných oblastech konal až při obřadním vyžádání nevěsty nebo při jejím čepení. Když ženich přišel k nevěstě, některá příbuzná posbírala ode všech žen klíče a mezi nimi i klíč nevěstin a úkolem ženicha bylo najít ten pravý. Po každém hádání mu předvedli a nabízeli majitelku klíče, dokud nenašel ten pravý. Od nevěsty pak dostal vínek – zelený prsten, vyrobený z višňové kůry či z jabloňového proutku a zeleného hedvábí. Prstýnky si pak snoubenci uschovávali po celý život na památku. Základ tohoto obyčeje, který neznáme z jiných míst, může patřit k starším typům obyčejů, při nichž bylo ženichovou povinností poznat ve skupině žen ukrytou nevěstu.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„[Věno] původně představovalo částku, kterou platil ženich otci nevěsty (ještě v 10. století bylo výkupné za nevěstu údajně značně vysoké, a měl-li otec více dcer, mohl zbohatnout). Od raného středověku se setkáváme se záznamy, že za věno byl pokládán všechen majetek, který do manželství přinesla nevěsta. Na rozdíl od výbavy, na niž měla právo žena, přecházelo věno svatební smlouvou do vlastnictví muže. Uvádí se, že věno mělo zpočátku funkci daru a teprve pozdějším vývojem se změnilo v nárok vůči rodičům, kterého se dcera mohla soudně domáhat. Předáním věna dcera formálně pozbývala nárok na dědický podíl, tzv. <em>byla vybyta</em>.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Podle krajových zvyklostí byli zváči označení zvláštními atributy, které zdůrazňovaly jejich obřadní poslání. Patřily k nim především opentlené rákosové, lískové či vrbové hůlky nebo paličky zbavené kůry (na Slovácku <em>palašky</em>, na Kopanicích <em>čagany</em>). Hůl symbolizovala moc, autoritu a důstojnost, v evropské kulturní tradici se od středověku uplatňovala i jako nositel poselství a v lidové kultuře se běžně používala i při jiných obřadních příležitostech. Na Zbraslavsku bývala hůl ohnuta v hák, ukončený koňskou hlavou, na Voticku měl družba hůl s vyřezanou hlavou Psa a Lišky, kterou si zavěšoval do náprsní kapsy dlouhého pláště. Také nevěsta s družičkou mívaly při zvaní v rukou proutek nebo rákosku.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„V některých obcích na Valašsku se až do 19. století udržel obyčej, při němž svatebčané před odchodem do kostela třikrát obešli průvodem s hudbou svatební dům a někde ještě třikrát obcházeli nevěstu, stojící uprostřed dvora. Trojí obcházení v kruhu je pozůstatkem archaického rituálu, který patřil k základním aktům slovanské svatby a symbolizoval magický kruh uzavřeného a chráněného prostoru. Kruh je pokládán za univerzální symbol; kruhovost jako nejpřirozenější tvar je posvátná a ve svatebním obřadu se s ní setkáváme na více místech: už jsme uvedli, že do kruhu se třikrát otáčel ženich s nevěstou při námluvách, kruhový tvar měl velký svatební koláč, se kterým se družba třikrát otáčel kolem své osy, v kruhu žen tančila začepená nevěsta, v novém domově nevěsta třikrát obcházela kruhem ohniště (pec) atp.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Rituální význam měla ve svatebních obřadech voda, svěcená či pramenitá, jíž byla připisována očistná a plodivá moc a u slovanských národů se používala v široké škále magicko-očistných úkonů (např. obřadní čistota novomanželů ráno po svatební noci v potoku nebo řece). V našem prostředí původ těchto úkonů časem upadl v zapomnění, některé aplikace trvaly nadále, i když se na ně již navrstvily žertovné výstupy.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Vedle koláče byl významným atributem tradiční vesnické svatby také svatební stromek rozmanitých forem a podob. Jako symbol nového života, životodárné síly a plodivosti se stal předmětem specifických úkonů v průběhu svatby. Nacházíme ho v mnoha krajových podobách, např. jako malý stromek – vršek Smrčku, Jedličky či Borovice (v Čechách zvaný <em>rosolka</em>) nebo jako větev, bohatě ověšenou pečivem ze smaženého těsta, pozlacenými ořechy, drobnými hračkami, ovocem, zejména jablky a různými ozdobami, ale i hořícími svíčkami. Někde to byl hlohový nebo trnkový prut zdobený mimo jiné i drobným pečivem z nekvašeného těsta. Stromky nebo jeho rozmanité repliky zdobily svatební koláč a z tohoto spojení vznikl stromkový koláč – ozdobené větve, tyčky nebo špejle zapichované do velkého koláče, buchty, chleba nebo kaše, na Moravě používaný ještě v 19. století a místy označovaný jako <em>koruna</em>. Podobně jako svatební koláč i stromek býval nevěstě předáván družbou a svými ozdobami a plody rovněž evokoval zabezpečení budoucí prosperity mladého páru a veškerého pozemského dostatku, včetně dětí.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Obřadní uložení mladého páru na lože, ve starší literatuře popsané jako ‚uvádění nevěsty‘, je v českých pramenech zmiňováno již v Canapariově legendě o sv. Václavu, kladené do osmdesátých let 10. století. Ve středověkých latinských památkách z konce 15. století je zaznamenáno, že při uvádění novomanželů na lože se zpívají svatební koledy (<em>epitalamiom</em>), tj. <em>zpievanie na ženicha a nevěstu při skládání</em>, nebo zpívané při <em>loži, kdež skládají ženicha a nevěstu</em>. Termín ‚skládanie‘ znamenal ve staré češtině jednak ukládání na lože, jednak i samotný pohlavní akt. Ukládání na lože završovalo schéma afirmačních úkonů konstituujících manželský stav. Bylo rituálním uznáním právoplatnosti pohlavního styku novomanželů, které průvod svatebčanů v čele s družbou doprovázel k jejich loži (později jen ke dveřím komory).“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Leckde bude snad zachováno ještě dosti erotiky, ale popisy svateb o tom z pruderie mlčí … Vůbec mnohé popisy svateb (zejména u nás) vyznačují se bezcennou pruderií a tím, že si všímají stále jen věcí nicotných (např. říkání z kazatelen a bible přejatých) a ne podstatných aktů svatebního ceremoniálu.“ – <em>Život starých Slovanů, Lubor Niederle</em></p>
+<p>„Neméně rozšířené je spojování tohoto obyčeje [přenášení nevěsty přes práh] s kultem rodových předků, jejichž duše měly sídlit pod posvátným domovním prahem (jeho význam známe i z obřadů konaných při narození, úmrtí a pohřbu). Nevěsta, dosud rituálně neztotožněná s objekty rodové úcty domu (s domovými bůžky-předky), nesměla se prahu dotknout nohou, aby si je neznepřátelila. Provedením úkonů, které budeme dále sledovat, se teprve měla stát součástí společného prostoru a přeneseně i ‚duše‘ nového domova. V novějších výkladech je vyzvedáváno přenášení nevěsty přes práh jako projev nového počátku společného života a je dodnes součástí mnoha svateb. Na prahu domu byli novomanželé opětovně pohazováni od hospodyně a kuchařek plodinami, symbolizujícími hojnost a prosperitu (Hrách, zrní, Mák). Říkalo se, že na ně hážou ‚boží požehnání‘, a svatebčané, kteří stáli poblíž, vše chytali (muži do klobouků, ženy do zástěr) a pak sypali nevěstě do klína.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Příchod nevěsty do rodiny ženicha zpravidla zahajoval její kontakt s prostorem ztělesňujícím kult rodových předků. Byla přivedena k ohništi (později k peci, kamnům) – místu, kdysi uctívaném jako posvátně, neboť symbolizovalo rodinný krb. Podle lidového výkladu měla nahlédnout do komína nebo se dotknout pece, aby dobře spravovala domácnost a aby si přivykla a netesknila po domově (Horňácko), nebo ji posazovali k ohništi, aby uměla poroučet v manželství (Valašsko). Také se dívala do komína nebo na dvoře k nebi s přáním mít černooké (modrooké) děti. Jiným takovým místem v domě, kterému byla jako centru rodinného života prokazována úcta, byl stůl, k němuž se pojily rovněž konkrétní úkony sledující adaptaci nevěsty (a později i obou novomanželů) na nové prostředí. V okolí Brna bývalo zvykem, že novomanželé po příchodu do domu nejprve třikrát obešli stůl ve světnici.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Erotické projevy v zábavě, tancích a tanečních hrách spojovaly téměř celé vesnické společenství a přispívaly ke kompenzaci povětšinou formálních, normovaných a hierarchizovaných vztahů ženatých mužů a vdaných žen v každodenním životě. ‚Tradičnost‘ byla vnímána i jako ospravedlnění uvolněného chování a není náhodou, že excesy v tomto směru nemívaly širší odezvu v právních, případně i jiných konfliktech zúčastněných, s výjimkou odsudků již vzpomínané vrchnosti a církve. Formy zábavy v posvatebním období naznačují reálné přežívání archaického povědomí o vlivu sympatetické (imitativní) magie na navození úspěšného zahájení sexuálního života novomanželů. V něm se uložení na lože jako dovršení cyklu svatebních obyčejů netýkalo jen samotného páru, ale v konečném vyznění k němu směřovalo rituální chování svatebčanů během svatby. V zábavných aktivitách následujících po hlavních svatebních obřadech ještě přežívala nálada sounáležitosti s manželskou láskou snoubenců. V dalších všedních dnech se již bez valné pozornosti novomanželům (pokud vše proběhlo, jak mělo) život vracel do zavedených starostí, rozporů, drobných i větších radostí. Manželé si mohli v začínajícím, často sociálně drsném prostředí svého života začít na vlastní kůži ověřovat prospěšnost vyslechnutých promluv, rad, naučení a vinšů i různých varování na téma lásky a manželství.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Písemné prameny a literární ztvárnění lidských osudů z tradičního prostředí vesnice dokládají mnohé komplikace v manželském soužití mužů a žen. Někteří propíjeli společný majetek, sedláci znásilňovali děvečky, soudní cestou se řešilo popírání otcovství, věno nevěst. Byly pronásledovány ‚čarovné‘ praktiky ke vzbuzení milostné touhy mužů, k odstranění sokyně v lásce atp. Známé jsou příběhy o odpírání tělesného styku ženy manželovi a příběhy mužů, ospravedlňujících své promiskuitní chování zdrženlivostí manželky, vzpomíná se tvrdé zacházení hospodyň s nevěstami, někdy s tragickými konci. I když všechny tyto a další situace nepochybně patřily k životu, v národopisných pramenech jim nebyla věnována osobitá pozornost. V různých podobách zaznívají ponejvíce v písních, baladách, vzpomínkách a obyčejových úkonech, které vypovídají o přáních, problémech a obavách mladých lidí. Tradiční principy manželského soužití, jehož trvání v čase určovala smrt druhého a vědomí odpovědnosti za jeho důstojné dožití a náležité pohřbení, byly od mládí předkládány jako dané, rodově a transcendentně určené a v případě svatby i církevně posvátné.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+
+  </div>
+  
+		</body>
+</html>

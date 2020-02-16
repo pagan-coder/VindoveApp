@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Léčivé rostliny</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p>„U léčivých rostlin nejde jen o to znát jejich účinky, ale je nutno vědět, kdy a jak je sbírat a zpracovávat a v jakém množství podávat. Nejčastější byly patrně čaje, masti a extrakty v podobě tinktur, které se získávaly různorodým vyluhováním nebo i kvašením. Archeologie ani paleobotanika však zatím nejsou s to podat přesnější obraz o někdejších lécích a léčebných prostředcích. Něco napovědí pozdější zprávy a středověké herbáře, něco etnografie, dále nálezy rostlin v hrobech nebo na sídlištích, pokud se vyskytly opakovaně ve větším množství. Nejvýrazněji vystupuje úloha černého Bezu, jehož léčitelské vlastnosti byly v lidové slovanské kultuře vysoce ceněny a jsou oceňovány dodnes.“ – <em>Slované, Magdalena Beranová</em></p>
+<hr />
+<p>„Třezalka byla v minulosti opředena podobnými pověrami, jaké se týkaly např. Mateřídoušky. Měla ji stejně jako zmíněnou Mateřídoušku sbírat děvčata ve svatojánské noci, odvar byl někde součástí první koupele novorozence, aby bylo dítě uchráněno před uhranutím či poděláním, jak se počarování říkalo. Tmavé tečky na lístcích Třezalky mají údajně nadpřirozený původ – prý tak chtěl čert bylinu zbavit kouzelné a léčivé moci.“ – <em>Devatero kvítí a ještě některé další byliny, Vanda Vrlová</em></p>
+<p>„Způsob sběru a aplikace bylin se tradovaly z generace na generaci a byly takřka výhradně záležitostí žen – kořenářek a bylinářek, <em>poboňkářek</em>, léčitelek, zaříkávaček, věštkyň a čarodějek. Teolog a historik Antonín Podlaha uvádí, že ve Vysokém Mýtě na Chrudimsku byla v roce 1698 přistižena stařena, která prodávala jinochům a dívkám nějaké byliny, jimiž by získali k sobě vzájemnou náklonnost a lásku. Rostliny se trhaly v čase, kdy měly mít podle tradice nejvíce síly – v určitou denní dobu (časně ráno do východu Slunce nebo v poledne), ve dnech spjatých se svátkem některého světce, např. v předvečer svátku sv. Jana Křtitele (<em>svatojánské byliny</em>), v čarovné filipojakubské noci (<em>Jakubovo koření</em>), jindy o Božím těle, na Velký pátek, na Květnou neděli. Staré kořenářky tvrdily, že každé kvítko vyrostlé v tajemné noci před sv. Janem volá na člověka: <em>Utrhni mě!</em> Slezské dívky říkaly při kopání bylinek: <em>Kopu já tě, má zelinko, pěti prsty, šestum dlaňum, až se všeci za mnum hoňum.</em> Čekanka, vykopaná holýma nohama na Velký pátek, <em>zapřísahaná svatými slovy a vyzdvižená šátkem</em>, měla moc vyvolat zamilovanost toho, kdo se jí dotkl. Na Berounsku si dívky trhaly nerozvinutý květ rukou ovinutou šátkem nebo zástěrkou a přitom říkaly: <em>Čekanko u cesty, trhám tě pro štěstí, abys mi milého přála, kteréhos nadarmo čekala.</em> Potom si květ vložily za ňadra se slovy: <em>Bodejž si vykvetla!</em> Když se tělesným teplem rozvinul, dívka mohla očekávat, že se dočká štěstí. Rovněž tak hoši zkoušeli Čekankou věrnost svých milých: utržené tři květy hodili do mraveniště a když zčervenaly, byli si jejich láskou jisti.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<hr />
+<p>„Dnešní odpor vůči této bylině (Vlaštovičník větší) si dovedu vysvětlit jen tak, že v počátcích průmyslové výroby léčiv se zásadně zatracovaly všechny vysoce hodnotné léčivé rostliny*, a to proto, aby lidé byli odlákáni od léčivek a začali užívat chemické látky.“ – <em>Zdraví z boží lékárny, Maria Treben</em></p>
+<p>„Pokud se odhodláme k používání léčivých bylin, měli bychom začít bylinami čistícími krev, jako je Česnek medvědí, Jitrocel, Kopřiva, Rozrazil a Smetanka. Takové kúry, provedené přesně podle doporučení, nemohou nikdy uškodit … Manželé A. a R. K. napsali 17. prosince 1978: ‚V lednu tohoto roku jsem se na Vás obrátil s prosbou o radu. Byli jsme již pět a půl roku svoji, ale naše touha po dítěti zůstávala nenaplněná. Poradila jste nám, abychom pili kontryhelový a řebříčkový čaj a užívali čerstvě vymačkanou šťávu <strong>Jmelí</strong>. K naší radosti Vám můžeme oznámit, že moje žena čeká začátkem dubna dítě. Máme z toho obrovskou radost.‘“ –<em> Maria Treben</em></p>
+<p>„Jedna mladá matka si stěžovala, že její dvouletý syn trpí chronickým nechutenstvím, do ničeho se mu nechce, je unavený a stěží se dá pohnout k procházce, pod očima má tmavé kruhy. To se náhle změnilo, když svému dítěti dopřála na mou radu celkovou mateřídouškovou koupel. Chlapec kromě toho dostával denně jeden šálek kopřivového čaje, který po doušcích vypil. Celá šťastná mi vyprávěla, že se hošík změnil k nepoznání. Zase má chuť k jídlu, raduje se, když může být venku a jít na procházku, a je roztomilé, jak ten mladý muž každý den mamince připomíná svůj kopřivový čaj. Z legrace říká, že si musí dát ‚vždycky jenom doušek!‘.“ – <em>Maria Treben</em></p>
+<p>„S radostí často slýchám, kolik lidí poznalo léčivé účinky Kopřivy na vlastním těle. Nedávno mi tak jedna paní napsala, že celé měsíce pila denně kopřivový čaj. Nejenže navzdory každodenní těžké práci pozbyla jakoukoli vyčerpanost a únavu, zmizelo i hnisající kuří oko, které jí způsobovalo bolesti vystřelující až do stehna, k jehož léčbě se však kvůli pracovnímu vytížení nedostala. Stejně tak zmizela nehtová plíseň, k jejímuž operativnímu odstranění v nemocnici se nemohla odhodlat.“ – <em>Maria Treben</em></p>
+<hr />
+<p>„Nevysvětlena pak v historických záznamech zůstávají ta léčiva, o kterých moderní věda mlčí, buď protože laboratoře teprve musí prozkoumat dané rostliny či živočišnou chemii, nebo protože dané chemikálie, ať už jako jednotlivé sloučeniny nebo synergický vztah mezi sloučeninami nacházejícími se ve stejném přírodním produktu, nebyly vůbec klinicky testovány. Počet případů, kdy moderní vědecké studie neposkytují adekvátní výpověď pro ověření těchto historických dat, je dostatečně veliký na to, aby byl pobuřující.“ – <em>Dioscorides o farmacii a medicíně (historie vědy), John M. Riddle</em></p>
+<p>„Dioscoridovo pozorování, že se obecně nejsilnější léky odvozují z rostlin ve vysokých, větrných, studených a suchých prostředích, se zdá být nakloněno esenciálním olejům spíše než alkaloidům. Není pravděpodobně nevhodné tvrdit, že moderní věda neprozkoumala vliv faktorů životního prostředí na chemii rostlin s pozorností, která by mohla být očekávána.“ – <em>Dioscorides o farmacii a medicíně (historie vědy), John M. Riddle</em></p>
+	
+  </div>
+  
+		</body>
+</html>

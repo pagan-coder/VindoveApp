@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Dívky s ohněm v srdci</h1>
+      <div class="entry-meta">Napsal: Lúán Rélta (Přemysl Lúa Černý)</div><br />
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p>Čas Rozkvětu je mezi mladými velmi oblíbenou dobou, protože jedině ona umožňuje provedení některých velmi zajímavých obřadů. Příroda slaví plodnost, Mocný Vid objímá Květinovou Dívku a zeleň bují všude kolem. „Pánové,“ promluvil jeden mladík, který se právě vrátil z tajného pozorování, „hrad si postavily přímo uprostřed lesa nedaleko od nás. Moc práce si s tím nedaly, to víte, holky.“ Rozesmál se a zelené listí, kterým byl ověšený od hlavy až k nohám, se roztřáslo v rytmu jeho smíchu. „Zdobení, to ano. Pořádně postavené palisády, to ne,“ dodal a poškrábal se na zadní části těla. „Však ho už brzy vezmeme útokem, nic z něj nezbude,“ zazubil se druhý jinoch a přijmul nabízený roh s medovinou. „Není lepšího léku, nežli tekutého medu,“ dodal třetí, „ale vážně, kdo by se patlal s bořením? Prostě si rovnou odneseme kořist.“ „Kolem je spousta houští,“ zasnil se čtvrtý, „je to parádní místo, jen co je pravda.“ Napil se medoviny a dokončil: „Ta moje je stejně nejkrásnější.“ „Jen abych ti ji nepřebral,“ řekl opět zvěd ověnčený listím a záludně se usmál. „To bys ale porušil všechna pravidla,“ zasmál se druhý a zakašlal. „Mě nezajímají pravidla,“ odvětil zvěd, „užiju si s tou, s kterou budu chtít.“ „To bych ti vyprášil kožich,“ dodal čtvrtý a předstíral, že mluví vážně, i když mu to v tomto rozpoložení rozhodně nešlo, „třeba klackem nebo šiškami, když jsou zbraně zakázané.“ Aby potvrdil svá slova, utrhl si lístky Máty a smyslně je pozřel. Místo v lese nebylo vybráno náhodně, tento obřad se na něm prováděl snad od samých počátků světa. Stačilo by, aby změnili tradici a hrad postavili jinde, a už by mohlo dojít k porušení zákonů Přírody, protože na jiném místě může přebývat duch, kterému by se to nemuselo líbit. Vše musí být připraveno a ověřeno těmi nejlepšími léčiteli. I když je totiž tento obřad docela odvázaný, stále je to obřad, který má svůj průběh. „Dej sem ten med,“ řekl další z oněch mnoha hochů, „a jídlo. Musíme se posilnit, abychom vydrželi.“ Ostatní jen pokývali hlavou, protřeli si ruce a připravili se na čas lásky.</p>
+<p>„Útok!“ zakřičel zvěd a vyrazil ohromnou rychlostí z křoví. Na obklíčeném dřevěném hradě nastal poplach. Jeden mladík v běhu spustil válečný pokřik. „Na ně!“ dodal, ale najednou se zastavil. Dotkl se čela. „Copak?“ zeptal se jeho kamarád. „Ale nic,“ odvětil mladík, „jenom škrábanec. Házejí šišky!“ „Však je už brzy potrestáme,“ řekl kamarád a záludně se usmál, „a ukážeme jim, jak vypadají ty pravé šišky. Berte hrad útokem!“ Ale nikdo mu nevěnoval pozornost, protože útok už začal a o nějaké disciplíně se rozhodně nedalo mluvit. Úskok. „Ha!“ vykřikl další mladík, „vedle, krásné lady.“ Zdvořile se uklonil, a pak opět vyrazil vpřed kolem provizorní palisády, jež byla skutečně půvabně zdobená, nicméně naprosto zbytečná. Za chvíli byl uvnitř. Dívky sice ještě házely šišky a mladíka zasáhly, avšak bylo jim to k ničemu. Jeho vyvolená utíkala. „Je to zbytečné,“ řekl mladík, „s medem v břiše a s Kopřivami v hlavě jsem rychlejší než divoký Pes.“ Dívka se protáhla mezi palisádami a utíkala do lesa. Tam ji však mladík dostihl, popadl ji ne zrovna jemným způsobem a odtáhl do nejbližšího houští. Dívka se už nebránila, chichotala se. Nakonec celý hrad padl a každý si přišel na své. „Obsazeno,“ volali mladíci, když se nějaký pár blížil k jejich houští, „běžte pryč! Ach, ty seš divoška.“ Poslední pár už volné místečko lásky nenašel, tak se rozhodl jako houští využít celý již skoro vylidněný hrad. Zdá se vám to praštěné? To je dobře, protože přesně takový čas milostné lásky je, taková je jeho povaha a přirozenost. Bolest a potěšení, tam a zpět, neustálý pohyb síly. Vyčerpání a požitek. Do večera už byl na mýtině klid, každý se tulil nebo spal. Kdo měl chuť, mohl zkusit i jiné houští, pokud to dané dívce a jejímu mladíkovi nevadilo – nebo její mladík spal, ale dívka ještě necítila uspokojení „své plodnosti“, což je jedna z nejběžnějších výmluv. V noci už bylo vše jako vždy. Po návratu účastníků do vesnice se ještě chvíli sdílely zážitky a chválila se labutí věrnost těch, kteří odolali pokušení navštívit více milostných míst. Těm se před dům postavila krásně zdobená březová májka. Ostatním pak z různého dřeva podle jejich chování během obřadu. Když dívka sama často navštěvovala jiná houští, rozhodně mohla očekávat májku trnkovou – a možná i posměch. „Jen Lovec a Smrtka opovrhují věrností,“ volal jeden mládenec po vesnici, „zato Mocný Vid a Květinová Dívka, ti se o věrnost alespoň snaží.“ Rozesmál se a dopil poslední zbytky medoviny z kravského rohu zdobeného jarním kvítím.</p>
+<p>Možná se vám tento obřad může zdát zvláštní, ale má své pevné místo. Dokonce jednou na samém počátku bytí Vindů stál za zrodem tradice, která se pro Vindy postupem času stala typickou. Jednoho krásného dne, byl to právě den po obřadu dobývání hradu, svolala půvabná lada, jíž říkali Parunka, své ostatní vrstevnice z vesnice na palouček poblíž vysoké Lípy. Byl slunečný den a ve vzduchu bylo cítit jaro. Když se všechny dámy usadily, Parunka se postavila a vznešeně pronesla: „Včerejší den byl jako vždy velmi poučný, jako vždy jsme hrad neubránily.“ „Proto jsi nás sem tak brzo ráno svolala?“ odsekla jedna z dívek a dlouze zívla. „Jde o to,“ nenechala se přerušit Parunka, „že toto dělení na muže a ženy odhaluje, i když si to možná některé z vás neuvědomují, nejen naše silné stránky, ale především slabiny.“ „Kam tím míříš?“ zeptala se další dívka s nadšeným výrazem v obličeji, „chceš snad změnit vůli Přírody? Chceš získat mužské vlastnosti?“ „Právě naopak,“ odvětila Parunka a v očích se jí mihnul plamen, „chci posilnit ty naše.“ „Správě,“ řekla dívka, „muži mají v podstatě jen samé slabosti.“ Ostatní mladé ženy se rozesmály. „No tak, uklidněte se,“ přerušila smích Parunka, „víte přeci, že nám byla dána povinnost ochraňovat naše děti.“ „To ještě chápeme,“ řekla další dívka, stále s úsměvem na tváři, „a co?“ „Když nedokážeme ubránit dřevěný hrad před bandou opilců a nadržených zjevů,“ promluvila rázně Parunka, „jak chcete ubránit naše děti v otevřené vesnici? Vždyť jsme neschopné.“ Ostatní dívky jen nechápavě zamrkaly. Pořád jim nebylo jasné, co po nich Parunka tímto svým dlouhým proslovem vlastně chce. Vše jim bylo jasnější, když Parunka, vidouc jejich nechápavé obličeje, vytáhla krásně zdobenou (jak jinak) a útlou pochvu, v níž byl schovaný meč. Pomaličku ho uchopila a vytáhla. Odraz paprsků Slunce na jeho čepeli oslnil všechny přítomné. Meč byl lehký a dělaný na míru. Parunka jím otočila a provedla piruetu. Byl to vskutku neobyčejný meč, pružný, určený pro ženy. Naprosto se vymykal všemu, co používali muži nebo co se používalo při obřadech nebo jako obětní dar. Dívky koukaly jako zaražené. „Kdes,“ zeptala se koktavě jedna dívka, „kdes to, u Živy Lady, sebrala?“ Parunka se usmála. „Možná už je vám jasné,“ řekla, „co mám na mysli. Znám jednoho kováře, žije hluboko v lesích, v jiném světě, hned se k němu vydáme.“ Parunka opatrně zastrčila meč zpět do pochvy. „A zítra,“ dodala, „vám ukážu, jak na to. Budeme se takhle scházet častěji.“ Záludně se zasmála.</p>
+<p>Mnoho dní poté seděl Tvrdo jako vždy večer u ohně. Po dni stráveném na poli a u dobytka si holt člověk potřebuje odpočinout. Trpělivě vysedával, Slunce už téměř zapadlo. „Ale no tak,“ rozčílil se a vyběhl z domu, „ženo, kde jsi? To zas mám dneska držet půst nebo co?“ Povzdychl si. „Asi jo,“ řekl potichu a se sklopenou hlavou se vrátil zpět. Když se jeho žena pozdě v noci vrátila, Tvrdo už téměř spal. „To je dost,“ řekl a usmál se, „kdepak jsi byla, ty má Vlaštovičko?“ „Nikde,“ odsekla žena a nenápadně schovala meč pod kožich v rohu místnosti. Nicméně měsíční světlo bylo silné a Tvrdovi stříbřitý záblesk rozhodně neunikl. „Copak to tam máš?“ zeptal se zvídavě, „nějaký ženský mečík? Tak to je roztomilé. Kdepak jsi ho vzala?“ „Do toho ti nic není,“ usmála se žena tajuplně, „ale je jen půjčený.“ Tvrdo k ní přistoupil a velice pevně ji objal. „Víš, já jsem pro objevování nových způsobů milování. Ovšem doufám, že není moc ostrý.“ Vycenil zuby. V tu chvíli se jeho ženě zablesklo v očích. „Přestaň se na mě sápat, ty prase,“ řekla a Tvrda odstrčila, „copak všechno musí sloužit jen tomu jednomu?“ Tvrdo, celý zaražený z její ne zrovna citlivé odpovědi, se uchýlil do kouta a posadil se na provizorní židli. „Odkdy,“ řekl smutně a udělal psí oči, „se moje žena stala mužem?“ „No tak,“ odpověděla jeho žena a přistoupila k němu, „to víš, že jsem stále ta samá.“ Povzdechla si. „Tak jo,“ dodala, „vlítneme na to a potom ti něco dobrého uvařím. Noc je dlouhá.“ Tvrdovy oči se rozzářily. „Ale slib mi,“ dodala vážně, „že se nebudeš vyptávat na ten meč.“ „Dobře,“ souhlasil Tvrdo, „slibuju.“ Když se ale Tvrdo ráno probudil, okamžitě vyhledal své kamarády a shromáždil je na návsi. Slunce právě vycházelo. „Něco se děje,“ prohlásil, „ale nevím co.“ „Také jsem si toho všiml,“ odvětil jeden jeho kamarád, „ženské odchází kdovíkam a dělají kdovíco. To bude nějaké spiknutí.“ Tvrdo si povzdechl.</p>
+<p>Uplynula dlouhá doba. Slunce se rozžhavilo a rostlinami prostoupila ohnivá síla, léčivá a pevná. V té době se muži chystali na válečnou výpravu. Totiž, abyste věděli, když v tuto roční dobu vyrazíte s bandou bojovníků na Koních, je docela veliká šance, že se po cestě najde někdo, kdo si bude chtít s vámi změřit síly, ať už to jsou ostatní bojovníci z jiných vesnic, se kterými se jedná spíše o hraní než o skutečný boj, opravdoví nepřátelé, nájezdníci nebo třeba zatoulaný Zubr, jenž v tuto dobu poskytne dostatek potravy. Ohnivé období je v podstatě jediným obdobím v roce, kdy je na dvanáct dní zakázáno se koupat v řekách a potocích. To je pro Vindy značně nepříjemné, tak se snaží odreagovat a získat si válečné zásluhy. Tedy alespoň ti, kteří se považují za bojovníky z povolání. „Vše je připraveno,“ oznámil náčelník, když přiváděl svého hnědého Koně, „můžeme vyrazit.“ Tvrdo i ostatní se na výpravu těšili, koneckonců jim nějaké to drobné povyražení už začalo chybět. Když opouštěli s křikem a lesknoucími se zbraněmi vesnici, všechny děti se seběhly, aby jim zamávaly. Ohnivé období je časem mužských záhad stejně tak, jako je období vody v zimě časem ženských tajemství. Oheň rozpoutává očistu a boj, avšak neubrání tomu, aby nedocházelo k projevům té nejnižší lsti. Poblíž vesnice byl totiž v lese nenápadně schovaný celý oddíl nepřátel, který čekal, až muži vesnici opustí. „Přesně jak jsem čekal,“ promluvil jejich velitel, „konečně si trochu užijeme, chlapi. Kořist, zajatci a ženy. Pomyslete na to.“ „Ano,“ řekl jeden z válečníků, „hlavně ty ženy. Tento ohnivý čas dovede člověka pěkně rozpálit.“ Velitel se usmál a vycenil zuby. Ptáčci pozpěvovali, ale i oni se potřebovali zchladit ve stínu. Velitel čekal. Bylo po poledni, čas odpočinku. „Dobře, chlapci,“ řekl, „pojďme.“ Zanedlouho se z lesa ozval pokřik a za ním vyrazilo asi dvacet bojovníků, nebo spíše kořistníků. Děti na nic nečekaly a odběhly se schovat do svých domovů. Starší ženy se modlily k bohům a prosily je a dobré duchy o pomoc. Ale žádná nepřicházela.</p>
+<p>„Do toho, chlapi, naberte, co a koho unesete, a honem pryč,“ poručil velitel, když byl celý oddíl jen krůček od vesnice. Válečníci neudržovali žádné pevné sevření, prostě se hnali vpřed. Najednou se však zastavili, protože jim cestu zastoupil malý hoch s dřevěným dětským mečíkem. Velitel se rozesmál. „Ale, ale,“ pravil s úsměvem, „kdopak nám to zastoupil cestu? To je mi ale pěkný neohrožený bojovníček.“ Všichni se rozesmáli. „Toho bereme s sebou,“ pokračoval velitel, „možná se nám bude jeho odvaha hodit, až vyroste.“ Když se velitel chystal k chlapci přistoupit, najednou si všiml, že se za blízkými domy něco mihlo. Něco bílého, šaty, sukně? Ani se nikdo z nich nestačil rozkoukat, když je zničehonic obklíčilo asi dvanáct dívek s vážnými tvářemi. Jednomu válečníkovi se na nich něco nezdálo. „Aha,“ promluvil velitel a rozesmál se ještě více, „holky se nám servírují samy!“ Bojovníci začali vydávat ne zrovna vábné zvuky. Dívky byly krásné, celé v bílých šatech, některé měly vlasy rozpuštěné, jiné v nich měly kožené provázky nebo věneček z květů, zatímco další upřednostňovaly dlouhé pletené copy. „Je na nich něco divného,“ promluvil bojovník, ten, kterému se na nich prvně něco nezdálo, „ale co to je?“ „Nevím,“ odpověděl jeho druh a pokrčil rameny. V tu chvíli to ale bojovníka trklo. „Vždyť mají meče!“ vykřikl, „veliteli, jsou ozbrojené.“ Velitel se na dívky úkosem podíval a nejistě odpověděl: „No co, jen ať jsou. Bude to alespoň zajímavější.“ Najednou si ale uvědomil, do jaké situace se dostali. Dívky začaly pomaličku vytahovat meče z kožených pochev. Ohnivá síla jim prostoupila až do nitra jejich srdcí, zbraně se leskly, odhodlání se zablýsklo v jejich očích. „Přišli jste si pro nás a naše děti,“ promluvila Parunka tak odvážně, až válečníkům naskočil mráz po zádech, „pak vězte, že Lovec si přijde pro vás, už brzy. Koloběh se otáčí.“ Poslední věta byla pro dívky jasným signálem, aby se vrhly vpřed. Skok, pirueta, sek, úskok. Bojovníci se ani nestačili vzpamatovat, nevěděli, odkud rány přicházely. Propíchnuté břicho, useknutá hlava, ruce, nohy, smrad. Bílé oblečení zrudlo. Dívky byly vskutku dobře vycvičeny a obratností se jim muži rozhodně nemohli vyrovnat. Lehké a lesklé zbraně také udělaly své. Boj byl již téměř u konce, když vracející se muži, vnuknutím taženi zpět k vesnici, spatřili, co se děje. Spustili válečný pokřik a na Koních uháněli směrem k nepřátelům, ovšem zbytečně. Když dorazili na místo střetnutí, všichni nepřátelé již byli mrtví. Ani jedné dívce se nic nestalo, jen byly celé od krve. „Pozdě jako vždycky,“ řekla Parunka a v bojové euforii se rozesmála. Všichni muži, s ústy dokořán, koukali jako vyjevení. Nezmohli se na jediné slovo. Tvrdo měl dokonce bradu zabořenou v koňské hřívě. Ústa měl otevřená a tváře mu zrudly. Jeho zrak, který byl pevně upřený na jeho ženu, prozrazoval, jak moc ho její bojovnost a ladné pohyby povzbudily. Nemohl se samým překvapením ani pohnout. Když na něj jeho žena záludně zamrkala, málem spadl z Koně. „Odkud jsou?“ zeptala se Parunka náčelníka a ukázala na rozsekané tělo velitele nepřátel. Náčelník seskočil z Koně a tělo prozkoumal. Okamžitě poznal vzory na košili. „Ti jsou z vesnice zvané Podhájí, nedaleko od Kládova,“ odpověděl a obrátil zrak na Parunku, „ale nevím, co měli za lubem. Asi chtěli jenom kořist.“ „To zjistíme,“ odpověděla Parunka s úsměvem a ukázala směrem na Kládov, „jdeme, děvčata.“ „Počkat,“ skočil jí do řeči náčelník, „půjdeme my.“ Parunce se zablýsklo v očích. „Vy nikam nepůjdete,“ řekla rázně, „vy uklidíte tady ten nepořádek.“ Náčelník se snažil prosadit svou autoritu, ale nakonec poznal, že to nemá cenu. „Jo, ještě si musíme něco vzít s sebou,“ dodala Parunka, vytáhla meč a sklonila se nad tělem velitele. Meč použila jako sekeru a uťala z jeho těla hlavu, kterou poté popadla za vlasy a zvedla ze Země. „Aby nás brali vážně,“ řekla a úkosem se podívala na náčelníka. Potom obrátila svůj zrak na bojovnice a zavelela: „Odcházíme!“</p>
+<p>Dívky procházely hustým lesem, všude kolem se leskly vysoké kmeny statných Buků. Nad hlavami jim kroužilo Káně. Netrvalo dlouho a dorazily do Kládova, odkud už nebylo obtížné najít cestu do vesnice zvané Podhájí. Ohně v dálce prozrazovaly, že se právě konal sněm rady svobodných. „Pojďme rovnou tam,“ řekla jedna dívka, „alespoň si budeme moci promluvit z očí do očí.“ Ostatní dívky souhlasily, a tak se jen nenápadně proplížily lesem kolem vesnice, až došly na mýtinu, kde sněm probíhal. Už z dálky je někteří zpozorovali, ale čerstvě zakrvácené oblečení a meče každému radily, že zastavovat je rozhodně není dobrý nápad. Parunka šla neohroženě včele, za ní ostatní dívky. Když je uviděl náčelník, hrozně se vylekal. Když pak před něj Parunka předstoupila a hlavu mrtvého velitele mu hodila do klína, vykřikl vysokým hlasem a dal se na útěk směrem ke statnému Dubu. Ovšem dívky byly rychlejší, popadly ho za košili a shodily k Zemi. „Já za nic nemůžu,“ blekotal náčelník, zatímco se ostatní členové rady svobodných shromáždili kolem, „jen jsem chtěl …“ „Co jsi chtěl?“ zeptala se Parunka a přiložila ostří meče na jeho krční tepnu. Náčelník se zakoktal, ale nakonec promluvil: „Chtěl jsem jen okolní vesnice oslabit, aby pak dobrovolně přijaly moji vládu. Ale moje úmysly byly čisté, chtěl jsem vytvořit mocné království.“ „Vládu jednoho muže?“ rozkřikla se Parunka, „to my, ženy, nikdy nedovolíme! Copak ti nestačí, že naše vesnice tvoří pevný svazek? Vzájemně si pomáháme, podporujeme se v boji, a ty takhle zneužiješ naší důvěry?“ „Jedině panovník a jeho rádcové dokáží utvořit mocnou říši,“ obhajoval se náčelník, „bylo by to i pro vaše dobro.“ „Svaz vesnic je jediný přirozený způsob, Přírodou a bohy posvěcený, copak to nevíš?“ neudržela se Parunka. „Taková blbost,“ pomyslela si, „a on nás chtěl nechat znásilnit a zabít nebo zajmout naše děti.“ „Parazite!“ rozkřikla se, „zasloužíš zemřít. Chtěls jít přes mrtvoly, co?“ „Účel světí prostředky,“ dodal náčelník, ale Parunka mu nevěnovala pozornost. „Tak teď se mrtvolou staneš sám,“ pokračovala. Potom se záludně usmála a dodala: „Uvidíme, jak se ti to bude líbit. Cítím v tvém srdci chamtivost, touhu po moci …“ Naneštěstí nestačila svůj proslov dokončit, protože ji jeden člen rady svobodných srazil k Zemi. Druhý pak kopl zezadu do nohou Tvrdovu ženu, která okamžitě spadla na kolena. V tu chvíli ji popadl za vlasy a přitiskl jí čepel dýky ke krku. „Ani hnout,“ rozkřikl se, „jinak vaše družka zemře!“ Dívky se na sebe podívaly, ale nepohnuly se. Krev na obličeji jim zasychala a předchozí boj je vyčerpal. Nastalo ticho, nikdo nevěděl, co se stane. Ticho přerušilo až to, když najednou muž, který držel čepel u krku Tvrdovy ženy, upustil dýku a vykřikl bolestí. Čepel meče mu zezadu projela hrudí. Její špička se blýskala ve světle zapadajícího Slunce. Najednou muže něco odtáhlo dozadu a povalilo na Zem. Nestál tam nikdo jiný než Tvrdo, který měl stále zarudlé tváře. „Tvrdo!“ vykřikla jeho žena se slzami v očích. S obtížemi se postavila a objala ho. „Už je to dobré,“ řekl Tvrdo. Parunka na nic nečekala a opět přitiskla čepel ke krku náčelníka. „Ty jsi nás sledoval?“ zeptala se jedna dívka. „Ne,“ odpověděl Tvrdo a zazubil se, „sledoval jsem tu krvavou stopu. Vaše metody vyjednávání jsou vskutku obdivuhodné, i samotný styl boje, kdy se soustředíte hlavně na rychlé sekání. Ovšem stále je to jaksi, ehm, brutální. Máte se hodně co učit.“ Opět se začervenal a pevně k sobě svou ženu přitiskl.</p>
+<p>„Dost řečí,“ řekla Parunka, „přísahej, náčelníku, že naši vesnici necháš už navždy na pokoji a upustíš od svých záměrů stát se panovníkem po vzoru cizinců, rozumíš?“ Náčelník nic neřekl, čepel ho studila. „Přísahej!“ vykřikla Parunka. „Přísahám,“ řekl konečně náčelník. Byl zoufalý. „U Pravdy Vida, u mocného Dubu, u Nebe a Lovce, přísahám!“ vykřikl, ale hned si uvědomil, jakou chybu udělal. Zaražený pohled jeho rádce, kněze a vůdce oslav, který stál poblíž, mu prozradil, že právě vykonal nejvyšší přísahu, jejíž porušení by ho stálo život. Parunka pomalu sundala čepel z jeho krku a nechala náčelníka, aby se zhroutil na Zem. Ten se rozbrečel jak malé dítě. Všichni členové rady svobodných ustoupili a zdvořile se uklonili. „Jdeme odtud,“ řekla Parunka, „snad se můžeme umýt alespoň vodou ze studně.“ Dívky se sotva držely na nohou, ale na cestě lesem zpět ke své vesnici nezpomalily. Vpředu šel Tvrdo, který podpíral svou ženu. „Dostala jsi pěkný zásah do kolen,“ řekl, „ale neboj se, je to jen naražené. Mně se to stalo už mnohokrát.“ Jeho žena se vlídně usmála. Stmívalo se. Od poloviny cesty pak Tvrdo podpíral i Parunku, které se vyčerpáním tak zamotala hlava, že se u jednoho stromu pozvracela. „Co říkáš na to,“ zeptala se s obtížemi Tvrda, „jak jsme vyřídily ty nájezdníky?“ „Dobré, ale moc krve,“ řekl a usmál se, „a že se vám nic nestalo, no, štěstí začátečníka.“ Naklonil se k Parunce a pošeptal jí: „Jsi skvělá vůdkyně a cvičitelka, jen tak dál.“ Parunka se usmála, jeho slova ji dojala. Když se vrátili zpět do vesnice, venku už hořel oheň, který spálil všechny mrtvoly nepřátel. „Není nad to,“ poznamenal náčelník, „když se ohnivé období oslaví pořádnou vatrou.“ Tvrdo a ostatní muži se usmáli. Děti pobíhaly kolem a hrály hry. Starší odpočívali. Když pak byly všechny chrabré bojovnice u studny a omývaly se, jedna z nich navrhla: „Musíme se Tvrdovi odvděčit, ale dnes ne, jsem unavená.“ Dívky se zachichotaly, protože jim Tvrdova mladá žena pohrozila pěstí.</p>
+<p>Zatím v jiném světě, v chaloupce v Zemi Jablek, zvedla Květinová Dívka povýšeně hlavu a jakoby ze shora se podívala na Mocného Vida. Úsměv a pocit zadostiučinění zdobil její tvář. Mocný Vid se posadil ke stolu a dělal, jako by si ničeho nevšímal. „Prý jsi nejlepší bojovník,“ řekla pochlebovačně Květinová Dívka, „a pán ohnivé síly.“ Zkřížila ruce na prsou a poté dodala: „No nevím tedy, takovou odvahu, jakou mají ty dívky, jsem u tebe ještě neviděla. Prý jen muži jí mohou dosáhnout.“ Rozesmála se a její vlasy získaly barvu obilí. Mocný Vid si opřel bradu o zápěstí a vzdychl. „Ale co,“ řekl nakonec, „nechť je jejich učení posvátné. Od teď až navěky.“ Květinová Dívka dostala záchvat smíchu, protože sám Mocný Vid, sluneční Hrdina, Vítěz a Dárce, jim byl nucen požehnat.</p>
+
+  </div>
+  
+		</body>
+</html>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cz.httpvindove.vindove.Activities.MainActivity"
+    android:background="@color/textWhite"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:visibility="visible"
+            android:id="@+id/dateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:id="@+id/moonImage"
+                android:paddingTop="-10dp"
+                android:paddingRight="-7dp"
+                android:paddingEnd="-7dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/moon"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@id/moonImage"
+                android:layout_toStartOf="@id/moonImage"
+                android:id="@+id/moonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:id="@+id/moonEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/moonText" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@id/moonEvent"
+                android:layout_toEndOf="@id/moonEvent"
+                android:layout_below="@+id/moonText"
+                android:id="@+id/infoMoon"
+                android:src="@drawable/zivot"
+                android:layout_width="12dp"
+                android:layout_height="12dp" />
+
+            <RelativeLayout
+                android:id="@+id/moonNameLayout"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/moonEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="11dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:id="@+id/infoMonths"
+                    android:src="@drawable/zivot"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:id="@+id/moonName"
+                    android:layout_toRightOf="@id/infoMonths"
+                    android:layout_toEndOf="@id/infoMonths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/moonNumber"
+                android:layout_below="@id/moonNameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/today"
+                android:layout_below="@id/moonNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:id="@+id/sunLayout"
+                android:layout_below="@id/today"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sunImage1"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/sun_es"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/equS"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:layout_toLeftOf="@id/sunImage1"
+                    android:layout_toStartOf="@id/sunImage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor" />
+
+                <ImageView
+                    android:layout_below="@id/equS"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sunImage2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/sun_ss"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/solS"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:layout_toLeftOf="@id/sunImage2"
+                    android:layout_toStartOf="@id/sunImage2"
+                    android:layout_below="@id/equS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor" />
+
+                <ImageView
+                    android:layout_below="@id/solS"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sunImage3"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/sun_ea"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/equA"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:layout_toLeftOf="@id/sunImage3"
+                    android:layout_toStartOf="@id/sunImage3"
+                    android:layout_below="@id/solS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor" />
+
+                <ImageView
+                    android:layout_below="@id/equA"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sunImage4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/sun_sw"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/solW"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:layout_toLeftOf="@id/sunImage4"
+                    android:layout_toStartOf="@id/sunImage4"
+                    android:layout_below="@id/equA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/swanImage"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/dateLayout"
+            android:layout_centerInParent="true"
+            android:src="@drawable/sulawo"
+            android:layout_width="300dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/firstLabelText"
+            android:layout_below="@id/swanImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/label_first" />
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:id="@+id/firstArticleLayout"
+            android:layout_below="@id/firstLabelText"
+            android:background="@drawable/search_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:lines="1"
+                android:maxLines="1"
+                android:id="@+id/titleFirstArticle"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:lines="2"
+                android:maxLines="2"
+                android:id="@+id/textFirstArticle"
+                android:layout_below="@id/titleFirstArticle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/secondArticleLayout"
+            android:layout_below="@id/firstArticleLayout"
+            android:background="@drawable/search_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:lines="1"
+                android:maxLines="1"
+                android:id="@+id/titleSecondArticle"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:lines="2"
+                android:maxLines="2"
+                android:id="@+id/textSecondArticle"
+                android:layout_below="@id/titleSecondArticle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="0dp"
+            android:id="@+id/secondLabelText"
+            android:layout_below="@id/secondArticleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/label_second" />
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/episodesLayout"
+            android:layout_below="@id/secondLabelText"
+            android:background="@drawable/search_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:lines="1"
+                android:maxLines="1"
+                android:id="@+id/titleEpisode"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:lines="2"
+                android:maxLines="2"
+                android:id="@+id/textEpisode"
+                android:layout_below="@id/titleEpisode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/webLayout"
+        android:layout_below="@id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/mainWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"/>
+
+        <ImageButton
+            android:id="@+id/buttonRefresh"
+            android:onClick="refreshWeb"
+            android:background="@drawable/refreshbutton"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

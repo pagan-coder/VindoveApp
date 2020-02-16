@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Irské a keltské právo</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p style="text-align: center;"><em>Naše západní civilizace je v zásadě založena na našem římském a řeckém dědictví, odkud získáváme názory na jedince, právo, umění a náboženství. Nicméně v Irsku Keltové pokračovali v rozvíjení své jedinečné kultury. Tento fakt měl zásadní dopad na způsob, jakým byla irská společnost organizovaná, konkrétně jak se vyvíjelo její právo.</em></p>
+<p>„Irský <em>flath-fine</em> nikdy neměl moc nad životem a smrtí členů domácnosti, což římský pater familias na počátku bezpochyby měl. Co se týče zacházení s cizinci: v Římě po dlouhý čas platilo, že cizí člověk byl nepřítel, se kterým mohlo být špatně zacházeno, jehož majetek byl <em>res nullius</em>, který jakýkoli Říman mohl zabavit, a jenž neměl vůbec žádné <em>locus standi</em> před soudním tribunálem. V Irsku byl cizinec osobou s nárokem na soucit, jehož majetek nemohl být odejmut, a nejen že ho soud vyslyšel, ale mohl si zvolit i svého soudce. ‚Kdykoli nějaká osoba překročí moře kvůli soudnímu případu, dostane se jí volby Brehonů Erinnu; a když překročí hranice provincie, dostane se jí volby brehonů v té dané provincii.‘ Již jsme si ukázali, že nespravedlivé zacházení s cizincem bylo trestáno jako podvod. Existovalo mnoho podobností mezi irskými zákony a zákony staré Británie, dokud tyto mohou být odvozeny skrze původní velšské zákony, mezi nimiž a těmi irskými byla veliká část společná. Všechny britské zákony byly upraveny pod římským vlivem, čemuž Irsko uniklo. Samozřejmě zákony Gaelů Skotska byly původně naše zákony přenesené do Skotska. Ony nicméně prošly zásadními změnami, jelikož feudalismus byl ve středověku Skotsku důrazně vnucen.“ – <em>The Brehon Laws: A Legal Handbook, Laurence Ginnell</em></p>
+<p>„Ještě než Keltové překročili Alpy a usadili se v té části Itálie, kterou nyní obývají, propukl mezi nimi strašný svár, který nebylo možné nijak usmířit a který nakonec vyústil v občanskou válku. Tu se vrhly jejich ženy mezi ozbrojená vojska, nechaly si vypravovat, kvůli čemu spor vznikl, a rozhodly a rozsoudily jej tak moudře, že mezi městy a jednotlivými rodinami znova vzniklo podivuhodné přátelství všech se všemi. Od té doby pokaždé, když se Keltové radili o válce a o míru, činili tak společně se svými ženami a nechali je také rozhodovat své neshody se spojenci. Ve smlouvě s Hannibalem ženy ustanovily, že budou-li mít Keltové nějakou stížnost na Kartágince, budou rozhodčími kartáginští místodržitelé a velitelé v Hispánii, a budou-li mít stížnost Kartáginci na Kelty, budou rozhodčími keltské ženy.“ – <em>O vynikajících ženách, O lásce a přátelství, Plútarchos</em></p>
+<p>„Každá smlouva jednoho je neplatná bez souhlasu druhého [z rovnoprávných manželů], vyjma těch smluv, které slouží ku prospěchu jejich domácnosti.“ – <em>Cáin Lánamna, 8. století n. l., jeden ze zápisů původního irského brehonského práva</em></p>
+<p>„Ale v praxi to nebylo tak zlé: žena byla majitelkou své domácnosti a do jisté míry směla v méně důležitých záležitostech jednat samostatně. Jestliže se jednalo o dědičku (<em>banchomarbae</em>), tj. neměla bratry, byla právně považována za muže, její manžel byl tudíž bezprávý (i to je indoevropské dědictví, jak ukazují paralely u mnoha jiných národů). Totéž platí u formy 4 [oddělené soužití, kdy muž ženu se souhlasem její rodiny navštěvoval] nebo když se žena provdala za cizince (tedy zásadně bezprávého, viz výše). Nezávislý právní status měly pouze ženy se zvláštními schopnostmi: básnířky, lékařky, řemeslnice a jiné (pojmy vyskytující se v zákonech jsou místy nejasné). Z principiálně závislého postavení ženy bezprostředně vyplývalo, že za přečin není odpovědná pouze ona. Podle okolností musela pokuty platit buď její rodina, nebo její muž či synové.“ – <em>Keltové – mýtus a realita, editor Stefan Zimmer, různí autoři</em></p>
+<p>„Pouto mezi vdanou ženou a jejím vlastním rodem nebylo zcela rozděleno, když se vdala. Žena nevstoupila do manželovy rodiny za účelem dědictví, ale zůstala v rodině svého otce. To je v protikladu k římskému právu. Římská žena patřila do rodiny manžela, v důsledku čehož už nemohla vlastnit majetek. V Irsku měla vdaná žena stále nárok na vlastní majetek, a tedy byla z pohledu práva více nezávislá.“ – <em>The Lost Laws of Ireland, Catherine Duggan</em></p>
+<p>„Naše západní civilizace je v zásadě založena na našem římském a řeckém dědictví, odkud získáváme názory na jedince, právo, umění a náboženství. Nicméně v Irsku Keltové pokračovali v rozvíjení své jedinečné kultury. Tento fakt měl zásadní dopad na způsob, jakým byla irská společnost organizovaná, konkrétně jak se vyvíjelo její právo. Tedy studiem starého práva v Irsku se můžeme dozvědět nejen o samotných zákonech, ale také o společnosti a kultuře Irska v nejranějších časech. Právo nám poskytuje okénko do starobylé irské společnosti. To odhaluje kulturu, ve které moderní koncepty jako rovnost, nedbalost, posun ve společnosti, nezaujatí svědci, férový a otevřený proces a ženská práva byly rozvinuty, na rozdíl od římského práva, od běžného práva a od feudální společnosti. Staré irské právo je pozoruhodné vzhledem k množství způsobů, ve kterých přijímalo moderní přístupy k záležitostem běžným v každé době. Koncepty posunu ve společnosti a ekonomické nezávislosti jsou dva moderní ideály, které byly nicméně také základními kameny staré irské společnosti. Jak posun ve společnosti, tak ekonomická nezávislost prostoupily irskou společnost sedmého a osmého století. Bohatství, nadání nebo řemeslná dovednost umožňovaly člověku se ve společnosti posunout. Úspěšný zemědělec mohl získat dodatečné pozemky, a tak zvýšit své společenské postavení. Vskutku, tyto zákony posun ve společnosti předpokládaly. Ve většině feudálních společnostech raně středověké Evropy se člověk narodil, žil a zemřel v daném společenském postavení. Třídní systém byl přísný. Naproti tomu se v rané irské společnosti mohl jedinec ve společnosti pohybovat nahoru či dolu. Mohl si zvýšit své postavení, dokonce pro svou rodinu získat urozenost, a to skrze své zásluhy – což velmi kontrastuje s pevnými postaveními feudální Evropy … Některé zákony zdůrazňovaly humánní zacházení s ostatními. Jedním příkladem je, že se od syna požadovalo, aby se postaral o své rodiče, a pokud tak neučinil, mohl pozbýt svého dědictví a riskovat, že by mohl být pokládán za odpadlíka … Odolnost starého irského práva demonstruje jeho přijetí a uznání, stejně jako jeho hodnota a efektivnost. Během pozdějších časů ve středověku ho církev tvarovala a manipulovala s ním; Normané ho kritizovali a odstavili stranou; a Angličané ho postavili mimo zákon a nakonec zničili. Bez ohledu na tyto útoky trvalo přes tisíciletí … Z jazykovědného hlediska a jeho důkazů je jasné, že mnohé ze zásadních rysů raného irského práva pocházejí ze společných keltských časů (zhruba kolem roku 1000 př. n. l.).“ – <em>The Lost Laws of Ireland, Catherine Duggan</em></p>
+<p>„Jak v raném Irsku, tak i v moderních časech je odvolání [smlouvy] možné, pokud byl souhlas k ní získán nepochopením, nátlakem, výhružkou nebo podvodem. Ale ne v římském právu. Irská ústní smlouva, <em>cor mbél</em>, byla vysoce formálním uspořádáním jako její římský protějšek. Ale na rozdíl od římského <em>stipulatio</em> byly irské smlouvy více flexibilní a pragmatické než jejich klasické ekvivalenty.“ –<em> The Lost Laws of Ireland, Catherine Duggan</em></p>
+<p>„Porovnání irského klientského vztahu se vztahem mezi pánem a vazalem karolínské Franské říše devátého století mnohé objasňuje. Ve franském systému vlastnil pán jak svoje pozemky, tak i ty, na kterých žil a pracoval jeho vazal. V Irsku pán vlastnil pouze své pozemky a klient své vlastní. V irském systému pán klientovi garantoval určitý počet dobytka výměnou za určené služby, a dodávky jídla. Karolínský vazal krmil svého pána prací, kterou dělal na pánově pozemku. Irský klient krmil svého pána prací, kterou dělal na svém vlastním pozemku. V irském případě to mělo dvě podoby: dodávky doručené pánově domácnosti, a pohostinství poskytnuté pánovi v klientově domě. Bylo by velmi překvapující, pokud by karolínský nevolník bavil svého pána ve svém vlastním domě, nicméně v Irsku to byla běžná praxe. Proto byl mezi irským pánem a jeho klienty menší sociální odstup než mezi karolínským pánem a jeho vazalem … Smluvní vztah mezi pánem a svobodným klientem trval obvykle sedm let. Mohl být kdykoli zrušen vzájemnou dohodou. Jednoznačně byl svobodný klient v mnohem lepší pozici než vazal v karolínských královstvích … Posun ve společnosti ve starém Irsku se odrazil v právní průpovědi <i>člověk je lepší než jeho původ</i>. Znamenalo to, že bohatství, talent nebo řemeslná dovednost byly dostatečné, aby lidem umožnily se ve společnosti posunout vzhůru vzhledem k jejich stavu. Vskutku, zákony posun ve společnosti předpokládaly. Nikde v zákonech není žádná zmínka toho, že by se postavení daného svobodného muže dědilo. Svobodný běžný člověk své postavení získal díky svému bohatství a vlastnictví. Toto kontrastuje s feudální společností, ve které byl stav člověka nutně stejný jako stav jeho otce.“ – <em>The Lost Laws of Ireland, Catherine Duggan</em></p>
+<p>„Smlouvy dohodnuté v (alkoholickém) opojení nejsou platné – pouze tři z nich, a to slib postupu v základním klientském vztahu, dohoda o společné orbě a všechny dohody mezi sousedy.“ – <em>Berrad Airechta, §17, jeden z textů ze starobylého irského práva, které vychází ze společného práva keltského</em></p>
+	
+  </div>
+  
+		</body>
+</html>

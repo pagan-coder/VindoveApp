@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Slavnosti kola roku</h1>
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<h2>Jaro</h2>
+<p>„První postní neděle má jméno <em>liščí</em> (bývá tak nazývána i neděle čtvrtá) a obyčeje, v nichž figuruje Liška, se vyskytují na středozápadě a západě Čech, na Hořovicku, Berounsku, Rakovnicku, Sedlčansku, Plzeňsku. Průpovídku <em>Liška rozdává preclíky</em> zapsal Karel J. Erben a Václav Krolmus (1847) vypráví o matce, která v noci peče preclíky, navléká je na vrbový proutek a zrána věší na stromy. Kolik dětí, tolik proutků. Přivolané děti dostanou vysvětlení, že preclíky jim zanechala na stromě Liška. V mladších variantách obyčeje vystupuje osoba maskovaná za Lišku. V okolí Nechvalic na Sedlčansku upekly hospodyně dětem preclíky, postní pečivo, na památku ‚liščích hodů‘. Výrostek se přestrojil za Lišku a s preclíky a sušeným ovocem vylezl na půdu, kde si připravil nádobu s vodou. Děti shromážděné na dvoře pokřikovaly na ‚lišku‘. Ta jim házela z půdy preclíky a ovoce, a když se děti shlukly, polila je z vikýře vodou. V kraji kolem Plzně a Příbrami bylo Lišce připisováno, že přináší novorozence; <em>běhá tam Liška</em> – narodí se dítě. Liška se objevuje v dětském folkloru, v říkadlech, koledách, hrách a pohádkách, a to ve smyslu pozitivním, jako bytost pomáhající.“ – <em>Obyčeje a slavnosti v české lidové kultuře, Eva Večerková</em></p>
+<p>„Stěžejní místo ve velikonoční obřadní tradici měla pomlázka, vyskytující se převážně v trojím významu: jako spletený proutek z ohebného proutí Vrby, jako obdarování za vyšlehání a také jako koleda s přáním, spojená s výslužkou. Velikonoční mrskut či pomlázka má starý původ, doložený zmínkou pražského kazatele Konráda Waldhausera v Postile pražských studentů ze 14. století. Podle ní se manželé a milenci vzájemně šlehají metlami a tepají rukou v pondělí a úterý velikonoční a ospalé a lenivé házejí do vody nebo je alespoň polévají. Obyčej dokládají i jiné středověké prameny, např. Postila husitského kněze Jana z Rokycan, která zaznamenává, že se dívky a pacholci o velikonočních hodech <em>pomlázejí</em> a <em>mrskají</em>. Podobné je svědectví lékaře Guarinonia z doby Rudolfa II., podle něhož se po Praze podávaly pestrobarevné metly, které si každý koupil a běhal s nimi v ulicích a šlehal panny i slečny po ramenou a rukou (sic!), aby od nich dostal velikonoční vejce. Na poslední svátek pak děvčata měla mrskat mládence s očekáváním, že jim dají kraslice; celý obřad byl provázen radovánkami v krčmách … Šlehání bylo spojováno s představou přenášení síly probouzející se vegetace na člověka a mělo zajistit zdraví a svěžest po celý rok, aby ženy a dívky neoprašivěly, aby nebyly líné, ale čilé a mrštné, neštípaly je Blechy. Vyplácení mladých děvčat mělo také zřetelně milostný a erotický význam. Někde chlapci dívkám jen promrskávali sukně, jinde je šlehali i po nohou a to pořádně.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Pro tradiční lidovou kulturu, zvláště v agrárním prostředí, byla neméně výrazná rovina spjatá s jarní obnovou přírodních sil v klíčovém údobí vegetačních změn i se zahájením zemědělských prací. Kromě snahy ochránit dům, hospodářství a vše nezbytné k životu bylo příznačné úsilí pozitivně ovlivnit nadcházející vegetaci. Do <em>jarního novoročí</em> se proto koncentrovala řada obyčejů a magických praktik, které měly zajistit úrodu a zdraví lidem i dobytku a jejich ochranu. Některé z nich byly výlučně velikonoční záležitostí, další se vykonávaly v delším údobí přechodu od zimy k létu, zvláště při první jarní orbě, setí a vyhánění dobytka na pastvu. Obdobné zvyklosti provázely též přechod starého roku do nového v <em>zimním novoročí</em>, a to i takové, pro něž v zimě nepanují příznivé klimatické podmínky (např. mytí a koupele v pramenité vodě).“ – <em>Cyklus výročních svátků a obyčejů, Velké dějiny zemí Koruny české – Lidová kultura, ed. Lubomír Tyllner, kolektiv autorů</em></p>
+<p>„K tradičním svátečním událostem jarního času, spjatým s důvěrnějšími kontakty mládeže, patřilo také pálení ohňů v předvečer svátku sv. Filipa a Jakuba, <em>při nichž chasa až bespusť dováďała</em>. Při přeskakování ohně se zamilovaným měla vyplnit ta nejtajnější přání. Celá tato noc, zvaná také Valpružina, byla v lidové tradici spjata s věštbami a milostným čarováním. Obyčejové příležitosti během celého období se prolínaly s pohanskými tradicemi slunovratu, spojenými s (magickými) účinky darovaných a konzumovaných předmětů, se šleháním a s předváděním milostných her, směřujících k rozvolnění běžných zábran fyzických kontaktů. “ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<h2>Léto</h2>
+<p>„Způsob sběru a aplikace bylin se tradovaly z generace na generaci a byly takřka výhradně záležitostí žen – kořenářek a bylinářek, <em>poboňkářek</em>, léčitelek, zaříkávaček, věštkyň a čarodějek. Teolog a historik Antonín Podlaha uvádí, že ve Vysokém Mýtě na Chrudimsku byla v roce 1698 přistižena stařena, která prodávala jinochům a dívkám nějaké byliny, jimiž by získali k sobě vzájemnou náklonnost a lásku. Rostliny se trhaly v čase, kdy měly mít podle tradice nejvíce síly – v určitou denní dobu (časně ráno do východu Slunce nebo v poledne), ve dnech spjatých se svátkem některého světce, např. v předvečer svátku sv. Jana Křtitele (<em>svatojánské byliny</em>), v čarovné filipojakubské noci (<em>Jakubovo koření</em>), jindy o Božím těle, na Velký pátek, na Květnou neděli. Staré kořenářky tvrdily, že každé kvítko vyrostlé v tajemné noci před sv. Janem volá na člověka: <em>Utrhni mě!</em> Slezské dívky říkaly při kopání bylinek: <em>Kopu já tě, má zelinko, pěti prsty, šestum dlaňum, až se všeci za mnum hoňum.</em> Čekanka, vykopaná holýma nohama na Velký pátek, <em>zapřísahaná svatými slovy a vyzdvižená šátkem</em>, měla moc vyvolat zamilovanost toho, kdo se jí dotkl. Na Berounsku si dívky trhaly nerozvinutý květ rukou ovinutou šátkem nebo zástěrkou a přitom říkaly: <em>Čekanko u cesty, trhám tě pro štěstí, abys mi milého přála, kteréhos nadarmo čekala.</em> Potom si květ vložily za ňadra se slovy: <em>Bodejž si vykvetla!</em> Když se tělesným teplem rozvinul, dívka mohla očekávat, že se dočká štěstí. Rovněž tak hoši zkoušeli Čekankou věrnost svých milých: utržené tři květy hodili do mraveniště a když zčervenaly, byli si jejich láskou jisti.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Zvláštní úlohu v tradičních svatojánských zvycích měly byliny, v té době sbírané k léčivým účelům vzhledem k vegetačnímu vrcholu, ale opředené nesčetnými pověstmi o čaromoci. Především Černobýl (Pelyněk; <em>svatého Jana pás</em>, <em>svatojánská bylina</em>) a Verbena (Sporýš lékařský), z nichž si účastníci oslav pletli věnec na hlavu a pás kolem beder na ochranu proti očním chorobám a bolesti zad, také Třezalka (<em>bylina svatého Jana</em>), kořen kapradí (<em>svatojánská ručička)</em>, Blín (<em>vlčí ocas</em>) a řada jiných, skutečných i pomyslných. Tak zázračný květ kapradí údajně rozkvétá o svatojánské půlnoci, a utrhne-li jej nahá žena (panna, rukou obalenou bílým šátkem apod.), získá klíč k pokladům a ke štěstí a porozumí řeči zvířat. Svatojánské kvítí sloužilo k výzdobě obydlí, posléze sušené k léčení a magickým praktikám věštebné, milostné, očistné i ochranné povahy. Věnec z devatera (sedmera) svatojánského kvítí hozený do vody, věnec vložený pod polštář, věnec vložený Kravám do žlabu, to vše bylo v pověrečných představách spojeno se zcela konkrétním účinkem. Úcta k čaromoci bylin a představa, že do nich tuto moc vkládá sám Jan Křtitel, nalezla výraz v tradičním ozdobném vystýlání oken či jiných míst v domě rostlinami a ve vzájemném obdarovávání. Ještě v polovině 20. století tzv. <em>svatojánskou postýlku</em> z bylin kladli v Podkrkonoší (Vysoké nad Jizerou) mezi trnože stolu, u něhož rodina svátečně obědvala.“ – <em>Cyklus výročních svátků a obyčejů, Velké dějiny zemí Koruny české – Lidová kultura, ed. Lubomír Tyllner, kolektiv autorů</em></p>
+<p>„Lidové označení svátku <em>Panny Marie Kořenné</em> se dotýká obřadu žehnání bylin, zakotveného v liturgii svátku, což bylo jedním z důvodů jeho velkého významu v lidovém, především v agrárním prostředí. Církev se snažila starý obyčej sbírání bylin a zejména jejich užití, doprovázené magickými rituály, christianizovat … K požehnání se předkládaly různé rostliny a v různém počtu, většinou však šlo o druhy, které měly medicínské účinky a jimž lidé přičítali zvláštní sílu. Požehnané zeliny se zastrkovaly do osetého pole, pokládaly se do krmení dobytku, spalovaly se při bouři nebo nosily jako amulet na těle jako ochranný prostředek proti veškerému nebezpečí. Byly uchovávány v domě proti ohni a blesku.“ – <em>Obyčeje a slavnosti v české lidové kultuře, Eva Večerková</em></p>
+<p>„Počátek, průběh a zejména závěr žní byl plný pověrečných a magických praktik. Ženci se např. na Slovácku před prací ovazovali kolem pasu povřísly, první požaté obilí bylo obřadně přinášeno do stodoly a obřadně rozdělováno mezi hospodáře a hlodavce, kteří tak měli být symbolicky odbyti, aby dále neškodili. Během žní byl na pole přísný zákaz vstupu, náhodní návštěvníci byli symbolicky svazováni slámou či povřísly a museli se vykoupit. Funkci obětního rituálu mělo ponechávání několika stojících nepožatých klasů (tzv. <em>koza</em>), často svázaných a ozdobených (<em>stodola</em> v západních Čechách, <em>sibilija</em> na Horňácku), na poli. Tyto klasy, jak vyplývá z kontextu příslušného rituálu, byly např. v Lužici určeny bohu, ale i ‚polednici‘. Zvyk ponechávat na poli část úrody – kromě obilí a Lnu třeba ovoce – souvisel s představou o neustálém cyklu úrod, kdy úspěch minulý je možné přenést též na budoucí. Poslední snop obřadně přivážený z pole byl taktéž zdoben, často i antropomorfizován (figurína, pojmenování po živé osobě) a symbolizoval jak zdar dokončené sklizně, tak koloběh života. Z něj vymlácené obilí se přidávalo do příštího osiva. Zdobily se a v interiérech usedlosti rozvěšovaly jednotlivé klasy z úrody či se z nich pletly tzv. <em>dožínkové věnce</em>. Samotný závěr žní spojený s vyplácením námezdné pracovní síly a oslavou zdaru úspěšné práce se vyvinul v kolektivní obřad či spíše slavnost dodnes známou jako <em>dožínky</em>.“ – <em>Tradiční agrární kultura, Velké dějiny zemí Koruny české – Lidová kultura, ed. Lubomír Tyllner, kolektiv autorů</em></p>
+<h2>Podzim</h2>
+<p>„Právě se Lnem byla spjata řada pověrečných praktik jak při setí, pěstování a sklizni (vyhazování semen vysoko do vzduchu a jejich skladování v dlouhých pytlích, aby Len narostl vysoký, tzv. skok ke Lnu a některé tance během masopustu, ponechávání několika nepožatých ozdobených rostlin na poli jako oběti vyšší moci), tak při jeho zpracování. <em>Dotěrky</em> či <em>konopickou</em> můžeme chápat jako svého druhu analogii k slavnostem a obřadům <em>dožínek</em>. Setí a péči o Len, obilí či Konopí doprovázely i církví kritizované obřady spojené s nahotou lidského těla a sexualitou, jako bylo setí za tmy bez oděvu nebo válení se v polích a na lukách. Lehání a sedání žen do brázd je ovšem známo i z pěstování Brambor.“ – <em>Tradiční agrární kultura, Velké dějiny zemí Koruny české – Lidová kultura, ed. Lubomír Tyllner, kolektiv autorů</em></p>
+<p>„Přástky si vysloužily kritiku zejména za projevy erotického charakteru. Patřilo k nim například vzájemné zavazování dívek a žen do slámy a jejich koulení se po jizbě s mužskými, jak svědčí i výrok, kterým slibuje přadlena svému milému: <em>Jak potáček</em> (vřeteno) <em>namulám</em> (natočím)<em>, to sa s tebú pokúlám</em>. V Kostelci na Hané se přástevnice (obyčejně vdané) omotaly v komoře slámou a po návratu do světnice tančily s přítomnými muži, kteří se je snažili svalit na zem. Když se to někomu podařilo, v tu chvíli porazili tanečníci i ostatní ženy a dívky, váleli se s nimi po zemi a v nastalém chaosu se jim snažili dostat pod sukně. Svobodná děvčata při tom křičela a stahovala si sukně pevně kolem lýtek, aby byla chráněna před dotěrnými mužskými, zvláště když někdo nakonec zhasl světlo a nastala všeobecná vřava.“ – <em>Namlouvání, láska a svatba v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„O půlnoci chodí panny, nemajíce ještě žádného milého, do zahrady plotem třást, říkajíce při tom tato slova: ‚Třesu, třesu plotem, kde můj milý bytem: ozvi se mi, ozvi pes, kde můj milý večer dnes.‘ Na které straně pes nejprve zaštěká, od té její souzený přijde. Ale neradí se pannám, aby užívaly tohoto prostředku, neb jedna si také tak vyšla, a když řekla ‚Třesu, třesu plotem‘, tu jí na to něco odpovědělo: ‚A já tvým životem!‘ a do roka byla panna na prkně.“ – <em>Vídy čili sudice, Slovanské bájesloví, Karel Jaromír Erben</em></p>
+<h2>Zima</h2>
+<p>„Počátek a konec ročního cyklu byl umísťován do různých časových období. Pro dávné zemědělce a pastevce severního podnebného pásma byl vždy nejdůležitějším dnem v roce den zimního slunovratu (kolem 21. prosince), příslib nového života. V antickém Římě provázely zimní slunovrat několikadenní bujné <em>saturnálie</em>, jejichž součástí bylo i obdarovávání blízkých osob. Jim předcházely rolnické slavnosti <em>opálie</em> a následovaly lednové <em>kalendy</em>, spojené s počátkem nového kalendářního roku (1. leden v juliánském kalendáři). Od konce 3. století navíc obyvatelé římské říše 25. prosince vzdávali poctu božstvu Vítězného Slunce. Na tomto státním svátku se podíleli také ranní křesťané, dokud jejich biskupové neoznačili tento den dnem narození Krista, <em>Slunce spravedlnosti</em>. Proměnu podstaty svátku vysvětlil sv. Augustin: křesťané neslaví narození Slunce, ale toho, kdo je stvořil. Nejstarší zmínka o oslavě 25. prosince jako dne narození Krista v Betlémě je zaznamenána roku 336 ve Filokalově římském kalendáři. Výpočty církevních autorit zároveň obsadily i další významné astronomické mezníky. Narodil-li se Kristus ve dnech zimního slunovratu, musel být počat o jarní rovnodennosti (okolo 21. 3., svátek Zvěstování Panny Marie 25. 3.) a jeho o šest měsíců starší bratranec Jak Křtitel, narozený o letním slunovratu (okolo 21. 6., svátek 24. 6.), byl tudíž počat o podzimní rovnodennosti (kolem 23. 9., svátek Početí sv. Jana 24. 9.). Veškeré tyto výpočty byly samozřejmě provedeny uměle, protože Bible o datu Kristova narození nepraví zhola nic. Z evangelijního hlediska jsou nejdůležitějším svátkem křesťanů Velikonoce, dny Kristova utrpení a slavného zmrtvýchvstání, ale jejich datum přirozeně vyplývalo ze samotného Kristova příběhu a souviselo s termínem dávného židovského svátku Pesach. Lidovému vnímání byl odpradávna daleko bližší lidský příběh matky a novorozeného dítěte než těžko pochopitelný příběh ukřižovaného a zmrtvýchvstalého boha.“ – <em>Cyklus výročních svátků a obyčejů, Velké dějiny zemí Koruny české – Lidová kultura, ed. Lubomír Tyllner, kolektiv autorů</em></p>
+<p>„Z časů Václava IV. pochází známý traktát o Štědrém večeru od břevnovského benediktina Jana z Holešova, odsuzující, že <em>v některých končinách křesťané nechávají chleby na stolech a ubrusech o těchto svátcích s noži nikoli na počest a památku Kristova dětství, ale aby v noci přicházeli bůžkové a jedli … V tomto nejhrubším bludu jsou zajisté podobni těm, kdož kladli hmotné pokrmy na hroby svých drahých, aby je jedly duše vycházející v noci z hrobů.</em>“ – <em>Narození a smrt v české lidové kultuře, Alexandra Navrátilová</em></p>
+<p>„Prostírat nebožtíkům k večeři a ponechávat po celou noc na stole jídlo duším předků byl starobylý zvyk, který sporadicky přetrvával až do moderní doby. Spíše zábavnou aktivitou byly v mnoha rodinách provozované věštby na lidský osud, na lásku, svatbu, zdraví, narození, smrt, na bohatství a daleké cesty a bavili se jimi měšťané i venkované. <em>Třesu třesu třas, ozvi se mi hlas, kde já budu na rok večeřeti zas!</em> volávaly po dlouhé generace dívky vyběhnuvší z tepla domova do tmavé mrazivé noci, třásly plotem nebo stromem a čekaly, odkud zaslechnou psí zaštěkání. Pro venkovany byly významnější věštby na počasí a úrodu, na zdraví dobytka a drůbeže, hojnost ovoce a mláďat všeho druhu. Nejpozorněji v celém roce sledovali různé úkazy, vkládané po staletí do pranostik, aby nahlédli, co jim Příroda chystá. Pomocí prastarých praktik se snažili prosperitu si pojistit. Složitý systém příkazů a zákazů diktovaných tradicí vyplňoval hodiny svatvečera až do jitřní (půlnoční) mše. Nejen obřadné pohoštění hospodáře vánočkou (štědrovkou), domácích zvířat a zahrady, jak je známe z balady Karla Jaromíra Erbena, ale i pokládání nejrůznějších obilovin, luštěnin, ořechů a sušených plodin na stůl, ať už v přírodním, nebo zpracovaném stavu. Rovněž symbolická přítomnost slámy nebo zbytků dožínkového věnce jako příslib budoucí úrody, kladení kovových předmětů pod stůl na obranu proti zlým silám (řetěz, zkřížené sekery, radlice) nebo okuřování světnice bylinami (Černobýl, Jalovec) jako rituální očista, to vše směřovalo k prosperitě v dalším ročním cyklu. Snad žádný čas v celém roce nebyl tolik svázán pověrečnými zvyky a představami jako čas štědrovečerní.“ – <em>Cyklus výročních svátků a obyčejů, Velké dějiny zemí Koruny české – Lidová kultura, ed. Lubomír Tyllner, kolektiv autorů</em></p>
+<p>„Někteří autoři připouštějí spojení kultu mrtvých se svátkem Hromnic (2. února). Tento svátek mohl souviset s římskými <em>parentaliemi</em> (13. února), při nichž Římané přinášeli mrtvým oběti na hroby a rozsvěcovali pochodně. Pro tuto souvislosti je u nás zatím jediným dokladem zpráva z Hájkovy kroniky z r. 991, která popisuje rozdělávání ohňů u velkého Dubu na Petříně v zimním čase, při kterém <em>pohané i křesťané</em> po celou noc přikládali do ohně, v němž spatřovali lidské přízraky a pravili, že by <em>otcův a předkův jich duše od hříchů se čistili, někteří pak chleby a jiní peníze na ně obětujíc, na ten oheň metali.</em>“ – <em>Narození a smrt v české lidové kultuře, Alexandra Navrátilová</em></p>
+
+  </div>
+  
+		</body>
+</html>

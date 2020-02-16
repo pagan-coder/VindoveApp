@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="cs-CZ">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="cs-CZ">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+  <link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+  <style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #990100;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #990100;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #990100;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #990100;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #990100;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #990100;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #dd4544;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #db4141;
+		}
+
+		.site-navigation a:hover {
+			color: #db4141;
+		}
+
+		::-moz-selection {
+			background: #db4141;
+		}
+
+		::selection {
+			background: #db4141;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #db4141;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #db4141;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #db4141;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #f85e5e;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #f85e5e;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #f85e5e;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #f85e5e;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #f85e5e;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #f85e5e;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ff7272;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ff7272;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #ff6969;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #ff6969;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: none;text-align: center;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1080px;width: 100%;}.site-header{max-width: 1080px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 874px;}.comments-area{max-width: 874px;}.post-navigation, .image-navigation{max-width: 874px;}</style>
+    <style>.content-area{padding-top: 28px;}.content-sidebar{padding-top: 28px;}
+		@media screen and (min-width: 846px) {.content-area,.content-sidebar{padding-top: 28px;}}</style>
+    <style>.content-sidebar .widget .widget-title{border-top: 0;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1080px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 1080px;}
+	</style>
+	
+    <style>.featured-content{display:none; visibility: hidden;}</style>
+			<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+	<style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #990100;
+	color: #eeeeee;
+	width: 25px;
+	height: 23px;
+	line-height: 23px;
+	bottom: 30px;
+	left: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #cb3131;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.9;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style>
+</head>
+
+<body style="margin: 20px 16px 4px 16px;">
+
+    <header>
+      <h1 class="entry-title">Každodenní život</h1>
+      <div class="entry-meta">Napsal: Lúán Rélta (Přemysl Lúa Černý)</div><br />
+    </header><!-- .entry-header -->
+
+		<div>
+    
+<p style="text-align: center;"><em>Proč se lidé zajímají jen o války a o „významné“ události, když nejdůležitější je to, jak žijeme?</em></p>
+<p>Malý Lado se prudce vytrhl ze snu. Jemné světlo prostupující skrze otvory pod střechou prozrazovalo, že Slunce ze svého lesního domečku již začíná stoupat do jasně modré nebeské říše. Lado se dětsky pousmál a v jeho tmavě zelených očích se zablesklo. Posadil se, dlaněmi pod sebou nahmatal jemný kožich, načež ze sebe prudce shodil přikrývku. Nadechl se. Když se tak rozhlížel po domečku, všiml si, že jeho maminka stále ještě spí. Protože ji nechtěl budit, jen opatrně vstal, obešel malou hliněnou pec a zamířil ke dveřím. O jeho rozcuchané tmavě hnědé vlasy zavadil na horním trámu položený bílý plátěný šátek takovým způsobem, že se Lado vylekal a obrátil své oči směrem ke stropu, kde byly zavěšené sušící se léčivé byliny – mezi nimi například Pelyněk, Řebříček a Třezalka. Na čistém dřevěném trámu pak kromě několika šátků byly položeny i misky, džbánky a různé další věci, mezi nimi i sušící se listy léčivého Jitrocelu. Lado se však přílišným pozorováním nechtěl zatěžovat, protože měl namířeno do bukového lesa, podél něhož šuměl křišťálově čistý horský potůček, který tvořil přirozenou hranici Ladovy vesnice. Vůbec Ladovi nevadilo, že má na sobě jen pomuchlanou dlouhou bílou košili z jemného Lnu, která mu sahala až pod kolena. Měl namířeno skrze vesnici, která ještě líně pospávala. Lado se nadechl čerstvého vzduchu. V dáli před sebou spatřil vysoké zalesněné kopce, za nimiž pomalu do výšky stoupala sluneční záře. Dveře všech domečků nenápadně směřovaly do kruhového středu vesnice, takže Lado poznal, že se dnes nikomu nechce vstávat. Původně chtěl zamířit doleva směrem k také napůl v Zemi zapuštěnému domečku, kde bydlel jeho jen asi o rok starší kamarád Drako, nicméně Lado moc dobře věděl, že jeho rodiče jsou poněkud nevrlí, když je někdo budí. Především Drakův otec byl poněkud ohnivější povahy, jak už to tak u některých lidí bývá. Teď na to Lado ale nemyslel, protože zamířil doprava do mírného kopce k šumícímu potůčku, za nímž se nacházelo plno rostlin, keřů a vysokých stromů, především Buků, které byly to nejvyšší a nejmajestátnější, co Lado kdy ve svém dosavadním životě viděl. Ranní rosa na zelené trávě osvěžila Ladova jemná chodila tak, že se Lado napoprvé otřásl zimou. Zastavil se. Nevěděl, jestli má přejít po dřevěné lávce na druhou stranu, nebo jestli se má napřed vykoupat a osvěžit, neboť svítání je kouzelná doba, která probouzí vše živé z nočního spánku a přináší sílu a očistu. Lado se tedy zamyslel, zatímco se nechal ovívat ranním Větříkem. Bučiny pokojně šuměly a jejich jasně zelené lístečky začaly odrážet první sluneční paprsky. Ladovi se chtělo znovu spát. „Ne,“ vykřikl, načež si přes hlavu prudce strhl košilku a rozhodl se pomaličku vejít do potoka. Znovu se otřásl zimou, když se prsty na nohou dotkl studené vody. Zatnul zuby, zavřel oči a bezmyšlenkovitě do proudícího potůčka skočil. Bylo mu, jako by jeho malé tělíčko probodlo tisíc a jedna rampouchů. Snažil se nekřičet, aby nevyplašil ostatní spáče. Zadíval se znovu po proudu potoka směrem na vzadu stojící zalesněné kopce. Odtud spatřil i políčka dole pod vesnicí, kterým tento rok vládla Pšenice. Obilí zlátlo. Lado se musel chytit břehu, protože potok byl na tomto místě poměrně hluboký. Nevybral si však ten břeh, odkud do vody skočil, ale ten protější u bukového lesa, na jehož okraji se podél statné jemné Břízy točil Jeřáb, strom plodnosti, obtěžkaný nespočtem zrajících oranžovočervených jeřabin. Lado se chytil břehu a usmál se, jelikož se před ním objevil cíl jeho ranního dobrodružství – černé a chutné ostružiny. „Rád tě vidím,“ řekl Lado směrem k Ostružiníku, „duchové lesa, smím si natrhat?“ I když robustní Buky souhlasně zašuměly listím, Lado nevypadal, že by čekal na odpověď, jelikož své dětské radosti a chuti rozhodně nemohl odolat. Vzal první ostružinu a hodil si ji do pusy. Zavřel oči, vychutnával, přemýšlel, pociťoval sílu a vnuknutí. A znovu. A další kousek. Otevřel oči. Znovu se podíval po proudu potoka směrem na východní stranu, kde zamával ukazujícímu se Slunci. Potom se vrátil zpět na břeh, oklepal se a znovu si svou košilku-tuniku oblékl. Než si ji však přes sebe přehodil, plácl se přes záda. Nebyl zvyklý na to, že má teď po postřižinách poněkud krátké vlasy. „Zase dorostou,“ řekl si Lado pro sebe, protáhl hlavu skrze košilku a oklepal se. Ani ho nenapadlo si sednout, jelikož byl nyní svěží a čilý. Naopak – rozběhl se a přešel dřevěnou lávku směrem do hlubokého lesa, který moc dobře znal a kde by bezpečně poznal, kdyby bylo něco v nepořádku. Vysoké stromy byly nyní jeho živou střechou, která se hýbala a která chránila vše v nižších patrech lesa. Lado se však nedíval nad sebe, nýbrž pod sebe. Rozhodl se, že nasbírá pár hub, i když v hledání předmětů zrovna nevynikal. Chodil dokolečka na jednom místě mimo cestu, zatímco si dával pozor na trny, brouky, skrytá hnízda a různé nástrahy. Poblíž jedné mechové podestýlky pak našel lesknoucího se Praváka, který okamžitě upoutal jeho pozornost. Mimo tento úspěch se však Ladovi příliš nedařilo, i když se zoufale snažil další houbu najít. Byl tak do toho pozorného hledání zabraný, že si ani nevšiml, že se k němu po lávce někdo blíží. Vyrušilo ho až prasknutí jedné suché větvičky. „Co tu děláš?“ zeptal se dětský hlas Ladova dalšího kamaráda, který se jmenoval Stado a který měl také čerstvě po postřižinách. Lado se prudce s Pravákem v ruce otočil. Krom Stada na Lada zvědavě hledělo několik dalších dětí, mezi nimi i trochu starší a už poměrně vysoký kovářův syn Pravo. „Nic,“ odvětil Lado zaraženě, „jen hledám houby.“ Stado si Ladovu ukořistěnou houbu pozorně prohlédl. „To se bude hodit,“ řekl s jiskrou v očích. „Na co?“ zeptal se Lado. „Drakův táta byl před svítáním na procházce a chytil Lososa,“ odvětil rychle Stado, „připravuje ho na návsi, poslal nás pro hrst Popence.“ Stado natáhl uzavřenou pěst, ze které na stoncích vykukovaly vejčité zelené lístečky. Děti na nic nečekaly. Všechny do jednoho včetně Lada a Stada proběhly lesem směrem na dřevěnou lávku, kde se zastavily. „Podívejte,“ řekl Pravo a ukázal na západní stranu nad les, „táta zase něco vyrábí, celou noc byl pryč.“ Mezi stromy stoupal z výhně kouř. Ladovi se v hlavě vynořil obrázek kováře, který za jiskrné noci osvětlené nespočtem Hvězd hledá v Zemi poklady, který bojuje s draky a skrze měnivou moc rozpáleného ohně tvoří z černého kovu lesknoucí se meče … Najednou si Lado uvědomil, že stojí u lávky sám. Povzdechl si a rozběhl se za ostatními dětmi, které se mezitím, co Lado přemýšlel, shromáždily na návsi nedaleko od Ladova domečku. Cestou Lado potkal ostatní lidi z vesnice, které všechny moc dobře a důvěrně znal. Mnozí byli z jeho rodu, rodu Vlka. Někteří začali pomalu tvořit z hlíny džbánky, jiní pletli košíky, vyřezávali ze dřeva, zkoumali pevnost postavených domů nebo se zvědavostí hleděli na zrající Len. Jiní byli mimo vesnici nebo ještě spali. Zkrátka a dobře, život kolem se příjemně rozproudil. Na návsi pak seděly děti, které hleděly do tajemných plamenů rozpáleného ohniště. Zanedlouho přišel Drakův otec, který nad ohněm rozložil stojánek s kovovou mísou. Na tu posléze nasypal rozemletá lněná semínka spolu s předpřipraveným Lososem, na něhož se děti nejvíce těšily. Ozval se šumot smažení. Drakův táta si s očividným nadšením a s převelkou pečlivostí vzal od dětí Popenec a opatrně ho na misku přidával. „Postup se musí správně dodržet,“ poučoval děti, „je to jemná práce.“ Klackem začal Lososa otáčet. „Ženo!“ zavolal nakonec, „kde jsi s tou šťávou!“ V tu ránu se otevřely dveře do Drakova domu a z nich vyšel rozespalý malý Drako se svou maminkou, která v ruce držela misku s rozmačkanými jablky. Pomaličku se oba blížili k ohništi. Když pak Drako spatřil Lada a Stada, posadil se mezi ně. „Děkuji,“ odvětil Drakův otec s úsměvem směrem ke své ladné ženě, načež si obřadně a s převelkou pozorností misku od ní vzal. Lado se oblízl a promnul si ruce. „Nuže,“ pravil znovu Drakův otec k dětem, „jak jsem řekl, je potřeba dávat pozor … míchat … bude to prostě pochoutka!“ Děti se jednohlasně a natěšeně zasmály. „Chce to ještě jeden lísteček,“ dodal Drakův otec, když oblízl klacek, kterým Lososa obracel. Potom utrhl kousek zbývajícího Popence a přidal ho do směsi. Lado seděl s vypláznutým jazykem. „No, no,“ ozval se za ním známý hlas, „skočí ti tam skřítek.“ Lado pusu rychle zavřel a pomalu se otočil. Za ním stála jeho maminka, které se vlasy ve slunečním světle leskly. „Zajdu do lesa,“ pokračovala Ladova máma, „pro další bylinky, Věkův dědeček se roznemohl. Snad mi Květinová Dívka poradí.“ Na chvíli se zamyslela. Když pohlédla na Drakova otce, který se před dětmi u ohně předváděl, nenápadně se usmála. „Zajdu také za pastýřem,“ dodala, „z vedlejší vesnice. Potřebuji s ním něco probrat.“ Lado ji přestával vnímat. „A nedělej si moc chutě,“ dokončila žena rázně, „když se to rozdělí, každý dostanete tak nejvýše jedno malé sousto. Až se vrátím, umelu mouku a udělám ti pak v peci placky.“ Lado pokýval hlavou, na placky měl také docela chuť. „Ještě jedna věc,“ řekla už odcházející žena, „vezmi si cvakátko a ostříhej si nehty, zase ti narostly.“ Když pak odešla, Lado se opřel dlaněmi o Zem. Teprve nyní si uvědomil, že má v ruce stále toho Praváka. „Pane,“ řekl Lado hlasitě, „hodí se to tam?“ Natáhl ruku a ukázal v ní ulovenou houbu. Drakův otec si položil bradu do dlaní, takže bylo vidět, že přemýšlí. Všechny děti ho se skoro nesnesitelnou zvědavostí pozorovaly. Nastala chvíle ticha … a ohromného napětí. „Ale jo,“ řekl pak Drakův otec. Všechny děti vydechly a znovu se zhluboka nadechly, jak předtím zadržovaly dech. „Podej mi ho,“ poručil Drakův táta, „musím ho okrájet.“ Když Lado vstal a vydal se směrem k ohni, najednou v dáli na cestě před sebou uslyšel dusot kopyt. Lehký vánek přinesl vůni lesa a zrajícího obilí. K vesnici se blížili jezdci na Koních, ti jezdci, o kterých každý věděl, že z nich nemusí mít naprosto žádný strach, i když byli ozbrojení až po uši. Malý Lado si povzdechl a začervenal se, protože věděl, že úkol mu daný tak trochu zanedbal. Zastavil se. Netrvalo dlouho a přede všemi se najednou vedle sebe seřadilo asi devět jezdců, kdy někteří měli u sebe meče, jiní oštěpy, luky a šípy. Úplně první byl mladý bojovník Jaro, jenž byl oděný v hrubém bílém oblečení, které bylo u pasu převázáno koženým řemenem. Dlouhé vlasy měl obepnuté ochrannými znaky ozdobeným vlněným páskem, aby mu nepřekážely ve výhledu. Ze zad mu visel hnědý jezdecký plášť. Prosté kožené boty byly vystlány bílými lněnými onucemi, které již byly poněkud zaprášené. Jaro sesedl z Koně. Lesk v jeho očích prozrazoval nezničitelnou odvahu, ale také vlídnost. Teprve nyní si ostatní všimli, že Jarovo oblečení zdobí krev. „Divá zvěř?“ zeptal se Drakův táta, zatímco krájel Ladovu houbu u ohniště. „Ne,“ odvětil Jaro, „zase panovační cizinci.“ Drakův otec mávl rukou a s převelkou přesností přidal nakrájeného Praváčka ke smažícímu se Lososovi. Malý Lado mezitím nehybně hleděl do Země. Jeho tvářičky se stále červenaly. Jaro ho se škodolibým úsměvem silně pohladil na jeho stále mokrých vlasech, které mu tak poněkud rozcuchal. „Tak co,“ zeptal se záludně, „pročpak tu stojíš jak dračí kámen patřící bohům? Že ty se ještě netrefíš do slaměného terče?“ Lado mlaskl pusou. „Trefím,“ odpověděl potichu, „už dlouho … a na luk dávám pozor.“ Jaro se skrčil, aby mohl zaraženému Ladovi pohlédnout přímo do obličeje. Zasmál se. „Aha,“ řekl nakonec, „ty jsi ještě nenašel ten nožík, co jsem ti schoval v lese, že je to tak?“ Lado neodpověděl. „Musíš se naučit stopovat,“ dodal Jaro, „nemůžeš si jen hrát. Nebo pleť košíky.“ Lado znovu mlaskl pusou, ale nic neřekl. Drakův táta už začal mezi děti rozdělovat hotového Lososa. Nastal všeobecný povyk a strkání se. „Kde máš mámu?“ zeptal se Jaro po krátké odmlce. „Šla za pastýřem,“ odpověděl Lado, načež Jarovi pohlédl přímo do očí, „z vedlejší vesnice – jak má tu hůl, kterou umí uklidňovat počasí.“ „Jistě,“ odvětil Jaro, „budou žně. Potřebuju se jí na něco zeptat.“ V tu chvíli se Jaro ustaraně podíval směrem k poli, u kterého mlčky seděla dívka jménem Mlada, která byla ještě menší než Lado. Bezmyšlenkovitě se dívala na pohybující se klasy, které zpívaly tichou píseň dozrávání. Jaro si smutně povzdechl. Ten šok, který Mlada před nedávnou dobou zažila, byl pro něj nepředstavitelný – a to už Jaro viděl a zažil snad opravdu všechno. Když ji onehdy v lese našel celou podrápanou, vůbec ji nepoznal. Seděla mlčky a nic neříkala, její tváře byly celé od slz. Když pak s ostatními mladíky prozkoumal celou oblast, našel stopy po zápase s Medvědem – jakmile se pak podíval z onoho skalnatého srázu dolů, spatřil rozbitá těla obou dívčiných rodičů. Jak lidé, tak i Medvědi si zkrátka chrání své děti, a když se Medvědice v noci s mládětem vyruší, zápas je naprosto nemilosrdný. Okamžitě nechal těla přikrýt a odnést do vesnice. Mladu sám mlčky nesl, vypadala nepřítomně a odevzdaně. Bál se, že toho nějaký škodlivý duch může zneužít a pobláznit ji – nebo naopak by dobromyslní skřítkové mohli vzít duši k sobě, aby dále netrpěla, a nechat tak tělo naprosto bez pocitů, radosti a uvažování. Když pak Jaro odešel zpět do lesů a když všechny děti dostaly svůj nepatrný příděl chutného Lososa, který mimochodem pouze probudil jejich další chutě, se Stado s Drakem rozhodli hrát na schovávanou. Tu ozvláštnili pískáním na různé druhy píšťalek, kdy tvořili různé lidové nápěvy. Lado však bezmyšlenkovitě zamířil směrem k políčku, kam předtím tak dlouho hleděl jeho učitel. Cestou se nechal ovívat jemným vánkem, který s sebou přinášel vůni lesního dřeva. Potom se posadil na Zem a v rytmu vlajících klasů se počal houpat. Vidění se mu na malý okamžik rozmazalo. Uviděl siluety malých mužíčků, které přicházely od nedalekého Bezu, jemuž již pomalu začaly zrát zdravé a mocné plody. Jeden z těchto malých mužíčků přišel k Ladovi. Zastavil se, začal na Lada nenápadně mrkat a podivně se smát. „To ty,“ pomyslel si Lado, „to ty jsi pro mě na tom pařezu připravil to červenožluté jablko?“ „Ano,“ zavál najednou Vítr, „a ty jsi ho dal Mladě, když ji Jaro přinesl do vesnice. Udělal jsi přesně to, co bylo potřeba. Dobrá práce.“ Vidění se rozplynulo s dalším závanem. Lado zamrkal očima. Někdo k němu potichoučku přišel. Byla to malá Mlada, která se po několika dnech mlčení rozhodla nečekaně promluvit. „Děkuji,“ řekla potichu, „za to jablko.“ Nic dalšího nepověděla. Lado se zamyslel. „Není zač,“ odvětil prostě, „nemám rád, když jsou lidé kolem mě smutní, protože jsem pak také smutný. A ty jsi vypadala utrápeně.“ Mlada nic neřekla, stála nehybně. Lado stále hleděl mezi pšeničné klasy. „Jak je dnes Slunce zlaté,“ pokračoval Lado v dětském projevu, „jak ráno krásně vstávalo, jak se jeho paprsky spojovaly s čistou vodou v potoce a odrážely se od zelených bukových lístečků … nechceš si hrát? Můžeš mi se Stadem pomoct hledat jeden nožík.“ Teprve nyní se Lado na Mladu přímo podíval. V jeho očích se leskla upřímná zvědavost. Znovu zafoukal lesní Větřík, který oběma dětem pohladil jejich hladké červenající se tvářičky. Mlada se usmála a beze slova pokývala hlavou. Lado úsměv opětoval, načež se spolu s Mladou vydal k nedalekým šípkovým keřům, za nimiž se schovával Drako. Šípky byly zatím pouze zelené nebo světle oranžové. „Potřebuju najít nůž,“ pravil Lado zdálky, „půjdeš s námi?“ „Aha!“ vykřikl najednou Stadův hlas, „mám tě!“ V tu chvíli Stado vyskočil z druhé strany keřů a pohlédl na všechny přítomné. Prstem ukazoval na Draka, který jen mrzutě kýval hlavou. „Půjdu,“ odpověděl Drako na Ladovu dřívější otázku, „stejně už mě tahle hra nebaví.“ „Kam jdete?“ zeptal se zvědavý Stado. „Hledat nůž,“ odpověděl Lado a pohlédl mu do očí, „Jaro mi ho ukryl v lese. Mám prý stopovat, nevíte, kterým směrem Jaro včera ráno šel?“ Nikdo neodpověděl. Nastala chvíle ticha, kterou přerušil znovu až Lado. „Půjdu se zeptat kováře,“ pravil, „ten má přehled, kam kdo chodí.“ „Zeptám se táty,“ doplnil natěšený Drako, „ten pořád chodí někam do lesů, roklin, temných jeskyň a také po skalách.“ „A já,“ řekla nečekaně už usměvavá Mlada, „se půjdu zeptat babiček k Lípě, ty vědí úplně všechno.“ V tu chvíli všichni upřeli zvědavý pohled na stále poněkud zaraženého Stada. „Jdu domů pro sušené ovoce,“ vydal ze sebe nakonec, „tohle bude na dlouho.“ Všichni se zasmáli, načež se okamžitě rozprchli každý do svého směru. Studená travička pod nohami příjemně studila a hladila. Nebe bylo čistě modré a nutilo každého něco dělat. Celá vesnice ožila.</p>
+
+  </div>
+  
+		</body>
+</html>
